@@ -1,0 +1,11 @@
+# This job needs 1 compute node with 1 processor per node.
+# It should be allowed to run for up to 30min.
+#PBS -l walltime=00:30:00
+# Name of job.
+#PBS -N gutenbergtimeseries
+# Join STDERR TO STDOUT.  (omit this if you want separate STDOUT AND STDERR)
+#PBS -j oe
+
+cd /users/a/r/areagan/work/2014/2014-09books
+
+python chopuniform.py ${COUNT}
