@@ -18,9 +18,11 @@ import itertools
 from tqdm import tqdm
 import re
 from spacy.en import English
+from copy import deepcopy
 nlp = English()
 
 base_dir = "/Users/andyreagan/projects/2014/09-books/"
+use_compression = True
 
 def binn(somelist,value):
     # return the index of the value in the list (monotonic) for which
@@ -33,7 +35,6 @@ def binn(somelist,value):
             index += 1
         return index
 
-use_compression = True
 
 def get_maintext_lines(raw_text):
     lines = raw_text.split("\n")
@@ -50,7 +51,7 @@ def get_maintext_lines(raw_text):
     # pass 2, this will bring us to 99%
     if (start_book_i == 0) and (end_book_i == len(lines)-1):
         for j,line in enumerate(lines):
-            if "END" in line and  "SMALL PRINT" in line and j<.5*len(lines):
+            if ("end" in line.lower() or "****" in line) and  "small print" in line.lower() and j<.5*len(lines):
                 start_book_i = j
             if "end" in line.lower() and "project gutenberg" in line.lower() and j>.75*len(lines):
                 end_book_i = j
@@ -193,7 +194,7 @@ class Book_raw_data(object):
         # all_token_list = []
         for chunk in self.chunks_nlp:
             for token in chunk[2]:
-                if not token.is_punct:
+                if (not token.is_punct) and (len(str(token)) != 0):
                     self.all_word_list.append(str(token)) # get token.orth_
         # have to do this here, while the chunks object still kicks around
         # self.random_word_list = markov_text(chunks_nlp,len(all_token_list))
@@ -201,6 +202,18 @@ class Book_raw_data(object):
 
     def make_markov_text(self):
         self.random_word_list = markov_text(self.chunks_nlp,len(self.all_word_list))
+
+    def make_salad_text(self):
+        self.random_word_list = deepcopy(self.all_word_list)
+        random.shuffle(self.random_word_list)
+
+    def make_null_text(self,method):
+        if method=="markov":
+            self.make_markov_text()
+        elif method=="salad":
+            self.make_salad_text()
+        else:
+            print("method",method,"not implemented")
     
     def load_all_chapters(self):
         """Load data from text files in a folder.
@@ -304,7 +317,7 @@ class Book_raw_data(object):
             self.all_fvecs = csr_matrix(self.all_fvecs)
         return self.timeseries
     
-    def chopper_sliding(self,my_senti_dict,min_size=10000,num_points=100,stop_val=0.0,use_cache=False,randomize=False):
+    def chopper_sliding(self,my_senti_dict,min_size=10000,num_points=100,stop_val=0.0,use_cache=False,randomize=False,random_method="markov"):
         """Take long piece of text and generate the sentiment time series.
         We will now slide the window along, rather than make uniform pieces.
 
@@ -337,12 +350,15 @@ class Book_raw_data(object):
                 self.all_fvecs = csr_matrix(self.all_fvecs)
             # print(all_fvecs)
         else:
-            self.load_all_combined()
             if randomize:
-                self.make_markov_text()
-                word_list = self.random_word_list
+                if (len(self.all_word_list) == 0) or (len(self.chunks_nlp) == 0):
+                    self.load_all_combined()
+                self.make_null_text(random_method)
+                word_list = deepcopy(self.random_word_list)
             else:
-                word_list = self.all_word_list
+                if len(self.all_word_list) == 0:
+                    self.load_all_combined()
+                word_list = deepcopy(self.all_word_list)
             # first, just build the matrix
             step = int(floor((len(word_list)-min_size)/(num_points-1)))
             # print("there are "+str(len(self.all_word_list))+" words in the book")
@@ -496,23 +512,29 @@ def get_version_str(filters):
 def get_data(q,version,filters,use_cache=True):
     if isfile("/Users/andyreagan/projects/2014/09-books/data/gutenberg/timeseries-matrix-cache-{}.p".format(version)) and use_cache:
         big_matrix = pickle.load(open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/timeseries-matrix-cache-{}.p".format(version),"rb"))
-    else:
-        # load all of the timeseries into a matrix
-        big_matrix = ones([len(q),200])
-        # big_matrix_mean0 = np.ones(big_matrix.shape)
-        stop_val = 1.0
-        for i in tqdm(range(len(q))):
-            b = q[i]
-            if cache_check(b) and use_cache:
-                b_data = load_book_raw_data(b)
-            else:
-                b_data = Book_raw_data(b)
-                b_data.chopper_sliding(my_LabMT,num_points=200,stop_val=stop_val,randomize=filters["salad"],use_cache=use_cache)
-                if use_cache:
-                    save_book_raw_data(b_data)
-            big_matrix[i,:] = b_data.timeseries
-            # b_data.save()
-        print(big_matrix.shape)
-        if use_cache:
-            pickle.dump(big_matrix,open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/timeseries-matrix-cache-{}.p".format(version),"wb"),pickle.HIGHEST_PROTOCOL)
+        if big_matrix.shape[0] == len(q):
+            return big_matrix
+    # load all of the timeseries into a matrix
+    big_matrix = ones([len(q),200])
+    # big_matrix_mean0 = np.ones(big_matrix.shape)
+    stop_val = 1.0
+    for i in tqdm(range(len(q))):
+        b = q[i]
+        # don't load book data with the salad version
+        if cache_check(b) and (use_cache and not filters["salad"]):
+            b_data = load_book_raw_data(b)
+        else:
+            b_data = Book_raw_data(b)
+            b_data.chopper_sliding(my_LabMT,num_points=200,stop_val=stop_val,randomize=filters["salad"],use_cache=use_cache)
+            # careful not to save individual book data
+            if (use_cache and not filters["salad"]):
+                save_book_raw_data(b_data)
+        big_matrix[i,:] = b_data.timeseries
+        # b_data.save()
+    # print(big_matrix.shape)
+    if use_cache:
+        pickle.dump(big_matrix,open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/timeseries-matrix-cache-{}.p".format(version),"wb"),pickle.HIGHEST_PROTOCOL)
     return big_matrix
+
+
+
