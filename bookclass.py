@@ -1,5 +1,5 @@
 from os import listdir
-from os.path import isfile, join
+from os.path import isfile, join, isdir
 from json import loads
 from sys import path
 path.append("/Users/andyreagan/tools/python")
@@ -17,8 +17,8 @@ import lz4
 import itertools
 from tqdm import tqdm
 import re
-from spacy.en import English
 from copy import deepcopy
+from spacy.en import English
 nlp = English()
 
 base_dir = "/Users/andyreagan/projects/2014/09-books/"
@@ -36,17 +36,23 @@ def binn(somelist,value):
         return index
 
 
-def get_maintext_lines(raw_text):
+def get_maintext_lines_gutenberg(raw_text):
     lines = raw_text.split("\n")
     start_book_i = 0
     end_book_i = len(lines)-1
     # pass 1, this format is easy and gets 78.9% of books
+    start1="START OF THIS PROJECT GUTENBERG EBOOK"
+    start2="START OF THE PROJECT GUTENBERG EBOOK"
+    end1="END OF THIS PROJECT GUTENBERG EBOOK"
+    end2="END OF THE PROJECT GUTENBERG EBOOK"
+    end3="END OF PROJECT GUTENBERG"
     for j,line in enumerate(lines):
-        if "START OF THIS PROJECT GUTENBERG EBOOK" in line or "START OF THE PROJECT GUTENBERG EBOOK" in line:
-        # and "***" in line and start_book[i] == 0 and j<.25*len(lines): 
+        if (start1 in line) or (start2 in line):
+            # and "***" in line and start_book[i] == 0 and j<.25*len(lines): 
             start_book_i = j
-        if ("END OF THIS PROJECT GUTENBERG EBOOK" in line or "END OF THE PROJECT GUTENBERG EBOOK" in line or "END OF PROJECT GUTENBERG" in line.upper()) and (end_book_i == (len(lines)-1)):
-        #  and "***" in line and j>.75*len(lines)
+        end_in_line = end1 in line or end2 in line or end3 in line.upper()
+        if end_in_line and (end_book_i == (len(lines)-1)):
+            #  and "***" in line and j>.75*len(lines)
             end_book_i = j
     # pass 2, this will bring us to 99%
     if (start_book_i == 0) and (end_book_i == len(lines)-1):
@@ -55,13 +61,14 @@ def get_maintext_lines(raw_text):
                 start_book_i = j
             if "end" in line.lower() and "project gutenberg" in line.lower() and j>.75*len(lines):
                 end_book_i = j
+        # pass three, caught them all (check)
         if end_book_i == len(lines)-1:
             for j,line in enumerate(lines):
                 if "THE END" in line and j>.9*len(lines):
                     end_book_i = j
     return lines[(start_book_i+1):(end_book_i)]
 
-def get_chunks(lines):
+def chunkify(lines):
     # put them back together...
     raw_text = "\n".join(lines)
     # remove extra whitespace
@@ -83,6 +90,7 @@ def get_chunks(lines):
     # combined_chunks = []
     # [combined_chunks.extend(el) for el in small_chunks]
     combined_chunks = []
+
     for i in range(len(small_chunks)):
         for j in range(len(small_chunks[i])):
             combined_chunks.append((i,j,small_chunks[i][j]))
@@ -99,7 +107,7 @@ def replace_honorifics(s):
     return s
 
 sentence_re = re.compile('[\\s\n]*(.+?[\\.!?]+["’]*(?=\\s+[A-Z"’‘]|$))',flags=re.DOTALL)
-def find_sentences(s):
+def find_sentences_with_RE(s):
     return sentence_re.findall(replace_honorifics(s))
 
 def gen_text(model,seeds,n_words=20000):
@@ -114,30 +122,36 @@ def gen_text(model,seeds,n_words=20000):
         i+=1
     return result
 
-def markov_text(chunks,n_words):
-    trigram_model = dict()
+def train_markov_model(sentences):
+    model = dict()
     starts = list()
     # let's iterate over sentences
-    for c in chunks:
-        for sent in c[2].sents:
-            sent_tokens = [t for t in sent if (not t.is_punct or str(t).rstrip() == ",")]
-            if len(sent_tokens) < 2:
-                continue
-            # print(sent_tokens)
-            i = 0
-            starts.append((str(sent_tokens[i]).rstrip()+ " " +str(sent_tokens[i+1]).rstrip()))
-            for i in range(len(sent_tokens)-2):
-                bigram = (str(sent_tokens[i]).rstrip()+ " " +str(sent_tokens[i+1]).rstrip())
-                nextg = str(sent_tokens[i+2]).rstrip()
-                if i == len(sent_tokens)-3:
-                    nextg += "."
-                if bigram not in trigram_model:
-                    trigram_model[bigram] = {nextg: 1}
+    for sent in sentences:
+        sent_tokens = [t for t in sent if (not t.is_punct or str(t).rstrip() == ",")]
+        if len(sent_tokens) < 2:
+            continue
+        # print(sent_tokens)
+        i = 0
+        starts.append((str(sent_tokens[i]).rstrip()+ " " +str(sent_tokens[i+1]).rstrip()))
+        for i in range(len(sent_tokens)-2):
+            bigram = (str(sent_tokens[i]).rstrip()+ " " +str(sent_tokens[i+1]).rstrip())
+            nextg = str(sent_tokens[i+2]).rstrip()
+            if i == len(sent_tokens)-3:
+                nextg += "."
+            if bigram not in trigram_model:
+                trigram_model[bigram] = {nextg: 1}
+            else:
+                if nextg in trigram_model[bigram]:
+                    trigram_model[bigram][nextg] += 1
                 else:
-                    if nextg in trigram_model[bigram]:
-                        trigram_model[bigram][nextg] += 1
-                    else:
-                        trigram_model[bigram][nextg] = 1
+                    trigram_model[bigram][nextg] = 1
+    return trigram_model,starts
+
+def markov_text(chunks,n_words):
+    sentences = []
+    for c in chunks:
+        sentences.extend(c[2].sents)
+    trigram_model,starts = train_markov_model(sentences)
     trigram_model_flat = dict()
     for bg in trigram_model:
         words = [w for w in trigram_model[bg]]
@@ -181,12 +195,12 @@ class Book_raw_data(object):
             f.write(rawtext)
             f.close()
         # self.all_word_list = listify(rawtext)
-        lines = get_maintext_lines(rawtext)
+        lines = get_maintext_lines_gutenberg(rawtext)
         # print("found",len(lines),"lines")
-        chunked = get_chunks(lines)
+        chunked = chunkify(lines)
         # go get the sentences
         # combined_chunk_sentences = []
-        # _ = [combined_chunk_sentences.extend([[x[0],x[1],j,y] for j,y in enumerate(find_sentences(x[2]))]) for x in combined_chunks]
+        # _ = [combined_chunk_sentences.extend([[x[0],x[1],j,y] for j,y in enumerate(find_sentences_with_RE(x[2]))]) for x in combined_chunks]
         # now, make the word list from the sentences
         # ...
         # alternatively, let's apply spacy's parser to the whole thing
@@ -219,8 +233,7 @@ class Book_raw_data(object):
         """Load data from text files in a folder.
         
         Will load just the .txt files"""
-
-        folder = self.this_Book.expanded_folder_path
+        folder = join("/Users/andyreagan/projects/2014/09-books/",self.this_Book.expanded_folder_path)
         
         # self.files = listdir(join("data/Kindle-combined-txt",str(isbn)))
         # no reason to get too complicated here
@@ -234,7 +247,9 @@ class Book_raw_data(object):
             f = open(join(folder,fname),"r")
             rawtext_by_chapter.append(f.read())
             f.close()
-        word_lists_by_chapter = [listify(t) for t in rawtext_by_chapter]
+        # word_lists_by_chapter = [listify(t) for t in rawtext_by_chapter]
+        # apply spacy to each of them...
+        word_lists_by_chapter = [[str(token) for token in nlp(t) if ((not token.is_punct) and (len(str(token)) != 0))] for t in rawtext_by_chapter]
         self.chapter_ends = cumsum(list(map(len,word_lists_by_chapter)))
         # add a 0 to the start, clip (to get the starts)
         # could just move the above array around too...
@@ -352,40 +367,41 @@ class Book_raw_data(object):
         else:
             if randomize:
                 if (len(self.all_word_list) == 0) or (len(self.chunks_nlp) == 0):
-                    self.load_all_combined()
+                    if isdir(join("/Users/andyreagan/projects/2014/09-books/",self.this_Book.expanded_folder_path)):
+                        print("found expanded directory, going to load all of the chapters from there")
+                        self.load_all_chapters()
+                    else:
+                        self.load_all_combined()
                 self.make_null_text(random_method)
                 word_list = deepcopy(self.random_word_list)
             else:
                 if len(self.all_word_list) == 0:
-                    self.load_all_combined()
+                    if isdir(join("/Users/andyreagan/projects/2014/09-books/",self.this_Book.expanded_folder_path)):
+                        print("found expanded directory, going to load all of the chapters from there")
+                        self.load_all_chapters()
+                    else:
+                        self.load_all_combined()
                 word_list = deepcopy(self.all_word_list)
             # first, just build the matrix
             step = int(floor((len(word_list)-min_size)/(num_points-1)))
             # print("there are "+str(len(self.all_word_list))+" words in the book")
             # print("step size "+str(step))
             self.centers = [i*step+(min_size)/2 for i in range(num_points)]
-            for i in range(num_points-1):
-                window_dict = dict()
-                # print("using words {} through {}".format(i*step,min_size+i*step))
-                for word in word_list[(i*step):(min_size+i*step)]:
-                    if word in window_dict:
-                        window_dict[word] += 1
-                    else:
-                        window_dict[word] = 1
-                text_fvec = my_senti_dict.wordVecify(window_dict)
-                self.all_fvecs[i,:] = text_fvec
-            i = num_points-1
-            window_dict = dict()
-            # print("using words {} through {}".format(i*step,len(all_words)))
-            for word in word_list[(i*step):]:
-                if word in window_dict:
-                    window_dict[word] += 1
-                else: 
-                   window_dict[word] = 1
-            text_fvec = my_senti_dict.wordVecify(window_dict)
-            self.all_fvecs[i,:] = text_fvec
-            self.all_fvecs = self.all_fvecs.tocsr()
-            if use_cache and (not isfile(cache_file)):
+            
+            def build_matrix(num_points,word_list,step,min_size,my_senti_dict):
+                '''Build the matrix of overlapping word vectors.'''
+                # disregard the existing matrix, it might not be the right size
+                all_fvecs = lil_matrix((num_points,len(my_senti_dict.scorelist)),dtype="i")
+                for i in range(num_points-1):
+                    all_fvecs[i,:] = my_senti_dict.wordVecify(dictify(word_list[(i*step):(min_size+i*step)]))
+                i = num_points-1
+                all_fvecs[i,:] = my_senti_dict.wordVecify(dictify(word_list[(i*step):]))
+                return all_fvecs
+            
+            self.all_fvecs = build_matrix(num_points,word_list,step,min_size,my_senti_dict).tocsr()
+            # since the cache file didn't exist...
+            # if use_cache and (not isfile(cache_file)):
+            if use_cache:
                 # print("saving fvec cache")
                 f = open(cache_file,"wb")
                 if use_compression:
