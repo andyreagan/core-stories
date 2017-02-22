@@ -1,0 +1,3410 @@
+Alice's Adventures in Wonderland,PR,PZ
+Through the Looking-Glass,PZ,PR
+Peter Pan,PZ,PR
+The Song of Hiawatha,PS
+Paradise Lost,PR
+O Pioneers!,PS
+Paradise Lost,PR
+Herland,PS
+The Scarlet Letter,PS
+The Time Machine,PR
+The War of the Worlds,PR
+The Legend of Sleepy Hollow,PS
+The Strange Case of Dr. Jekyll and Mr. Hyde,PR
+The Strange Case of Dr. Jekyll and Mr. Hyde,PR
+A Christmas Carol in Prose; Being a Ghost Story of Christmas,PR
+Anne of Avonlea,PZ
+Anne of the Island,PZ
+The Marvelous Land of Oz,PZ
+The Wonderful Wizard of Oz,PZ,PS
+Paradise Regained,PR
+The Scarlet Pimpernel,PR
+A Princess of Mars,PS
+The Gods of Mars,PS
+Warlord of Mars,PS
+On the Duty of Civil Disobedience,PS,HM
+Thuvia, Maid of Mars,PS
+The Red Badge of Courage: An Episode of the American Civil War,PS
+The Adventures of Tom Sawyer,PZ,PS
+Tarzan of the Apes,PS
+The Return of Tarzan,PZ,PS
+Frankenstein; Or, The Modern Prometheus,PR
+The Beasts of Tarzan,PS,PZ
+The Son of Tarzan,PZ,PS
+Tom Sawyer Abroad,PS
+Tarzan and the Jewels of Opar,PS
+Tom Sawyer, Detective,PS
+Alexander's Bridge,PS
+The Prisoner of Zenda,PR
+The Monster Men,PS
+The Tragedy of Pudd'nhead Wilson,PS
+Persuasion,PR
+Freckles,PS,PZ
+The Secret Garden,PS,PZ
+Treasure Island,PZ,PR
+Northanger Abbey,PR
+At the Earth's Core,PS
+The Poison Belt,PR
+The Pilgrim's Progress from this world to that which is to come
+Delivered under the similitude of a dream, by John Bunyan,PR
+Maria; Or, The Wrongs of Woman,PR
+Sara Crewe; Or, What Happened at Miss Minchin's Boarding School,PZ,PS
+The Lost World,PR
+A Little Princess
+Being the whole story of Sara Crewe now told for the first time,PS,PZ
+The Lost Continent,PS
+Daddy-Long-Legs,PZ,PS
+The Island of Doctor Moreau,PR
+Summer,PS
+The Haunted Hotel: A Mystery of Modern Venice,PR
+Charlotte Temple,PS
+The Haunted Bookshop,PS
+The Insidious Dr. Fu Manchu,PR
+The Picture of Dorian Gray,PR
+Confidence,PS
+The Europeans,PS
+The Innocence of Father Brown,PR
+Daisy Miller: A Study,PS
+The Turn of the Screw,PS
+An International Episode,PS
+The Man from Snowy River,PR
+The Call of the Wild,PS
+Heart of Darkness,PR
+The Secret Sharer,PR
+The Moon and Sixpence,PR
+The Wisdom of Father Brown,PR
+At the Back of the North Wind,PR,PZ
+Child Christopher and Goldilind the Fair,PR
+The Jungle Book,PR
+Dear Enemy,PZ,PS
+Clotelle; Or, The Colored Heroine, a tale of the Southern States; Or, The President's Daughter,PS
+My Antonia,PS
+A Study in Scarlet,PR
+Troilus and Criseyde,PR
+A Dome of Many-Coloured Glass,PS
+The Touchstone,PS
+Beasts and Super-Beasts,PR
+Dream Days,PR
+Black Beauty,PZ,PR
+Remember the Alamo,PZ,PS
+The Certain Hour (Dizain des Poëtes),PS
+The Wind in the Willows,PR,PZ
+The Stark Munro Letters
+Being series of twelve letters written by J. Stark Munro, M.B., to his friend and former fellow-student, Herbert Swanborough, of Lowell, Massachusetts, during the years 1881-1884,PR
+The Golden Age,PR
+Paul Prescott's Charge,PS,PZ
+The Early Short Fiction of Edith Wharton — Part 1,PS
+The Cash Boy,PS,PZ
+The Flirt,PS
+The Ballad of Reading Gaol,PR
+The Early Short Fiction of Edith Wharton — Part 2,PS
+Three Men in a Boat,PR
+Rhymes of a Rolling Stone,PR
+Before Adam,PS
+Bunner Sisters,PS
+Children of the Night,PS
+Rhymes of a Red Cross Man,PR
+The Golden Road,PZ,PS
+John Barleycorn,PS
+The Ways of Men,PS
+Phantastes: A Faerie Romance for Men and Women,PR
+Island Nights' Entertainments,PR
+Where There's a Will,PS
+Old Indian Days,PS
+The Parasite: A Story,PR
+Beyond the City,PR
+Miss Billy — Married,PS
+Miss Billy's Decision,PS
+The Oakdale Affair,PS
+The Mad King,PS
+Bab: A Sub-Deb,PS
+The Country of the Pointed Firs,PS
+The Outlaw of Torn,PS
+Prince Otto, a Romance,PR
+A Journal of the Plague Year
+Written by a Citizen Who Continued All the While in London,PR
+Weir of Hermiston: An Unfinished Romance,PR
+Memories and Portraits,PR
+She Stoops to Conquer; Or, The Mistakes of a Night: A Comedy,PR
+The Great God Pan,PR
+The Blue Lagoon: A Romance,PR
+Cranford,PR
+L'Allegro, Il Penseroso, Comus, and Lycidas,PR
+Cast Upon the Breakers,PS,PZ
+Penrod,PS
+Soldiers of Fortune,PS
+The Magic of Oz,PZ
+Dorothy and the Wizard in Oz,PZ
+Kidnapped,PR,PZ
+Round the Red Lamp: Being Facts and Fancies of Medical Life,PR
+The Circular Staircase,PS
+The Master Key: An Electrical Fairy Tale Founded Upon the Mysteries of Electricity,PZ
+Underwoods,PR
+Just David,PS,PZ
+The Love Affairs of a Bibliomaniac,PS,Z
+Maggie: A Girl of the Streets,PS
+The Shadow Line: A Confession,PR
+The White People,PS,PZ
+The Dawn of a To-morrow,PS
+The Errand Boy; Or, How Phil Brent Won Success,PZ,PS
+The Red Badge of Courage: An Episode of the American Civil War,PS
+Heretics,PR
+The House Behind the Cedars,PS
+Little Lord Fauntleroy,PS,PZ
+The Road to Oz,PZ
+Ozma of Oz,PZ
+Falk: A Reminiscence,PR
+Amy Foster,PR
+The Little Lame Prince,PZ
+Rebecca of Sunnybrook Farm,PS,PZ
+Tom Swift in the Land of Wonders; Or, The Underground Search for the Idol of Gold,PZ
+The Adventures of Pinocchio,PQ,PZ
+The Story of Doctor Dolittle,PZ
+The Snow Image,PS
+The Emerald City of Oz,PZ
+The Life and Adventures of Santa Claus,PS,PZ
+Youth, a Narrative,PR
+Heart of Darkness,PR
+The End of the Tether,PR
+Joe the Hotel Boy; Or, Winning out by Pluck,PZ,PS
+At the Foot of the Rainbow,PS
+The Song of the Cardinal,QL,PS
+An Inland Voyage,PR
+Travels with a Donkey in the Cevennes,PR
+Jean of the Lazy A,PS
+Anne's House of Dreams,PZ
+At the Earth's Core,PS
+Under the Andes,PS
+Silas Marner,PR
+The Land That Time Forgot,PS
+The People That Time Forgot,PS
+Out of Time's Abyss,PS
+The Contrast,PS
+The Unbearable Bassington,PR
+Rewards and Fairies,PZ,PR
+Puck of Pook's Hill,PR,PZ
+The Thirty-Nine Steps,PR
+The Great Big Treasury of Beatrix Potter,PR,PZ
+Religio Medici, Hydriotaphia, and the Letter to a Friend,PR
+Master Humphrey's Clock,PR
+Flame and Shadow,PS
+Rivers to the Sea,PS
+Gulliver of Mars,PR
+Pellucidar,PS
+Idylls of the King,PR
+Prester John,PR
+Codex Junius 11,PR
+The Warden,PR
+Sylvie and Bruno,PR,PZ
+Looking Backward, 2000 to 1887,PS
+The Altar of the Dead,PS
+The Death of the Lion,PS
+The Haunted Man and the Ghost's Bargain,PR
+The Figure in the Carpet,PS
+The Dynamiter,PR
+Rasselas, Prince of Abyssinia,PR
+The Chimes
+A Goblin Story of Some Bells That Rang an Old Year out and a New Year In,PR
+Grace Abounding to the Chief of Sinners,PR
+Paul the Peddler; Or, The Fortunes of a Young Street Merchant,PZ
+Phil, the Fiddler,PZ
+The Cricket on the Hearth: A Fairy Tale of Home,PR
+A Personal Record,PR
+The Castle of Otranto,PR
+The Light Princess,PR,PZ
+The King of the Golden River,PR,PZ
+Lucasta,PR
+The Mansion,PS,PZ
+The Amateur Cracksman,PR
+Raffles: Further Adventures of the Amateur Cracksman,PR
+The Princess and the Goblin,PZ
+The Princess and Curdie,PZ
+The Bobbsey Twins in the Country,PZ
+Chita: A Memory of Last Island,PS
+The Plays of W. E. Henley and R. L. Stevenson,PR
+Almayer's Folly: A Story of an Eastern River,PR
+The Bobbsey Twins at School,PZ
+The Autocrat of the Breakfast-Table,PS
+Arizona Nights,PS
+Enoch Soames: A Memory of the Eighteen-Nineties,PR
+Hans Brinker; Or, The Silver Skates,PZ
+Agnes Grey,PR
+The Story of the Treasure Seekers
+Being the Adventures of the Bastable Children in Search of a Fortune,PZ,PR
+When the Sleeper Wakes,PR
+Five Children and It,PR,PZ
+The Tragical History of Doctor Faustus
+From the Quarto of 1604,PR
+The Lost City,PZ
+The Red One,PS
+Lady Windermere's Fan,PR
+The Princess,PR
+Wieland; Or, The Transformation: An American Tale,PS
+The Wouldbegoods: Being the Further Adventures of the Treasure Seekers,PR,PZ
+A Sentimental Journey Through France and Italy,PR
+This Side of Paradise,PS
+Holiday Romance,PZ,PR
+George Silverman's Explanation,PR
+The Tragical History of Doctor Faustus
+From the Quarto of 1616,PR
+Robin Hood,PZ
+The Memoirs of Sherlock Holmes,PR
+The Phoenix and the Carpet,PR,PZ
+The Story of the Amulet,PZ,PR
+Men, Women and Ghosts,PS
+The Importance of Being Earnest: A Trivial Comedy for Serious People,PR
+Lays of Ancient Rome,PR
+The Black Arrow: A Tale of Two Roses,PR
+The Idle Thoughts of an Idle Fellow,PR
+A Woman of No Importance,PR
+Stage-Land,PR,PN
+The Mysterious Affair at Styles,PR
+The Master of Ballantrae: A Winter's Tale,PR
+Passing of the Third Floor Back,PR
+Reprinted Pieces,PR
+A House of Pomegranates,PZ,PR
+The Duchess of Padua,PR
+Life in the Iron-Mills; Or, The Korl Woman,PS
+An Ideal Husband,PR
+Intentions,PR
+The Lazy Tour of Two Idle Apprentices,PR
+The Rose and the Ring,PR,PZ
+The Lesson of the Master,PS
+The Jew of Malta,PR
+White Fang,PS
+De Profundis,PR
+The Lamplighter,PR
+The Fall of the House of Usher,PS
+Green Mansions: A Romance of the Tropical Forest,PR
+Misalliance,PR
+Lady Susan,PR
+Tom Swift and His Submarine Boat; Or, Under the Ocean for Sunken Treasure,PZ
+Tom Swift and His Electric Runabout; Or, The Speediest Car on the Road,PZ
+Tom Swift and His Sky Racer; Or, The Quickest Flight on Record,PZ
+Tom Swift and His Air Glider; Or, Seeking the Platinum Treasure,PZ
+Tom Swift and His Big Tunnel; Or, The Hidden City of the Andes,PZ
+Tom Swift and His War Tank; Or, Doing His Bit for Uncle Sam,PZ
+The Patchwork Girl of Oz,PZ
+Tik-Tok of Oz,PZ
+The Scarecrow of Oz,PZ
+Rinkitink in Oz
+Wherein Is Recorded the Perilous Quest of Prince Inga of Pingaree and King Rinkitink in the Magical Isles That Lie Beyond the Borderland of Oz,PZ
+The Lost Princess of Oz,PZ
+The Tin Woodman of Oz
+A Faithful Story of the Astonishing Adventure Undertaken by the Tin Woodman, Assisted by Woot the Wanderer, the Scarecrow of Oz, and Polychrome, the Rainbow's Daughter,PZ
+Glinda of Oz
+In Which Are Related the Exciting Experiences of Princess Ozma of Oz, and Dorothy, in Their Hazardous Journey to the Home of the Flatheads, and to the Magic Isle of the Skeezers, and How They Were Rescued from Dire Peril by the Sorcery of Glinda the Good,PZ
+Maid Marian,PR
+The Devil's Dictionary,PS
+Howard Pyle's Book of Pirates
+Fiction, Fact & Fancy Concerning the Buccaneers & Marooners of the Spanish Main,PS
+The Secret Agent: A Simple Tale,PR
+Alice Adams,PS
+Beowulf,PR
+Who Was Who: 5000 B. C. to Date
+Biographical Dictionary of the Famous and Those Who Wanted to Be,PN
+The First Men in the Moon,PR
+The Lure of the Dim Trails,PS
+Sword Blades and Poppy Seed,PS
+Walking,PS
+The Diary of a Nobody,PR
+The Lone Star Ranger: A Romance of the Border,PS
+The Professor,PR
+The Night-Born,PS
+The Pupil,PS
+Joe Wilson and His Mates,PR
+The Life of John Bunyan,PR
+Shakespeare's Sonnets,PR
+Extract from Captain Stormfield's Visit to Heaven,PS
+Venus and Adonis,PR
+The Dark Lady of the Sonnets,PR
+Sartor Resartus: The Life and Opinions of Herr Teufelsdröckh,PR
+The Mirror of the Sea,PR,G
+The World Set Free,PR
+The Strength of the Strong,PS
+The Wallet of Kai Lung,PR
+The Mirror of Kong Ho,PR
+A Horse's Tale,PS
+On Heroes, Hero-Worship, and the Heroic in History,PR
+The Beast in the Jungle,PS
+Tamburlaine the Great — Part 1,PR
+The Faith of Men,PS
+Mrs. Warren's Profession,PR
+The Turmoil: A Novel,PS
+King Richard III,PR
+The Comedy of Errors,PR
+The Sonnets,PR
+The Tragedy of Titus Andronicus,PR
+The Taming of the Shrew,PR
+The Two Gentlemen of Verona,PR
+Love's Labour's Lost,PR
+King John,PR
+King Richard the Second,PR
+A Midsummer Night's Dream,PR
+The Merchant of Venice,PR
+The First Part of King Henry the Fourth,PR
+Much Ado about Nothing,PR
+The Tragedy of Julius Caesar,PR
+As You Like It,PR
+The Tragedy of Hamlet, Prince of Denmark,PR
+Twelfth Night; Or, What You Will,PR
+All's Well That Ends Well,PR
+Measure for Measure,PR
+The Tragedy of Othello, Moor of Venice,PR
+The Tragedy of King Lear,PR
+The Tragedy of Macbeth,PR
+The Tragedy of Antony and Cleopatra,PR
+Cymbeline,PR
+The Tempest,PR
+Typhoon,PR
+Notes on Life & Letters,PR
+In the Cage,PS
+Rupert of Hentzau: From The Memoirs of Fritz Von Tarlenheim
+Sequel to The Prisoner of Zenda,PR
+The Journal of a Voyage to Lisbon,PR
+A Journey from This World to the Next,PR
+The Chessmen of Mars,PS
+The Voyages of Doctor Dolittle,PZ
+The Secret Adversary,PR
+Penrod and Sam,PS
+Fire-Tongue,PR
+The Game,PS
+Jerry of the Islands,PS
+Adventure,PS
+The Iron Heel,PS
+A Strange Disappearance,PS
+Dope,PR
+The Return of Dr. Fu-Manchu,PR
+The Lair of the White Worm,PR
+The Jolly Corner,PS
+The Double-Dealer: A Comedy,PR
+The Old Bachelor: A Comedy,PR
+Cabin Fever,PS
+The Flying U Ranch,PS
+Love and Freindship [sic],PR
+The Man That Corrupted Hadleyburg,PS
+The Street of Seven Stars,PS
+An Essay on Comedy and the Uses of the Comic Spirit,PN
+Cobb's Anatomy,PS
+The City of Dreadful Night,PR
+The Spirit of the Border: A Romance of the Early Settlers in the Ohio Valley,PS
+The Playboy of the Western World: A Comedy in Three Acts,PR
+Love for Love: A Comedy,PR
+The House of Dust: A Symphony,PS
+Second April,PS
+Anthem,PS
+Anthem,PS
+The Heritage of the Desert: A Novel,PS
+The Glimpses of the Moon,PS
+The Wheels of Chance: A Bicycling Idyll,PR
+Kai Lung's Golden Hours,PR
+The Soul of a Bishop,PR
+Spoon River Anthology,PS
+Tom Swift and His Aerial Warship; Or, The Naval Terror of the Seas,PZ
+Tom Swift Among the Diamond Makers; Or, The Secret of Phantom Mountain,PZ
+Tom Swift and His Wizard Camera; Or, Thrilling Adventures While Taking Moving Pictures,PZ
+Tom Swift and His Air Scout; Or, Uncle Sam's Mastery of the Sky,PZ
+Dream Days,PR
+The Way of the World,PR
+The Heritage of the Sioux,PS
+Seven Men [Excerpts],PR
+If: A Play in Four Acts,PR
+Some Reminiscences,PR
+Elizabeth and Her German Garden,PR
+A Voyage to Arcturus,PR
+Peter Pan in Kensington Gardens,PZ,PR
+Selected Prose of Oscar Wilde,PR
+Chronicles of Avonlea,PZ,PS
+Enoch Arden, &c.,PR
+Tom Swift and His Giant Cannon; Or, The Longest Shots on Record,PZ
+Tom Swift and His Undersea Search; Or, the Treasure on the Floor of the Atlantic,PZ
+Tom Swift Among the Fire Fighters; Or, Battling with Flames from the Air,PZ
+Tom Swift and His Electric Locomotive; Or, Two Miles a Minute on the Rails,PZ
+New Chronicles of Rebecca,PZ,PS
+The Little White Bird; Or, Adventures in Kensington Gardens,PR,PZ
+The Seven Poor Travellers,PR
+Amours De Voyage,PR
+The Holly-Tree,PR
+Where the Blue Begins,PS
+The Perils of Certain English Prisoners,PR
+A Message from the Sea,PR
+Somebody's Luggage,PR
+Doctor Marigold,PR
+Mrs. Lirriper's Lodgings,PR
+No Thoroughfare,PR
+Castle Rackrent,PR
+Trooper Peter Halket of Mashonaland,PR
+Dreams,PR
+Perfect Behavior: A Guide for Ladies and Gentlemen in All Social Crises,PN
+Heidi,PZ
+Pollyanna,PS,PZ
+Mistress Wilding,PR
+Dream Life and Real Life: A Little African Story,PR
+The Black Dwarf,PR
+A Legend of Montrose,PR
+The Wreck of the Golden Mary,PR
+In a German Pension,PR
+A Parody Outline of History
+Wherein May Be Found a Curiously Irreverent Treatment of American Historical Events, Imagining Them as They Would Be Narrated by America's Most Characteristic Contemporary Authors,PN
+Massacre at Paris,PR
+The Rape of Lucrece,PR
+The Taming of the Shrew,PR
+A Midsummer Night's Dream,PR
+The Merchant of Venice,PR
+King Henry IV, Second Part,PR
+Hamlet, Prince of Denmark,PR
+Twelfth Night; Or, What You Will,PR
+Twelfth Night; Or, What You Will,PR
+Othello, the Moor of Venice,PR
+The Tragedy of King Lear,PR
+Macbeth,PR
+Antony and Cleopatra,PR
+The Tragedy of Coriolanus,PR
+Pericles, Prince of Tyre,PR
+The Winter's Tale,PR
+The Tempest,PR
+The Two Noble Kinsmen,PR
+Sir Thomas More,PR
+A Lady of Quality
+Being a Most Curious, Hitherto Unknown History, as Related by Mr. Isaac Bickerstaff but Not Presented to the World of Fashion Through the Pages of The Tatler, and Now for the First Time Written Down,PS
+Men of Iron,PZ
+Options,PS
+The Wrong Box,PR
+A Rogue's Life,PR
+Tamburlaine the Great — Part 2,PR
+The Amazing Interlude,PS
+Whirligigs,PS
+Smoke Bellew,PS
+Dawn O'Hara: The Girl Who Laughed,PS
+The Ebb-Tide: A Trio And Quartette,PR
+The Crock of Gold,PR
+Seventeen
+A Tale of Youth and Summer Time and the Baxter Family, Especially William,PS
+Miss or Mrs.?,PR
+The Two Destinies,PR
+The Frozen Deep,PR
+My Lady's Money,PR
+Lilith: A Romance,PR
+The Adventures of Gerard,PR
+An Unsocial Socialist,PR
+The Tapestried Chamber, and Death of the Laird's Jock,PR
+The Human Drift,PS
+When a Man Marries,PS
+The Man Who Was Thursday: A Nightmare,PR
+The Club of Queer Trades,PR
+Child of Storm,PR
+Manalive,PR
+The Ballad of the White Horse,PR
+The Man Who Knew Too Much,PR
+The Trees of Pride,PR
+Cow-Country,PS
+Heart of the West,PS
+The Secret Places of the Heart,PR
+The Flying U's Last Stand,PS
+New Collected Rhymes,PR
+Twilight Land,PZ,PS
+King Edward III,PR
+King Richard II,PR
+Romeo and Juliet,PR
+A Midsummer Night's Dream,PR
+The Merchant of Venice,PR
+King Henry IV, Part 2,PR
+Julius Caesar,PR
+Hamlet,PR
+Troilus and Cressida,PR
+All's Well That Ends Well,PR
+Othello,PR
+King Lear,PR
+Macbeth,PR
+The Tempest,PR
+Wyoming: A Story of the Outdoor West,PS
+The Gentle Grafter,PS
+Bucky O'Connor: A Tale of the Unfenced Border,PS
+The Agony Column,PS
+The Adventures of Reddy Fox,PZ
+Chronicles of the Canongate, 1st Series,PR
+The Prince and the Pauper,PS
+Zuleika Dobson; Or, An Oxford Love Story,PR
+Old Christmas,PS
+The Woman in the Alcove,PS
+The Diary of a Goose Girl,PZ,PS
+The Man in Lower Ten,PS
+The Red House Mystery,PR
+The Railway Children,PZ,PR
+The Shape of Fear,PS
+A Millionaire of Yesterday,PR
+The Call of the Canyon,PS
+The Young Forester,PS
+The Bittermeads Mystery,PR
+Under the Red Robe,PR
+The Seventh Man,PS
+The Governess; Or, The Little Female Academy,PR,PZ
+Erewhon; Or, Over the Range,PR
+Rowdy of the Cross L,PS
+Her Prairie Knight,PS
+The Second Thoughts of an Idle Fellow,PR
+The School for Scandal,PR
+The Zeppelin's Passenger,PR
+The Second Jungle Book,PR
+The Story of a Bad Boy,PS,PZ
+The Coming Race,PR
+A Book of Strife in the Form of The Diary of an Old Soul,PR
+And Even Now,PR
+Sight Unseen,PS
+The Confession,PS
+The Path of the King,PR
+Catherine: A Story,PR
+Erewhon Revisited Twenty Years Later, Both by the Original Discoverer of the Country and by His Son,PR
+The Poetics of Aristotle,PN,PA
+Men's Wives,PR
+The Outlet,PS
+The Foolish Dictionary
+An exhausting work of reference to un-certain English words, their origin, meaning, legitimate and illegitimate use, confused by a few pictures [not included],PS
+Told After Supper,PR
+Adventures Among Books,PR
+Crome Yellow,PR
+Spirits in Bondage: A Cycle of Lyrics,PR
+Piccadilly Jim,PR
+The Pit Prop Syndicate,PR
+The Lodger,PR
+A Miscellany of Men,PR
+The Bat,PS
+Tarzan the Terrible,PZ,PS
+Diary of a Pilgrimage,PR
+The Yellow Claw,PR
+Novel Notes,PR
+Evangeline: A Tale of Acadie,PS
+Confessions of an English Opium-Eater,PR
+The House of the Wolf: A Romance,PR
+Something New,PR
+Clotel; Or, The President's Daughter,PS
+The Last of the Plainsmen,PS
+The History of Caliph Vathek,PR
+All for Love; Or, The World Well Lost: A Tragedy,PR
+The Trail of the White Mule,PS
+To the Last Man,PS
+Crotchet Castle,PR
+The Blithedale Romance,PS
+The Sign of the Four,PR
+A Thief in the Night: A Book of Raffles' Adventures,PR
+The Quest of the Sacred Slipper,PR
+Around the World in Eighty Days. Junior Deluxe Edition,PZ,PQ
+The Bridge-Builders,PR
+The Lifted Veil,PR
+King Solomon's Mines,PR
+Brother Jacob,PR
+You Never Can Tell,PR
+Three Men on the Bummel,PR
+"Captains Courageous": A Story of the Grand Banks,PR
+"Captains Courageous": A Story of the Grand Banks,PR
+All Roads Lead to Calvary,PR
+The Duchess of Malfi,PR
+A Damsel in Distress,PR
+The Tempest,PR
+The Merry Wives of Windsor,PR
+The Comedy of Errors,PR
+Much Ado about Nothing,PR
+Love's Labour's Lost,PR
+A Midsummer Night's Dream,PR
+The Merchant of Venice,PR
+As You Like It,PR
+The Taming of the Shrew,PR
+All's Well That Ends Well,PR
+Twelfth Night,PR
+The Winter's Tale,PR
+Richard II,PR
+Henry IV, Part 1,PR
+Henry V,PR
+Henry VI, Part 3,PR
+Richard III,PR
+Henry VIII,PR
+Coriolanus,PR
+Titus Andronicus,PR
+Timon of Athens,PR
+Julius Caesar,PR
+Macbeth,PR
+Hamlet,PR
+King Lear,PR
+Othello,PR
+Antony and Cleopatra,PR
+Cymbeline,PR
+Tom Swift and His Motor-Boat; Or, The Rivals of Lake Carlopa,PZ
+The Private Memoirs and Confessions of a Justified Sinner,PR
+Animal Heroes,QL,PS
+Waifs and Strays
+Part 1,PS
+Pandora,PS
+A Set of Six,PR
+Uncle Remus, His Songs and His Sayings,PS
+The Story of My Heart: An Autobiography,PR
+A House to Let,PR
+The Adventure of Wisteria Lodge,PR
+The Adventure of the Cardboard Box,PR
+The Adventure of the Red Circle,PR
+The Adventure of the Bruce-Partington Plans,PR
+The Disappearance of Lady Frances Carfax,PR
+The Adventure of the Devil's Foot,PR
+Tea-Table Talk,PR
+The After House,PS
+The Angel and the Author, and Others,PR
+The Filigree Ball
+Being a full and true account of the solution of the mystery concerning the Jeffrey-Moore affair,PS
+The Woman-Haters,PS
+The Son of the Wolf,PS
+Actions and Reactions,PR
+Bardelys the Magnificent
+Being an account of the strange wooing pursued by the Sieur Marcel de Saint-Pol, marquis of Bardelys...,PR
+Anecdotes of the late Samuel Johnson, LL.D.
+During the Last Twenty Years of His Life,PR
+A Bundle of Letters,PS
+The Diary of a Man of Fifty,PS
+Lost Face,PS
+Is Shakespeare Dead?
+From My Autobiography,PR
+They and I,PR
+The Silent Bullet,PS
+The Madonna of the Future,PS
+Queer Little Folks,PS,PZ
+Cross Roads,PS
+Our Village,PR
+The Lani People,PS
+The Cruise of the Snark,PS
+Stepping Heavenward,PS
+Lizzie Leigh,PR
+A Dark Night's Work,PR
+My Lady Ludlow,PR
+Openings in the Old Trail,PS
+Father and Son: A Study of Two Temperaments,PR
+Polyeucte,PR
+Hopalong Cassidy's Rustler Round-Up; Or, Bar-20,PS
+Half a Life-Time Ago,PR
+The Poor Clare,PR
+The Doom of the Griffiths,PR
+Old Mother West Wind,PS,PZ
+The Story of the Glittering Plain
+Which Has Been Also Called the Land of Living Men or the Acre of the Undying,PR
+Trent's Last Case,PR
+The Longest Journey,PR
+Psmith, Journalist,PR
+Discourses on Satire and on Epic Poetry,PN
+A House-Boat on the Styx,PS
+St. Martin's Summer,PS
+A Room with a View,PR
+The History of John Bull,DA,PR
+Isaac Bickerstaff, Physician and Astrologer,PR
+Under the Greenwood Tree; Or, The Mellstock Quire
+A Rural Painting of the Dutch School,PR
+The Vicar of Wakefield,PR
+The Book of Snobs,PR
+The Snare,PR
+The Clue of the Twisted Candle,PR
+Greyfriars Bobby,PS
+I and My Chimney,PS
+The Lion's Skin,PR
+Maiwa's Revenge; Or, The War of the Little Hand,PR
+Morning Star,PR
+Eight Cousins,PS,PZ
+Allan's Wife,PR
+A Tale of Three Lions,PR
+The Christmas Books of Mr. M.A. Titmarsh,PR
+Benita, an African romance,PR
+The World's Desire,PR
+The Mahatma and the Hare: A Dream Story,PR
+The Devil's Paw,PR
+Five Little Peppers and How They Grew,PS,PZ
+The Country House,PR
+The Good Soldier,PR
+The Four Million,PS
+Cabbages and Kings,PS
+The Trampling of the Lilies,PR
+The Elusive Pimpernel,PR
+Jack and Jill,PS,PZ
+Bob, Son of Battle,PR,PZ
+Rose in Bloom
+A Sequel to "Eight Cousins",PS
+Main-Travelled Roads,PS
+The Grand Babylon Hôtel,PR
+Dubliners,PR
+Democracy, an American novel,PS
+Beautiful Joe,PS
+Sintram and His Companions,PT,PZ
+Under the Deodars,PR
+Fanny and the Servant Problem,PR
+Reginald,PR
+Black Heart and White Heart: A Zulu Idyll,PR
+Sixes and Sevens,PS
+The Hound of the Baskervilles,PR
+Elissa; Or, The Doom of Zimbabwe,PR
+Moon of Israel: A Tale of the Exodus,PR
+A Yellow God: An Idol of Africa,PR
+The Sleuth of St. James's Square,PS
+Satires of Circumstance, Lyrics and Reveries, with Miscellaneous Pieces,PR
+Otto of the Silver Hand,PZ
+A Sappho of Green Springs,PS
+Washington Square,PS
+The Light That Failed,PR
+The House of the Wolfings
+A Tale of the House of the Wolfings and All the Kindreds of the Mark Written in Prose and in Verse,PR
+The Wizard,PR
+The Silver Box: A Comedy in Three Acts,PR
+Justice,PR
+Two Penniless Princesses,PZ,PR
+Where Angels Fear to Tread,PR
+The Romantic Adventures of a Milkmaid,PR
+Tom Swift and His Airship,PZ
+Stalky & Co.,PR
+The Smoky God; Or, A Voyage to the Inner World,PS
+The Lady of the Lake,PR
+What Diantha Did,PS
+North of Boston,PS
+The Tavern Knight,PR
+The Little Duke: Richard the Fearless,PZ
+A Group of Noble Dames,PR
+The Wood Beyond the World,PR
+Washington Square Plays,PS
+The Hound of the Baskervilles,PR
+The Return,PR
+The Wanderer's Necklace,PR
+In the Wilderness,PS
+Idle Ideas in 1905,PR
+Two on a Tower,PR
+Our American Cousin,PR
+The Enchanted Typewriter,PS
+In Defence of Harriet Shelley,PS
+The American Claimant,PS
+A Double Barrelled Detective Story,PS
+Those Extraordinary Twins,PS
+Mark Twain's Speeches,PS
+1601: Conversation as it was by the Social Fireside in the Time of the Tudors,PS
+Helen of Troy,PR
+To Him That Hath: A Tale of the West of Today,PS
+The Valley of Fear,PR
+The Machine,PS
+Days with Sir Roger De Coverley,PR
+Letters to Dead Authors,PN
+The Well-Beloved: A Sketch of a Temperament,PR
+Man and Superman: A Comedy and a Philosophy,PR
+Caesar and Cleopatra,PR
+Criticism and Fiction,PS
+The Shame of Motley: being the memoir of certain transactions in the life of Lazzaro Biancomonte, of Biancomonte, sometime fool of the court of Pesaro,PR
+The American Spirit in Literature: A Chronicle of Great Interpreters,PS,E151
+Captain Brassbound's Conversion,PR
+The Suitors of Yvonne: being a portion of the memoirs of the Sieur Gaston de Luynes,PR
+The Boys' Life of Mark Twain,PS
+Tish: The Chronicle of Her Escapades and Excursions,PS
+The Efficiency Expert,PS
+The Metal Monster,PS
+The Inca of Perusalem: An Almost Historical Comedietta,PR
+Great Catherine (Whom Glory Still Adores),PR
+The Admirable Crichton,PR
+The King of Ireland's Son,GR,PZ
+The Blue Moon,PR,PZ
+Letters Written During a Short Residence in Sweden, Norway, and Denmark,PR
+Love-at-Arms
+Being a Narrative Excerpted from the Chronicles of Urbino During The Dominion of the High and Mighty Messer Guidobaldo Da Montefeltro,PR
+My Discovery of England,PS
+The Enchanted Castle,PZ
+Heartbreak House,PR
+How He Lied to Her Husband,PR
+Arms and the Man,PR
+The Kingdom of Love,PS
+The Guilty River,PR
+Mother: A Story,PS
+The Devil's Disciple,PR
+The Belgian Twins,PZ
+Selections from American poetry, with special reference to Poe, Longfellow, Lowell and Whittier,PS
+The Guns of Bull Run: A Story of the Civil War's Eve,PZ
+The Dragon and the Raven; Or, The Days of King Alfred,PZ,PR
+The Chronicles of Clovis,PR
+The House of Life,PR
+Every Man in His Humour,PR
+Every Man out of His Humour,PR
+An Unprotected Female at the Pyramids,PR
+Aaron Trow,PR
+The Parenticide Club,PS
+A Ride Across Palestine,PR
+The Getting of Wisdom,PR
+Tom Swift in the Caves of Ice, or, the Wreck of the Airship,PS,PZ
+Peacock Pie, a Book of Rhymes,PR,PZ
+Indiscretions of Archie,PR
+The Valley of Fear,PR
+Tom Swift and His Electric Rifle; Or, Daring Adventures in Elephant Land,PZ,PS
+The Jewel of Seven Stars,PR
+Huntingtower,PR
+In the Reign of Terror: The Adventures of a Westminster Boy,PR,PZ
+Nature and Art,PR
+Preface to Major Barbara: First Aid to Critics,PR
+Major Barbara,PR
+Under the Lilacs,PZ,PS
+In the Days of the Comet,PR
+The Star of Gettysburg: A Story of Southern High Tide,PZ
+Rolling Stones,PS
+Pygmalion,PR
+Love Among the Chickens,PR
+Overruled,PR
+The Secret Power,PR
+Hassan : the story of Hassan of Bagdad, and how he came to make the golden journey to Samarkand : a play in five acts,PR
+Androcles and the Lion,PR
+On the Prospects of Christianity
+Bernard Shaw's Preface to Androcles and the Lion,PR
+Yesterdays,PS
+Marmion: A Tale Of Flodden Field,PR
+Epicoene; Or, The Silent Woman,PR
+The Hairy Ape,PS
+Arcadian Adventures with the Idle Rich,PS
+Candida,PR
+The Man of Destiny,PR
+Anna Christie,PS
+Appreciations, with an Essay on Style,PR
+Volpone; Or, The Fox,PR
+The Garden of Survival,PR
+Mates at Billabong,PR,PZ
+Moonbeams from the Larger Lunacy,PS
+Wild Apples,PS,SB
+The Intrusion of Jimmy,PR
+The Picture of Dorian Gray,PR
+The Alchemist,PR
+The Barrier,PS
+An Essay Upon Projects,PR
+From Ritual to Romance,PN
+The Angel in the House,PR
+Touch and Go: A Play in Three Acts,PR
+A Portrait of the Artist as a Young Man,PR
+The Mystery of a Hansom Cab,PR
+Tom Swift and His Wireless Message; Or, The Castaways of Earthquake Island,PS,PZ
+Tom Swift and His Motor-Cycle; Or, Fun and Adventures on the Road,PZ,PS
+Sir Thomas More, or, Colloquies on the Progress and Prospects of Society,PR
+Dramatic Romances,PN,PR
+Cousin Phillis,PR
+The Christian Year,PR
+Helen's Babies,PS
+Don Rodriguez; Chronicles of Shadow Valley,PR
+The Paying Guest,PR
+The British Barbarians,PR
+Laughter: An Essay on the Meaning of the Comic,PN
+Sky Island: being the further exciting adventures of Trot and Cap'n Bill after their visit to the sea fairies,PZ,PS
+The Sea Fairies,PZ,PS
+Flappers and Philosophers,PS
+In Homespun,PS
+The Aran Islands,PR
+The Woman Who Did,PR
+Hira Singh : when India came to fight in Flanders,PR
+The Shaving of Shagpat; an Arabian entertainment — Complete,PR
+The Rainbow and the Rose,PR
+The Golden Snare,PS
+Ethan Frome,PS
+Madame de Treymes,PS
+The Secret Passage,PR
+Tom Swift and His Photo Telephone or the Picture That Saved a Fortune,PZ,PS
+In His Steps,PS
+The Border Legion,PS
+Tom Swift in Captivity, Or, A Daring Escape By Airship,PZ,PS
+Tom Swift and His Great Searchlight; or, on the border for Uncle Sam,PS,PZ
+Nonsense Novels,PS
+Whitefoot the Wood Mouse,PZ,PS
+The Flaming Forest,PS
+Brewster's Millions,PS
+Tom Swift in the City of Gold; Or, Marvelous Adventures Underground,PZ,PS
+An African Millionaire: Episodes in the Life of the Illustrious Colonel Clay,PR
+Seven Little Australians,PZ,PR
+The Shepherd of the Hills,PS
+A Tale of a Tub,PR
+Three Prayers and Sermons,PR,BV
+Ten Nights in a Bar Room,PS
+At the Villa Rose,PR
+The Mayor's Wife,PS
+The Fiend's Delight,PS
+The Only True Mother Goose Melodies,PZ
+The Magic Pudding
+Being the Adventures of Bunyip Bluegum and His Friends Bill Barnacle & Sam Sawnoff,PZ
+Bar-20 Days,PS
+Hudibras, in Three Parts, Written in the Time of the Late Wars,PR
+Grace Harlowe's Senior Year at High School,PZ
+Leah Mordecai: A Novel,PS
+Our Mr. Wrenn: The Romantic Adventures of a Gentle Man,PS
+Blacky the Crow,PS,PZ
+Old Granny Fox,PS,PZ
+Ruth Fielding of the Red Mill; Or, Jasper Parloe's Secret,PZ
+A Sweet Girl Graduate,PR,PZ
+A Texas Ranger,PS
+Number Seventeen,PR
+Katherine's Sheaves,PS
+The Dream Doctor,PS
+The Whole Family: a Novel by Twelve Authors,PS
+The Doctor's Dilemma: Preface on Doctors,PR,R
+The Doctor's Dilemma,PR
+The Philanderer,PR
+The Spoilers,PS
+Marmion: A Tale of Flodden Field in Six Cantos,PR
+The Man of Feeling,PR
+Characters of Shakespeare's Plays,PR
+The Treasure-Train,PS
+I Will Repay,PR
+Lives of the English Poets : Waller, Milton, Cowley,PR
+The Adventures of Jerry Muskrat,PZ
+Dark Hollow,PS
+Childe Harold's Pilgrimage,PR
+What Katy Did at School,PZ,PS
+Graustark,PS
+Rodney Stone,PR
+The Ear in the Wall,PS
+The Exploits of Elaine,PS
+Rung Ho! A Novel,PR
+Agatha Webb,PS
+The Poetaster,PR
+The Countess Cathleen,PR
+The Old English Baron: a Gothic Story,PR
+The Village and The Newspaper,PR
+The Guns of Shiloh: A Story of the Great Western Campaign,PZ
+The Parish Register,PR
+The Borough,PR
+The Invisible Man: A Grotesque Romance,PR
+Sejanus: His Fall,PR
+The Eye of Zeitoon,PR
+The History of the Life of the Late Mr. Jonathan Wild the Great,PR
+Patty's Butterfly Days,PS,PZ
+The Ball and the Cross,PR
+The Film Mystery,PS
+The Land of the Blue Flower,PS,PZ
+The Paradise Mystery,PR
+Parnassus on Wheels,PS
+Mother Goose in Prose,PZ
+Told in the East,PR
+Through the Magic Door,PR,Z
+Every Man in His Humor,PR
+Raspberry Jam,PS
+Further Chronicles of Avonlea,PZ,PS
+Kilmeny of the Orchard,PS,PZ
+The Story Girl,PZ
+Rainbow Valley,PZ,PS
+Understood Betsy,PS,PZ
+Ragged Dick, Or, Street Life in New York with the Boot-Blacks,PS,PZ
+Marjorie's Three Gifts,PS,PZ
+The Metropolis,PS
+Preface to Shakespeare,PR
+Hyperion,PS
+Getting Married,PR
+Guns of the Gods: A Story of Yasmini's Youth,PR
+The Young Explorer; Or, Claiming His Fortune,PS,PZ
+Patty's Suitors,PS,PZ
+Five Little Peppers Midway,PZ,PS
+What Every Woman Knows,PR
+Mary Louise,PZ,PS
+Jacob's Room,PR
+A Double Story,PR,PZ
+The Tale of Fatty Coon,PZ
+The Lord of Death and the Queen of Life,PS
+A Shropshire Lad,PR
+Press Cuttings,PR
+Bunny Brown and His Sister Sue,PZ
+Smoke Bellew,PS
+The Ancient Allan,PR
+Do and Dare — a Brave Boy's Fight for Fortune,PZ
+The Maid of Maiden Lane,PS
+Many Cargoes,PR
+The Day of the Dog,PS
+Doctor Therne,PR
+The Rover Boys in the Jungle; Or, Stirring Adventures in Africa,PZ
+They Call Me Carpenter: A Tale of the Second Coming,PS
+100%: the Story of a Patriot,PS
+Try and Trust; Or, Abner Holden's Bound Boy,PZ
+The Rover Boys at School; Or, The Cadets of Putnam Hall,PZ
+Aria da Capo,PS
+Mrs. Peter Rabbit,PZ
+Rosa Alchemica,PR
+The Secret Rose,PR
+The Beautiful Lady,PS
+Not that it Matters,PR
+The League of the Scarlet Pimpernel,PR
+The Great Impersonation,PR
+The Clockmaker — or, the Sayings and Doings of Samuel Slick, of Slickville,PS
+The Moneychangers,PS
+A Garland for Girls,PZ
+Helping Himself; Or, Grant Thornton's Ambition,PZ
+The Story Hour: A Book for the Home and the Kindergarten,PZ
+The Adventures of Johnny Chuck,PZ
+Nothing to Eat,PS
+Two Little Women on a Holiday,PZ
+Dyke Darrel the Railroad Detective; Or, The Crime of the Midnight Express,PZ,PS
+The Bobbsey Twins on a Houseboat,PZ
+Oh, Money! Money! A Novel,PS
+The Devolutionist and the Emancipatrix,PS
+Bound to Rise; Or, Up the Ladder,PZ
+The Solitary Summer,PR
+Roast Beef, Medium: The Business Adventures of Emma McChesney,PS
+In the Closed Room,PS,PZ
+The Kasîdah of Hâjî Abdû El-Yezdî,PR
+The Spanish Tragedie,PR
+The Bobbsey Twins at Snow Lodge,PZ
+Our Pilots in the Air,PS
+The Vampyre; a Tale,PR
+Far Away and Long Ago: A History of My Early Life,QL,PR
+Pollyanna Grows Up,PS,PZ
+An Outback Marriage: A Story of Australian Life,PR
+Soldiers Three,PR
+Life and Habit,PR,QH
+Vicky Van,PS
+Representative Men: Seven Lectures,PS
+Masterpieces of American Wit and Humor,PN
+Literary Lapses,PS
+Hobson's Choice: A Lancashire Comedy in Four Acts,PR
+The English Mail-Coach and Joan of Arc,PR
+The Story of the Odyssey,PA,PZ
+Cornelli,PZ
+Bat Wing,PR
+That Printer of Udell's: A Story of the Middle West,PS
+Five Little Peppers and their Friends,PS,PZ
+The Surgeon's Daughter,PR
+Elsie Dinsmore,PZ
+Letters from America,PR
+Proserpine and Midas,PR
+The Rover Boys on the Great Lakes; Or, The Secret of the Island Cave,PZ
+Facing the World,PZ
+Going Some,PS
+Watchers of the Sky,PR
+The Bobbsey Twins at Meadow Brook,PZ
+In the Court of King Arthur,PZ
+The Moccasin Maker,PS
+Legends That Every Child Should Know; a Selection of the Great Legends of All Times for Young People,PZ
+Nonsenseorship,PN
+The Little Nugget,PR
+Uneasy Money,PR
+The Swiss Family Robinson, Told in Words of One Syllable,PZ
+A Strange Manuscript Found in a Copper Cylinder,PS
+The Winds of the World,PR
+Psmith in the City,PR,PZ
+The Tale of Brownie Beaver,PZ
+Aristotle on the art of poetry,PN
+Three Men and a Maid,PR
+Queen Lucia,PR
+Average Jones,PS
+The Story of Siegfried,PS
+Mark Twain,PS
+The Head of Kay's,PR,PZ
+The Gold Bat,PR,PZ
+The Coming of Bill,PR
+Note Book of an English Opium-Eater,PR
+Sleeping Fires: a Novel,PS
+Miss Ludington's Sister,PS
+The Boy Aviators in Africa; Or, an Aerial Ivory Trail,PZ
+The White Feather,PZ,PR
+Robinson Crusoe — in Words of One Syllable,PR,PZ
+The Prince and Betty,PR
+Alice Sit-By-The-Fire,PR
+The Pothunters,PR,PZ
+A Prefect's Uncle,PZ,PR
+Five Little Peppers Abroad,PZ,PS
+Across the Years,PS
+The Lord of the Sea,PR
+Ghosts I Have Met and Some Others,PS
+The Clicking of Cuthbert,PR
+The Sheik: A Novel,PR
+Back to Billabong,PR
+The Swoop! or, How Clarence Saved England: A Tale of the Great Invasion,PR
+Dr. Heidenhoff's Process,PS
+Children of the Bush,PR
+The Pilgrim's Progress in Words of One Syllable,PR,PZ
+Adventures of Huckleberry Finn, Chapters 01 to 05,PZ,PS
+Adventures of Huckleberry Finn, Chapters 06 to 10,PZ,PS
+Adventures of Huckleberry Finn, Chapters 11 to 15,PS,PZ
+Adventures of Huckleberry Finn, Chapters 16 to 20,PS,PZ
+Adventures of Huckleberry Finn, Chapters 36 to the Last,PZ,PS
+A Trip to Scarborough; and, The Critic,PR
+What Maisie Knew,PS
+The Purple Land
+Being the Narrative of One Richard Lamb's Adventures in The Banda Orientál, in South America, as Told By Himself,PR
+While the Billy Boils,PR
+Not George Washington — an Autobiographical Novel,PR
+Men, Women, and Boats,PS
+Dreams, Waking Thoughts, and Incidents,PR
+Ezra Pound: His Metric and Poetry,PS
+William Tell Told Again,PR,PZ
+The History of Mr. Polly,PR
+The Bravest of the Brave — or, with Peterborough in Spain,PZ
+Among Malay Pirates : a Tale of Adventure and Peril,PZ,PR
+First and Last,PR
+Birds in Town & Village,QL,PR
+On Something,PR
+Indian Summer,PS
+If I May,PR
+A Sicilian Romance,PR
+A Crystal Age,PR
+An Essay on Criticism,PR
+The Louisa Alcott Reader: a Supplementary Reader for the Fourth Year of School,PZ,PS
+On Nothing & Kindred Subjects,PR
+The Adventures of Joel Pepper,PZ,PS
+The Adventures of Sally,PR
+Lost on the Moon; Or, in Quest of the Field of Diamonds,PS,PZ
+The Book of Wonder,PR
+The Daughter of the Chieftain : the Story of an Indian Girl,PS
+Five Little Peppers Grown Up,PZ,PS
+The Huge Hunter; Or, The Steam Man of the Prairies,PS
+Crucial Instances,PS
+Sanctuary,PS
+A Dog of Flanders,PZ
+Of Captain Mission,PR
+An American Robinson Crusoe,PZ
+First Plays,PR
+Monitress Merle,PZ
+An Ambitious Man,PS
+In the Fog,PS
+The Dead Alive,PR
+The Advance of English Poetry in the Twentieth Century,PS,PR
+The Diary of a U-boat Commander
+With an Introduction and Explanatory Notes by Etienne,PR
+Abbotsford and Newstead Abbey,DA,PS
+The Historical Nights' Entertainment: Second Series,PR
+The Mystery of Cloomber,PR
+Mr. Dooley's Philosophy,PN
+A Thousand and One Afternoons in Chicago,PS
+Down and Out in the Magic Kingdom,PS
+Tremendous Trifles,PR
+Imaginations and Reveries,PR
+The Man Who Would Be King,PR
+The Young Engineers in Arizona; or, Laying Tracks on the Man-killer Quicksand,PS,PZ
+Fragments of Ancient Poetry,PR
+My Man Jeeves,PR
+Time and the Gods,PR
+The Mysterious Key and What It Opened,PS
+India's Love Lyrics,PR
+The Moon Metal,PS
+Edgar Huntly; or, Memoirs of a Sleep-Walker,PS
+Pauline's Passion and Punishment,PS
+The Doings of Raffles Haw,PR
+The Gods of Pegana,PR
+Journalism for Women: A Practical Guide,PR
+Forest and Frontiers; Or, Adventures Among the Indians,PR
+The Sturdy Oak
+A composite Novel of American Politics by fourteen American authors,PS
+The Enormous Room,PS
+A Traveler from Altruria: Romance,PS
+Patty Fairfield,PZ
+Frenzied Fiction,PS
+The King in Yellow,PS
+Lonesome Land,PS
+Trivia,PR
+The Wheel O' Fortune,PR
+The Uninhabited House,PR
+Revenge!,PR
+A Columbus of Space,PS
+Behind a Mask; or, a Woman's Power,PS
+The Face and the Mask,PR
+The Abbot's Ghost, or Maurice Treherne's Temptation: A Christmas Story,PS
+A Man of Means,PR
+A Little Bush Maid,PZ,PR
+The Revolutions of Time,PS
+Gaspar Ruiz,PR
+Jurgen: A Comedy of Justice,PS
+Drum-Taps,PS
+Selections from Poe,PS
+Nina Balatka,PR
+Three Weeks,PR
+The Flight of the Shadow,PR
+England, My England,PR
+The Light of Asia,PR
+The Gem Collector,PR
+The Elect Lady,PR
+Far Above Rubies,PR
+What Katy Did,PZ
+What Katy Did Next,PZ
+The Tragicall Historie of Hamlet, Prince of Denmarke
+The First ('Bad') Quarto,PR
+Heather and Snow,PR
+Life and Remains of John Clare, The "Northamptonshire Peasant Poet",PR
+The Greater Inclination,PS
+The Second Deluge,PS
+The Clockmaker; Or, the Sayings and Doings of Samuel Slick, of Slickville,PS
+Earth's Holocaust (From "Mosses from an Old Manse"),PS
+The Gorgon's Head
+(From: "A Wonder-Book for Girls and Boys"),BL,PZ
+The Paradise of Children
+(From: "A Wonder-Book for Girls and Boys"),PZ,BL
+Chip, of the Flying U,PS
+The Orange-Yellow Diamond,PR
+The Lone Wolf: A Melodrama,PS
+A Nonsense Anthology,PN
+The Incomplete Amorist,PR
+Dorothy's Mystical Adventures in Oz,PZ
+The Leopard Woman,PS
+Helen of the Old House,PS
+Olaf the Glorious: A Story of the Viking Age,PZ
+Georgian Poetry 1911-1912,PR
+A Fair Barbarian,PS
+The Line of Love; Dizain des Mariages,PS
+Quaint Courtships,PS
+The Trespasser,PR
+The Room in the Dragon Volant,PR
+Georgian Poetry 1913-15,PR
+Graded Poetry: Seventh Year,PN
+The Cords of Vanity: A Comedy of Shirking,PS
+Joseph Andrews, Vol. 2,PR
+Joseph Andrews, Vol. 1,PR
+Echoes of the War,PR
+Georgian Poetry 1920-22,PR
+Alarms and Discursions,PR
+Domnei: A Comedy of Woman-Worship,PS
+An Amiable Charlatan,PR
+The Ashiel mystery: A Detective Story,PR
+The Black Bag,PS
+Traffics and Discoveries,PR
+Harrigan,PS
+Mr. Justice Raffles,PR
+Scarhaven Keep,PR
+The Jewel Merchants: A Comedy in One Act,PS
+The Talleyrand Maxim,PR
+Excursions,PS
+City of Endless Night,PS
+Riders of the Silences,PS
+The Avenger,PR
+The Great Secret,PR
+Grace Harlowe's Return to Overton Campus,PZ
+The Middle of Things,PR
+Way of the Lawless,PS
+Nightmare Abbey,PR
+The Trail Book,PS
+Black Jack,PS
+K,PS
+The Last Trail,PS
+Elsie's Girlhood
+A Sequel to "Elsie Dinsmore" and "Elsie's Holidays at Roselands",PZ
+The Centaur,PR
+Wild Kitty,PZ
+Brave and Bold; Or, The Fortunes of Robert Rushton,PZ
+The House on the Borderland,PR
+Carmilla,PR
+The Mystery,PS
+A Beautiful Possibility,PS
+The Rivet in Grandfather's Neck: A Comedy of Limitations,PS
+Salute to Adventurers,PR
+The Secret of the Tower,PR
+Gunman's Reckoning,PS
+The Mystery of the Boule Cabinet: A Detective Story,PS
+The Power and the Glory,PS
+The Boy Allies at Jutland; Or, The Greatest Naval Battle of History,PZ
+Kazan,PS
+The Czar's Spy: The Mystery of a Silent Love,PR
+The Postmaster's Daughter,PR
+Adonais,PR
+Fairies and Fusiliers,PR
+The Best Letters of Charles Lamb,PR
+Rhetoric and Poetry in the Renaissance
+A Study of Rhetorical Terms in English Renaissance Literary Criticism,PN
+Dracula's Guest,PR
+Wolves of the Sea
+Being a Tale of the Colonies from the Manuscript of One Geoffry Carlyle, Seaman, Narrating Certain Strange Adventures Which Befell Him Aboard the Pirate Craft "Namur",PS
+Beautiful Joe: An Autobiography,PS
+Old Creole Days: A Story of Creole Life,PS
+Patty at Home,PZ
+Betty Gordon at Boarding School; Or, The Treasure of Indian Chasm,PZ
+Bull Hunter,PS
+Alias the Lone Wolf,PS
+Lady into Fox,PR
+The Cinema Murder,PR
+Bunch Grass: A Chronicle of Life on a Cattle Ranch,PR
+The Middle Temple Murder,PR
+The Evil Guest,PR
+The Money Moon: A Romance,PR
+The Life of Lord Byron,PR
+Caesar Dies,PR
+Miss Lulu Bett,PS
+The Rayner-Slade Amalgamation,PR
+The Celtic Twilight,PR
+The Little House in the Fairy Wood,PZ
+The Vanishing Man
+A Detective Romance,PR
+The Golden Legend,PS
+The Old Bush Songs,PR
+Mother Carey's Chickens,PS
+Children's Classics in Dramatic Form
+A Reader for the Fourth Grade,PN
+The Boats of the "Glen Carrig"
+Being an account of their Adventures in the Strange places of the Earth, after the foundering of the good ship Glen Carrig through striking upon a hidden rock in the unknown seas to the Southward; as told by John Winterstraw, Gent., to his son James Winterstraw, in the year 1757, and by him committed very properly and legibly to manuscript,PR
+Affair in Araby,PR
+Right Ho, Jeeves,PR
+The Old Man in the Corner,PR
+Uncle Bernac: A Memory of the Empire,PR
+My Strangest Case,PR
+Mike and Psmith,PZ
+Four Early Pamphlets,PR
+The Rangeland Avenger,PS
+Adventures in Contentment,PS
+The Tragedie of Hamlet, Prince of Denmark
+A Study with the Text of the Folio of 1623,PR
+The Real Mother Goose,PZ
+Plays,PS
+Phrases for Public Speakers and Paragraphs for Study,PN
+The Botanic Garden. Part II.
+Containing the Loves of the Plants. a Poem.
+With Philosophical Notes.,PR
+Prince Zaleski,PR
+Betty's Bright Idea; Deacon Pitkin's Farm; and the First Christmas of New England,PS
+The Store Boy,PZ
+Jack's Ward; Or, The Boy Guardian,PZ
+Children of the Frost,PS
+Moonfleet,PZ,PR
+Impressions of Theophrastus Such,PR
+A Versailles Christmas-Tide,PR,DC
+Carnacki, the Ghost Finder,PR
+The Maids Tragedy,PR
+Saved at Sea
+A Lighthouse Story,PZ
+Philaster; Or, Love Lies a Bleeding,PR
+The Abandoned Room,PS
+At Sunwich Port, Complete,PR
+The Eagle's Shadow,PS
+The Untamed,PS
+The Wendigo,PR
+Olivia in India,PR
+Buried Alive: A Tale of These Days,PR
+The Ghost Pirates,PR
+The Grizzly King
+A Romance of the Wild,PS
+The Autobiography of an Ex-Colored Man,PS
+The Ghost Ship,PR
+The Cruise of the Dazzler,PS
+Jack Archer: A Tale of the Crimea,PZ
+The Spirit of the Age; Or, Contemporary Portraits,PR
+The Damned,PR
+Trailin'!,PS
+Young Robin Hood,PZ
+The Case of Jennie Brice,PS
+The Red Thumb Mark,PR
+The Lost Trail,PS
+No Hero,PR
+Uncle Tom's Cabin, Young Folks' Edition,PZ,PS
+Abraham Lincoln: A Play,PR
+Alcatraz,PS
+Bambi,PS
+The Marrow of Tradition,PS
+Bartleby, the Scrivener: A Story of Wall-Street,PS
+The Exploits of Brigadier Gerard,PR
+Martin Hewitt, Investigator,PR
+The Kiltartan History Book,PR
+Virgie's Inheritance,PS
+Plays of Gods and Men,PR
+Friendly Fairies,PZ
+The Hunted Woman,PS
+Jimgrim and Allah's Peace,PR
+Sacred and Profane Love: A Novel in Three Episodes,PR
+The Moorland Cottage,PR
+The Man Whom the Trees Loved,PR
+Cheerful—By Request,PS
+Small Means and Great Ends,PZ
+The Willows,PR
+The Rome Express,PR
+Further Foolishness,PS
+All Things Considered,PR
+The Runaway Asteroid,PS
+My Brilliant Career,PR
+The Dawn of All,PR
+Green Tea;  Mr. Justice Harbottle,PR
+Figures of Earth: A Comedy of Appearances,PS
+Love and Mr. Lewisham,PR
+The Conjure Woman,PS
+The Gold Hunters
+A Story of Life and Adventure in the Hudson Bay Wilds,PS
+The Food of the Gods and How It Came to Earth,PR
+The Camp Fire Girls at School; Or, The Wohelo Weavers,PZ
+Chivalry: Dizain des Reines,PS
+Black Beauty, Young Folks' Edition,PZ
+Radio Boys Cronies
+Or, Bill Brown's Radio,PZ
+The Alaskan,PS
+Ronicky Doone,PS
+The Adventures of Mr. Mocker,PZ
+Mysticism in English Literature,PR
+The Lords of the Wild: A Story of the Old New York Border,PZ
+The Book of American Negro Poetry,PS
+The Uttermost Farthing
+A Savant's Vendetta,PR
+Our Little Korean Cousin,PZ
+Eric; Or, Little by Little,PZ
+Between the Dark and the Daylight,PS
+The Gringos
+A Story Of The Old California Days In 1849,PS
+Night Watches
+Complete Series,PR
+The Sleeper Awakes
+A Revised Edition of When the Sleeper Wakes,PR
+The Wolf Hunters: A Tale of Adventure in the Wilderness,PS
+Alone in London,PZ
+The Nest of the Sparrowhawk: A Romance of the XVIIth Century,PR
+The Mystery of 31 New Inn,PR
+The Long Shadow,PS
+Odd Craft, Complete,PR
+Dead Men's Money,PR
+The Defendant,PR
+The Go-Getter: A Story That Tells You How to be One,PS
+Confessions of a Young Man,PR
+Winning His Spurs: A Tale of the Crusades,PZ,PR
+Friday, the Thirteenth
+A Novel,PS
+Iola Leroy; Or, Shadows Uplifted,PS
+Battle-Pieces and Aspects of the War,PS
+The Courage of Captain Plum,PS
+Sappho: One Hundred Lyrics,PR
+The Coquette, or, The History of Eliza Wharton
+A Novel: Founded on Fact,PS
+The Night Horseman,PS
+The House of a Thousand Candles,PS
+Castles in the Air,PR
+Books and Characters, French & English,PN
+Twelve Types,PR,CT
+Casey Ryan,PS
+Witness for the Defence,PR
+Starr, of the Desert,PS
+Shakespeare's play of the Merchant of Venice
+Arranged for Representation at the Princess's Theatre, with Historical and Explanatory Notes by Charles Kean, F.S.A.,PR
+The Shadow of the Rope,PR
+Old and New Masters,PN
+Language
+An Introduction to the Study of Speech,P
+The Adventures of Old Mr. Toad,PZ
+The Seven Little Sisters Who Live on the Round Ball That Floats in the Air,PZ
+The Queen of the Air: Being a Study of the Greek Myths of Cloud and Storm,PR
+Four Girls at Chautauqua,PZ
+The Pretty Lady,PR
+Masters of the English Novel: A Study of Principles and Personalities,PR
+Risen from the Ranks; Or, Harry Walton's Success,PZ
+The Author's Craft,PN
+The Legends of King Arthur and His Knights,PN
+Wells Brothers: The Young Cattle Kings,PS
+Cobwebs from an Empty Skull,PS
+Judith, a Play in Three Acts; Founded on the Apocryphal Book of Judith,PR
+Headlong Hall,PR
+Joe's Luck; Or, Always Wide Awake,PZ
+Two Ghostly Mysteries
+A Chapter in the History of a Tyrone Family; and the Murdered Cousin,PR
+The Lilac Girl,PS
+Reed Anthony, Cowman: An Autobiography,PS
+The White Devil,PR
+A Texas Matchmaker,PS
+Black Beetles in Amber,PS
+The Card, a Story of Adventure in the Five Towns,PR
+The Art of the Moving Picture,PN
+A Thane of Wessex
+Being a Story of the Great Viking Raids into Somerset,PZ
+Heart of the West [Annotated],PS
+The Were-Wolf,PR
+Pardners,PS
+The Tracer of Lost Persons,PS
+The Pearl
+A Middle English Poem, A Modern Version in the Metre of the Original,PR
+Robert Browning,PR
+Happy Jack,PZ
+The Gloved Hand,PS
+The Covered Wagon,PS
+Zarlah the Martian,PS
+Divine Songs,PR,PZ
+The Sunny Side,PR
+The Pleasures of Ignorance,PR
+The Story of Sigurd the Volsung,PR
+Selections from Five English Poets,PR
+Clementina,PR
+The Correspondence of Thomas Carlyle and Ralph Waldo Emerson, 1834-1872, Vol. I,PR,PS
+Nonsense Songs,PZ,PR
+Nonsense Books,PR,PZ
+Selections from the Writings of Lord Dunsany,PR
+The Happy Family,PS
+The Unknown Eros,PR
+Goody Two-Shoes
+A Facsimile Reproduction of the Edition of 1766,PZ
+Mince Pie,PS
+A Trip to Venus: A Novel,PR
+Wulfric the Weapon Thane
+A Story of the Danish Conquest of East Anglia,PZ
+The Art of Letters,PR
+The Boy Inventors' Radio Telephone,PZ
+The Talking Beasts: A Book of Fable Wisdom,PZ
+John Thorndyke's Cases
+related by Christopher Jervis
+and edited by R. Austin Freeman,PR
+Bacon,PR
+The Adventure Club Afloat,PZ
+Plays, Acting and Music: A Book Of Theory,PN
+The Mysterious Rider,PS
+After London; Or, Wild England,PR
+The Hill of Dreams,PR
+The Fifteen Comforts of Matrimony: Responses from Men,PR
+King Alfred's Viking
+A Story of the First English Fleet,PZ
+The End of the World: A Love Story,PS
+Miscellanies,PR
+The History of the Remarkable Life of John Sheppard
+Containing a Particular Account of His Many Robberies and Escapes,PR
+The Elephant God,PR
+The Thirteenth Chair: A Play in Three Acts,PS
+The Lost Stradivarius,PR
+Kernel Cob And Little Miss Sweetclover,PZ
+The Tale of Terror: A Study of the Gothic Romance,PN
+The Red Redmaynes,PR
+Widdershins,PR
+A Man Four-Square,PS
+The Haunted and the Haunters; Or, The House and the Brain,PR
+Varied Types,PR
+Wanted—A Match Maker,PS
+Bracebridge Hall,PS
+The Age of Shakespeare,PR
+Hints for Lovers,PN
+The Magician,PR
+The Necromancers,PR
+Holidays at Roselands
+A Sequel to Elsie Dinsmore,PZ
+The Sorcery Club,PR
+The Range Dwellers,PS
+A Little Book of Filipino Riddles,PN
+The Dawn and the Day
+Or, The Buddha and the Christ, Part I,PS
+When A Man's A Man,PS
+The Adventures of Grandfather Frog,PZ
+Elsie at Nantucket,PZ
+Gawayne and the Green Knight
+A Fairy Tale,PS
+Mona; Or, The Secret of a Royal Mirror,PS
+True Love's Reward
+A Sequel to Mona,PS
+The Uphill Climb,PS
+The Thunder Bird,PS
+Elsie's Kith and Kin,PZ
+Mavericks,PS
+The Canterville Ghost,PR
+Christmas with Grandma Elsie,PZ
+When William Came,PR
+An Encounter in Atlanta,PS
+Elsie's Motherhood,PZ
+The Truce of God,PZ
+Gunsight Pass: How Oil Came to the Cattle Country and Brought a New West,PS
+War Brides: A Play in One Act,PS
+And Thus He Came: A Christmas Fantasy,PZ
+Veronica,PZ
+The Mystery of Mary,PS
+Aspects of Literature,PN
+A Daughter of the Snows,PS
+The Road,PS
+Around The Tea-Table,PS
+A Christmas Garland,PR
+Half Portions,PS
+The Adventures of Unc' Billy Possum,PZ
+Different Girls,PS
+Andy Grant's Pluck,PZ
+The Taming of Red Butte Western,PZ
+The Stowmarket Mystery; Or, A Legacy of Hate,PR
+Daddy Takes Us to the Garden
+The Daddy Series for Little Folks,PZ
+Elsie's Womanhood,PZ
+Elsie's children,PZ
+The Forest Runners: A Story of the Great War Trail in Early Kentucky,PZ
+Grandmother Elsie,PZ
+The Inheritors,PR
+The Hunters of the Hills,PZ,PS
+All He Knew: A Story,PS
+The Diamond Master,PS
+Deadwood Dick, the Prince of the Road; or, The Black Rider of the Black Hills,PS
+Living Alone,PR
+Elsie's New Relations
+What They Did and How They Fared at Ion; A Sequel to Grandmother Elsie,PZ
+The Wings of the Morning,PR
+Selections from Wordsworth and Tennyson,PR
+Winnie Childs, the Shop Girl,PR
+The Free Rangers: A Story of the Early Days Along the Mississippi,PZ
+The Hoosier Schoolmaster: A Story of Backwoods Life in Indiana,PS
+Handy Dictionary of Poetical Quotations,PN
+The Broadway Anthology,PS
+Balloons,PR
+Mathilda,PR
+Spenser's The Faerie Queene, Book I,PR
+The Girl from Montana,PS
+Uncle Wiggily's Adventures,PZ
+Uncle Wiggily's Travels,PZ
+Why the Chimes Rang: A Play in One Act,PS
+The Man with the Clubfoot,PR
+The Green Eyes of Bâst,PR
+Grace Harlowe's Sophomore Year at High School
+The Record of the Girl Chums in Work and Athletics,PZ
+Red Money,PR
+Fugitive Pieces,PR
+St. Nicholas, Vol. 5, No. 2, December, 1877,PZ
+Jorrocks' Jaunts and Jollities,PR
+Evangeline
+with Notes and Plan of Study,PS
+Tender Buttons
+Objects—Food—Rooms,PS
+The Book of Three Hundred Anecdotes
+Historical, Literary, and Humorous—A New Selection,PN
+Israel Potter
+His Fifty Years of Exile,PS
+Imperium in Imperio: A Study of the Negro Race Problem. A Novel,PS
+The Adventures of Prickly Porky,PZ
+Across India; Or, Live Boys in the Far East,PZ
+Christmas Outside of Eden,PZ
+The Golden Treasury of American Songs and Lyrics,PS
+The Cuckoo Clock,PZ
+The Rustlers of Pecos County,PS
+Humorous Masterpieces from American Literature,PN
+The Lookout Man,PS
+The Day of the Beast,PS
+Books and Persons; Being Comments on a Past Epoch, 1908-1911,PN
+The Indiscreet Letter,PS
+The Forest of Swords: A Story of Paris and the Marne,PZ,PS
+In the Wars of the Roses: A Story for the Young,PZ
+Waste: A Tragedy, In Four Acts,PR
+Plum Pudding: Of Divers Ingredients, Discreetly Blended & Seasoned,PS
+The Rover Boys in Camp; or, The Rivals of Pine Island,PZ
+Clover,PZ
+The Book of Joyous Children,PZ,PS
+Love Conquers All,PS
+The London-Bawd: With Her Character and Life
+Discovering the Various and Subtle Intrigues of Lewd Women,PR
+An Englishwoman's Love-Letters,PR
+The Hollow Land,PR
+Puck of Pook's Hill,PR,PZ
+Boy Blue and His Friends,PZ
+A Man's Woman,PS
+The Curious Book of Birds,PZ
+The Tragedy of Dido Queene of Carthage,PR
+Memoirs of the Author of a Vindication of the Rights of Woman,PR
+Lectures on the English Poets; Delivered at the Surrey Institution,PR
+The Turkish Jester
+or, The Pleasantries of Cogia Nasr Eddin Effendi,PN
+A Book for Kids,PZ
+Dickey Downy: The Autobiography of a Bird,PZ,QL
+The Turtles of Tasman,PS
+The Surprising Adventures of the Magical Monarch of Mo and His People,PZ
+Some Chinese Ghosts,PS
+Some Account of the Life of Mr. William Shakespear (1709),PR
+Beowulf
+An Anglo-Saxon Epic Poem,PR
+The Passenger from Calais,PR
+A Cynic Looks at Life,PS
+Mary: A Fiction,PR
+Sir Thomas Browne and his 'Religio Medici': An Appreciation,PR
+Children's Classics in Dramatic Form
+Book Two,PN
+The Enchanted April,PR
+A Study of Shakespeare,PR
+The Gay Cockade,PS
+The Atlantic Book of Modern Plays,PR,PS
+Liza of Lambeth,PR
+Lost Leaders,PR
+The Girl of the Golden West,PS
+Aunt Jane's Nieces in the Red Cross,PZ
+The Kipling Reader
+Selections from the Books of Rudyard Kipling,PR
+The Killer,PS
+Biltmore Oswald
+The Diary of a Hapless Recruit,PS
+Makers of Madness
+A Play in One Act and Three Scenes,PS
+The Tale of Solomon Owl,PZ
+Beyond The Rocks: A Love Story,PR
+A Place so Foreign,PS
+Familiar Quotations,PN
+The Busie Body,PR
+The Land of Mystery,PZ
+Pinocchio: The Tale of a Puppet,PQ,PZ
+Skyrider,PS
+Plague Ship,PS
+Bunny Rabbit's Diary,PZ
+The Story of Troy,PZ
+The Betrayal,PR
+Craphound,PS
+Return to Pleasure Island,PS
+Eastern Standard Tribe,PS
+Shadow of the Mothaship,PS
+Super Man and the Bug Out,PS
+The Sheriff's Son,PS
+The Half-Hearted,PR
+Tangled Trails: A Western Detective Story,PS
+Anglo-Saxon Literature,PR
+The Double Life Of Mr. Alfred Burton,PR
+Many Thoughts of Many Minds
+A Treasury of Quotations from the Literature of Every Land and Every Age,PN
+More William,PZ
+Home Again, Home Again,PS
+The House of the Vampire,PS
+Gulliver's Travels into Several Remote Regions of the World,PR,PZ
+Modern Prose And Poetry; For Secondary Schools
+Edited With Notes, Study Helps, And Reading Lists,PS
+The Ghost: A Modern Fantasy,PR
+The Riddle of the Frozen Flame,PS
+Rosalynde
+or, Euphues' Golden Legacy,PR
+Autumn Leaves
+Original Pieces in Prose and Verse,PS
+The Raven,PS
+History of the Plague in London,PR
+Emily Fox-Seton
+Being "The Making of a Marchioness" and "The Methods of Lady Walderhurst",PS
+Five Children and It,PZ
+Abe Lincoln Gets His Chance,PZ
+Public Speaking,PN
+The Runaway Skyscraper,PS
+Andrew Marvell,PR
+Men and Women,PR
+The Secret Garden,PZ,PS
+The Bobbsey Twins
+Or, Merry Days Indoors and Out,PZ
+The Black Pearl,PS
+Adventures in Criticism,PN
+The Romance of a Christmas Card,PS
+Yorkshire Ditties, First Series
+To Which Is Added The Cream Of Wit And Humour From His Popular Writings,PR
+Elsie at Home,PZ
+When Knighthood Was in Flower
+or, the Love Story of Charles Brandon and Mary Tudor the King's Sister, and Happening in the Reign of His August Majesty King Henry the Eighth,PS
+Certain Personal Matters,PR
+St. Nicholas Magazine for Boys and Girls, Vol. 5, Nov 1877-Nov 1878
+No 1, Nov 1877,PZ
+Maida's Little Shop,PZ
+The Point Of Honor: A Military Tale,PR
+One Day More: A Play In One Act,PR
+The Mystery at Putnam Hall: The School Chums' Strange Discovery,PZ
+Dialogues of the Dead,PR
+The Tree of Appomattox,PZ
+The Nigger Of The "Narcissus": A Tale Of The Forecastle,PR
+Pieces of Eight
+Being the Authentic Narrative of a Treasure Discovered in the Bahama Islands in the Year 1903,PR
+The Mystery of the Hasty Arrow,PS
+The Choise of Valentines; Or the Merie Ballad of Nash His Dildo,PR
+Divers Women,PS
+Memoir of Jane Austen,PR
+Uncle Wiggily in the Woods,PZ
+Grace Harlowe's Junior Year at High School
+Or, Fast Friends in the Sororities,PZ
+Red Hair,PR
+The Sport of the Gods,PS
+Blackbeard; Or, The Pirate of Roanoke.,PS
+Murder in the Gunroom,PS
+Operation Terror,PS
+Lyra Frivola,PR
+Warlord of Kor,PS
+The Hand Of Fu-Manchu
+Being a New Phase in the Activities of Fu-Manchu, the Devil Doctor,PR
+Tom Swift and The Visitor from Planet X,PZ
+Grace Harlowe's First Year at Overton College,PZ
+The Chief Legatee,PS
+The Luckiest Girl in the School,PZ
+Elsie's Vacation and After Events,PZ
+From the Valley of the Missing,PS
+Successful Methods of Public Speaking,PN
+Genesis,PS
+Graveyard of Dreams,PS
+Little Fuzzy,PS
+Rip Foster in Ride the Gray Planet,PZ
+Time Crime,PS
+This World Is Taboo,PS
+The Girl's Own Paper, Vol. VIII: No. 353, October 2, 1886.,AP,PZ
+Chambers's Elementary Science Readers
+Book I,Q,PZ
+My Young Days,PZ
+The Universe — or Nothing,PS
+The Adventures of Akbar,PZ
+Model Speeches for Practise,PN
+Null-ABC,PS
+Operation: Outer Space,PS
+Studies in Early Victorian Literature,PR
+The Canadian
+Photoplay title of The Land of Promise,PS
+The Bobbsey Twins at Home,PZ
+Star Born,PS
+Flight From Tomorrow,PS
+The Place Beyond the Winds,PS
+Star Surgeon,PS
+A Popular Schoolgirl,PZ
+Police!!!,PS
+Sabotage in Space,PZ
+Hawthorne
+(English Men of Letters Series),PS
+Adrift in New York: Tom and Florence Braving the World,PZ
+The Edge of the Knife,PS
+The Fourth "R",PS
+The Golden Scorpion,PR
+At the Back of the North Wind,PZ
+The Tale of Major Monkey,PZ
+The Tale of Frisky Squirrel,PZ
+The Victorian Age in Literature,PR
+Hunter Patrol,PS
+The Tale of Henrietta Hen,PZ
+The Beautiful Eyes of Ysidria,PS
+Molly Make-Believe,PS
+Polly: A New-Fashioned Girl,PZ
+In Search of the Unknown,PS
+Space Tug,PS
+Undine,PZ
+The Space Pioneers,PZ
+The Heart's Kingdom,PS
+The Circular Study,PS
+The Sky Is Falling,PS
+Treachery in Outer Space,PZ
+Last Enemy,PS
+He Walked Around the Horses,PS
+The Mercenaries,PS
+The Mark of the Beast,PR
+Ralestone Luck,PS
+Fairies and Folk of Ireland,PZ
+Time and Time Again,PS
+Elizabethan Sonnet-Cycles: Delia - Diana,PR
+Voodoo Planet,PS
+The Return,PS
+Cross Purposes and The Shadows,PZ
+Temple Trouble,PS
+The Field of Clover,PZ
+The Idiot,PS
+Dot and the Kangaroo,PZ
+The Last Harvest,PS
+History of English Humour, Vol. 2,PR
+Daughter of the Sun
+A Tale of Adventure,PS
+Man to Man,PS
+My Lady Nicotine
+A Study in Smoke,PR
+Damn! A Book of Calumny,PS
+Day of the Moron,PS
+The King's Men: A Tale of To-morrow,PS
+The Craft of Fiction,PN
+Caves of Terror,PR
+The Girl's Own Paper, Vol. VIII. No. 358, November 6, 1886.,PZ,AP
+The Starbucks,PS
+Alice's Adventures Under Ground
+Being a facsimile of the original Ms. book afterwards developed into "Alice's Adventures in Wonderland",PR,PZ
+The Two-Gun Man,PS
+A Daughter of the Sioux: A Tale of the Indian frontier,PS
+The Revolt on Venus,PZ
+Alice's Adventures in Wonderland,PZ,PR
+Brigands of the Moon,PS
+Police Operation,PS
+The Silent House,PR
+Naudsonce,PS
+The Adventures of Lightfoot the Deer,PZ
+Star Hunter,PS
+The Adventures of Paddy Beaver,PZ
+Magic
+A Fantastic Comedy,PR
+Code Three,PS
+Edison's Conquest of Mars,PS
+The Devil Doctor,PR
+The Time Traders,PS
+The Return,PS
+The Quirt,PS
+The Moving Picture Girls; Or, First Appearances in Photo Dramas,PZ
+The Man Who Rocked the Earth,PS
+Rebel Raider,PS
+The Firelight Fairy Book,PZ
+The Alchemist's Secret,PS
+The Dog's Book of Verse,PN
+The Mummy and Miss Nitocris: A Phantasy of the Fourth Dimension,PR
+The Young Pitcher,PZ,PS
+Tom Swift and the Electronic Hydrolung,PZ
+His Heart's Queen,PS
+The Lion of Petra,PR
+An Apache Princess: A Tale of the Indian Frontier,PS
+The Tangled Threads,PS
+A Christmas Carol,PR
+The Keeper,PS
+A Book of Prefaces,PS
+Six to Sixteen
+A Story for Girls,PZ
+The Triumphs of Eugène Valmont,PR
+Ullr Uprising,PS
+Among the Farmyard People,PZ
+Child Songs of Cheer,PZ
+Plays of Near & Far,PR
+St. Nicholas Magazine for Boys and Girls, Vol. 5, January 1878, No. 3,PZ
+Murder at Bridge,PS
+The Story of Porcelain,PZ
+The Mule-Bone:
+A Comedy of Negro Life in Three Acts,PS
+Omnilingual,PS
+Badge of Infamy,PS
+Uller Uprising,PS
+A Honeymoon in Space,PR
+The Young Trailers: A Story of Early Kentucky,PZ
+Four-Day Planet,PS
+Editorial Wild Oats,PS
+Stand by for Mars!,PZ
+The Yukon Trail: A Tale of the North,PS
+George Bernard Shaw,PR
+Alice in Wonderland, Retold in Words of One Syllable,PZ
+The Dark Forest,PR
+The Captain of the Kansas,PR
+Key Out of Time,PS
+Alexander Pope
+English Men of Letters Series,PR
+Man of Many Minds,PS
+Tell Me Another Story: The Book of Story Programs,PZ
+The Holladay Case: A Tale,PS
+Brood of the Witch-Queen,PR
+One Wonderful Night: A Romance of New York,PR
+Danger in Deep Space,PZ
+The Bostonians, Vol. I (of II),PS
+The Bostonians, Vol. II (of II),PS
+Home Pastimes; or Tableaux Vivants,PN
+The Door Through Space,PS
+Phantom Wires: A Novel,PS
+The Waif Woman,PR
+A Girl in Ten Thousand,PZ
+My Ántonia,PS
+Milton's Comus,PR
+The Arabian Nights Entertainments,PZ
+The Castle Of The Shadows,PR
+Sunset Pass; or, Running the Gauntlet Through Apache Land,PS
+Beauty and the Beast,PZ
+Little Maid Marian,PZ
+The Aesop for Children
+With pictures by Milo Winter,PZ
+Alroy: The Prince of the Captivity,PR
+The Napoleon of Notting Hill,PR
+Sue, A Little Heroine,PZ
+A Houseful of Girls,PR,PZ
+Warrior Gap: A Story of the Sioux Outbreak of '68.,PS
+The Cross-Cut,PS
+Lone Star Planet,PS
+The Cave of Gold
+A Tale of California in '49,PZ
+Rip Foster Rides the Gray Planet,PZ
+Invaders from the Infinite,PS
+The Jolliest School of All,PZ
+Freedom, Truth and Beauty
+Sonnets,PS
+The Storm-Cloud of the Nineteenth Century
+Two Lectures delivered at the London Institution February
+4th and 11th, 1884,PR
+Police Your Planet,PS
+Peace on Earth, Good-will to Dogs,PZ
+The Lion's Brood,PS
+Two Boys in Wyoming: A Tale of Adventure
+(Northwest Series, No. 3),PZ
+A Political Romance,PR
+Edward the Second,PR
+The Bobbsey Twins on Blueberry Island,PZ
+Jerry,PS
+A Thin Ghost and Others,PR
+Gigolo,PS
+The Tale of Beowulf, Sometime King of the Folk of the Weder Geats,PR
+Grace Harlowe's Golden Summer,PZ
+Grace Harlowe's Plebe Year at High School
+The Merry Doings of the Oakdale Freshmen Girls,PZ
+Grace Harlowe's Fourth Year at Overton College,PZ
+The Little Mother Goose,PZ
+Man and Maid,PR
+The Eagle of the Empire: A Story of Waterloo,PS
+Highways in Hiding,PS
+Short Story Writing
+A Practical Treatise on the Art of The Short Story,PN
+Love Among the Chickens
+A Story of the Haps and Mishaps on an English Chicken Farm,PR
+The White Invaders,PS
+R. Holmes & Co.
+Being the Remarkable Adventures of Raffles Holmes, Esq., Detective and Amateur Cracksman by Birth,PS
+The Magic City,PZ
+The Borough Treasurer,PR
+Oomphel in the Sky,PS
+Old Christmas From the Sketch Book of Washington Irving,PS
+Ministry of Disturbance,PS
+The Story of Glass,PZ
+The Black Star Passes,PS
+The Girl on the Boat,PR
+A Slave is a Slave,PS
+The Cosmic Computer,PS
+Space Viking,PS
+For the Sake of the School,PZ
+Rebels of the Red Planet,PS
+Heidi
+(Gift Edition),PZ
+Triplanetary,PS
+Storm Over Warlock,PS
+The Cricket on the Hearth,PR
+The Colors of Space,PS
+Rebel Spurs,PS
+Ten From Infinity,PS
+Spacehounds of IPC,PS
+Wandl the Invader,PS
+The Skylark of Space,PS
+Mother West Wind's Children,PZ
+Bussy D'Ambois and The Revenge of Bussy D'Ambois,PR
+The Galaxy Primes,PS
+The Daffodil Mystery,PR
+A Window in Thrums,PR
+The Status Civilization,PS
+Morale: A Story of the War of 1941-43,PS
+Patty Blossom,PZ
+Islands of Space,PS
+'A Comedy of Errors' in Seven Acts,PR
+The Nürnberg Stove,PZ
+The Adventures of Jimmy Skunk,PZ
+The Corner House Girls at School,PZ
+The Adventures of a Three-Guinea Watch,PZ
+Just Patty,PZ
+Skylark Three,PS
+A Pirate of the Caribbees,PZ
+Jokes For All Occasions
+Selected and Edited by One of America's Foremost Public Speakers,PN
+The Ghost Ship: A Mystery of the Sea,PR
+On the Trail of the Space Pirates,PZ
+Afloat at Last
+A Sailor Boy's Log of his Life at Sea,PZ
+A College Girl,PR
+English Literature and Society in the Eighteenth Century,PR
+The Boy Patriot,PZ
+Book of Wise Sayings
+Selected Largely from Eastern Sources,PN
+Love's Meinie: Three Lectures on Greek and English Birds,PR,QL
+Tom Swift and His Giant Telescope,PZ
+The Boy Hunters,PZ
+The Castaways,PZ
+The Cliff Climbers
+A Sequel to "The Plant Hunters",PZ
+The Four-Pools Mystery,PS
+Begumbagh: A Tale of the Indian Mutiny,PR
+Charles Dickens as a Reader,PR
+The Beaux-Stratagem,PR
+The Vnfortunate Traveller, or The Life Of Jack Wilton
+With An Essay On The Life And Writings Of Thomas Nash By Edmund Gosse,PR
+Roister Doister
+Written, probably also represented, before 1553. Carefully edited from the unique copy, now at Eton College,PR
+Off to the Wilds
+Being the Adventures of Two Brothers,PZ
+The Silver Canyon: A Tale of the Western Plains,PZ
+!Tention: A Story of Boy-Life during the Peninsular War,PZ
+Adventures in Australia,PZ
+Figures of Several Centuries,PN
+The Young Visiters or, Mr. Salteena's Plan,PR
+The African Trader; Or, The Adventures of Harry Bayford,PZ
+Legacy,PS
+Gryll Grange,PR
+The Angel of Terror,PR
+The Pirate,PR
+Children of the Tenements,PS
+Adrift in the Wilds; Or, The Adventures of Two Shipwrecked Boys,PZ
+Gambler's World,PS
+Fame and Fortune; or, The Progress of Richard Hunter,PZ
+The Man of the Desert,PS
+Tarrano the Conqueror,PS
+When Patty Went to College,PS
+A Bid for Fortune; Or, Dr. Nikola's Vendetta,PR
+Subspace Survivors,PS
+The Princess of the School,PZ
+A Brief History of the English Language and Literature, Vol. 2,PE,PN
+Edison's Conquest of Mars,PS
+The Youngest Girl in the Fifth: A School Story,PZ
+The Pirate City: An Algerine Tale,PZ
+The Rover of the Andes: A Tale of Adventure on South America,PZ
+Away in the Wilderness,PZ
+The Big Otter,PZ
+The Gorilla Hunters,PZ
+The Island Queen,PZ
+The Lighthouse,PZ
+The Lonely Island: The Refuge of the Mutineers,PZ
+Black Ivory,PZ
+The Norsemen in the West,PZ
+A Desert Drama: Being The Tragedy Of The "Korosko",PR
+Songs Of The Road,PR
+Four Meetings,PS
+The Best of the World's Classics, Restricted to Prose, Vol. IV (of X)—Great Britain and Ireland II,PN
+The Madman and the Pirate,PZ
+The Confidence-Man: His Masquerade,PS
+The Woman in Black,PR
+King Arthur and His Knights,PZ
+Planet of the Damned,PS
+The Sins of Séverac Bablon,PR
+The Brand of Silence
+A Detective Story,PS
+The Millionaire Baby,PS
+The Woggle-Bug Book,PZ
+Short Cruises,PR
+Embarrassments,PS
+Letters from a Self-Made Merchant to His Son
+Being the Letters written by John Graham, Head of the House
+of Graham & Company, Pork-Packers in Chicago, familiarly
+known on 'Change as "Old Gorgon Graham," to his Son,
+Pierrepont, facetiously known to his intimates as "Piggy.",PS
+Halsey & Co.
+or, The Young Bankers and Speculators,PZ,PS
+The Short-story,PN
+The Scarlet Plague,PS
+A Son Of The Sun,PS
+For Name and Fame; Or, Through Afghan Passes,PR,PZ
+Breaking Point,PS
+The Rover Boys on a Hunt; or, The Mysterious House in the Woods,PZ
+The Peter Patter Book of Nursery Rhymes,PZ
+Shawl-Straps
+A Second Series of Aunt Jo's Scrap-Bag,PZ
+The Airplane Boys among the Clouds
+Or, Young Aviators in a Wreck,PZ
+Kid Wolf of Texas
+A Western Story,PS
+The Carpenter's Daughter,PZ
+Tess of the Storm Country,PS
+The Acorn-Planter
+A California Forest Play (1916),PS,ML
+Giants on the Earth,PS
+A Book of Burlesques,PS
+Creatures of Vibration,PS
+A Modern Tomboy: A Story for Girls,PZ
+The Radiant Shell,PS
+The Winged Men of Orcon: A Complete Novelette,PS
+The Best of the World's Classics, Vol. V (of X) - Great Britain and Ireland III,PR
+Project Mastodon,PS
+Mary Louise in the Country,PZ
+The Whispering Spheres,PS
+Aunt Jo's Scrap-Bag, Vol. 5
+Jimmy's Cruise in the Pinafore, Etc.,PZ
+Security,PS
+Steve and the Steam Engine,PZ,TJ
+The Upper Berth; By the Waters of Paradise,PS
+A Master of Mysteries,PR
+Uncle Remus and Brer Rabbit,PZ,PS
+'Smiles': A Rose of the Cumberlands,PS
+Valley of Dreams,PS
+The Grammar School Boys of Gridley; or, Dick & Co. Start Things Moving,PZ
+An American Robinson Crusoe for American Boys and Girls,PZ
+Mezzerow Loves Company,PS
+Oh, You Tex!,PS
+Brain Twister,PS
+The Impossibles,PS
+Supermind,PS
+The Adventures of Maya the Bee,PZ,PT
+The Book of Nature Myths,PZ
+The Players,PS
+Chivalry,PS
+The Last of the Chiefs: A Story of the Great Sioux War,PZ
+Sand Doom,PS
+The Prussian Officer,PR
+The New Pun Book,PN
+The Stutterer,PS
+Sense from Thought Divide,PS
+The Young Acrobat of the Great North American Circus,PZ
+Cubs of the Wolf,PS
+Beyond the Vanishing Point,PS
+Mr. Dooley in Peace and in War,PN
+The Devil's Asteroid,PS
+The K-Factor,PS
+The Misplaced Battleship,PS
+A World is Born,PS
+Space Prison,PS
+The Day of the Boomer Dukes,PS
+The Worshippers,PS
+From Farm to Fortune; or, Nat Nason's Strange Experience,PZ
+—And Devious the Line of Duty,PS
+Question of Comfort,PS
+The Vortex Blaster,PS
+The Straw,PS
+A Book of Myths,PZ
+Pipefuls,PS
+The Blindman's World
+1898,PS
+The Minister of Evil: The Secret History of Rasputin's Betrayal of Russia,PR
+The Pirate of Panama: A Tale of the Fight for Buried Treasure,PS
+Masters of Space,PS
+Pagan Passions,PS
+32 Caliber,PS
+A Difficult Problem
+1900,PS
+The Adventures of Buster Bear,PZ
+Patchwork: A Story of 'The Plain People',PS
+The Dark Door,PS
+The Best Made Plans,PS
+Pygmalion's Spectacles,PS
+The Ideal,PS
+Red Rose and Tiger Lily; Or, In a Wider World,PZ
+Greylorn,PS
+My Friend The Murderer,PR
+This World Must Die!,PS
+Chester Rand; or, The New Path to Fortune,PZ
+The Lady of the Basement Flat,PR
+In Search of El Dorado,PR,PZ
+The Albert Gate Mystery
+Being Further Adventures of Reginald Brett, Barrister Detective,PR
+No Great Magic,PS
+The Eyes of Asia,PR
+The Creature from Cleveland Depths,PS
+The Diamond Lens,PS
+The Common Man,PS
+Subversive,PS
+Uncle Wiggily and Old Mother Hubbard
+Adventures of the Rabbit Gentleman with the Mother Goose Characters,PZ
+The Servant Problem,PS
+Chasing the Sun,PZ
+The Rover Boys Under Canvas; Or, The Mystery of the Wrecked Submarine,PZ
+Ted and the Telephone,PZ
+Unwise Child,PS
+Indirection,PS
+The Yacht Club; or, The Young Boat-Builder,PZ
+Comical People,PZ
+The Eagle Cliff,PZ
+Look! We Have Come Through!,PR
+The Last Place on Earth,PS
+Attention Saint Patrick,PS
+The Perfect Gentleman,PS
+The Castaways,PZ
+Adventures in Many Lands,PZ
+...Or Your Money Back,PS
+Songs of Childhood,PR,PZ
+Anchorite,PS
+General Max Shorter,PS
+Adventures in Africa
+By an African Trader,PZ
+The Big Fix,PS
+The Leader,PS
+Ride Proud, Rebel!,PZ
+The Magic Pudding,PZ
+A Matter of Importance,PS
+The Forsaken Inn: A Novel,PS
+Marjorie Dean, High School Freshman,PZ
+That Sweet Little Old Lady,PS
+The Book of Dragons,PZ
+A Martian Odyssey,PS
+The Bramble Bush,PS
+Eliza,PR
+At the Little Brown House,PZ
+The Ultimate Weapon,PS
+At Fault,PS
+The Seed of the Toc-Toc Birds,PS
+Talents, Incorporated,PS
+A Little Union Scout,PS,PZ
+The Professional Approach,PS
+No Man's Land,PR
+Gold in the Sky,PS
+The Fifth Ace,PS
+Old Valentines
+A Love Story,PS
+Charley de Milo,PS
+The Melting-Pot,PR
+Kiddie the Scout,PR
+The Short Life,PS
+Revolution,PS
+The Best of the World's Classics, Restricted to Prose, Vol. VI (of X)—Great Britain and Ireland IV,PN
+But, I Don't Think,PS
+The Telegraph Boy,PZ
+A Christmas Carol,PR
+The New Girl at St. Chad's: A Story of School Life,PZ
+The Pirates of Ersatz,PS
+The Little Lame Prince
+Rewritten for Young Readers by Margaret Waters,PZ
+Dead Giveaway,PS
+Damned If You Don't,PS
+Earl Hubert's Daughter
+The Polishing of the Pearl - A Tale of the 13th Century,PZ
+The Five Jars,PR
+Despoilers of the Golden Empire,PS
+The Story of Red Feather: A Tale of the American Frontier,PS
+The Aliens,PS
+Make Mine Homogenized,PS
+Pushbutton War,PS
+Xingu
+1916,PS
+Autres Temps...
+1916,PS
+The Ambulance Made Two Trips,PS
+The Basket of Flowers,PT,PZ
+The Destroyers,PS
+Alarm Clock,PS
+Victory,PS
+The Tinted Venus: A Farcical Romance,PR
+A Spaceship Named McGuire,PS
+The Eye of Osiris,PR
+One Man's Initiation—1917,PS
+Four Young Explorers; Or, Sight-Seeing in the Tropics,PZ
+'Oh, Well, You Know How Women Are!',PS
+A Hundred Anecdotes of Animals,PZ
+The Desert Home: The Adventures of a Lost Family in the Wilderness,PZ
+The Native Soil,PS
+Card Trick,PS
+Endymion: A Poetic Romance,PR
+Down the River; Or, Buck Bradford and His Tyrants,PZ
+The Birds' Christmas Carol,PZ
+The Man from the Bitter Roots,PS
+The Highest Treason,PS
+Once a Week,PR
+Elementary Guide to Literary Criticism,PN
+Kerfol
+1916,PS
+The Triumph Of Night
+1916,PS
+Wired Love
+A Romance of Dots and Dashes,PS
+Mercenary,PS
+Wizard,PS
+Shock Absorber,PS
+Vigorish,PS
+Cat and Mouse,PS
+The Winds of Time,PS
+Hex,PS
+Princess Zara,PS
+Anything You Can Do ...,PS
+Out Like a Light,PS
+Bones
+Being Further Adventures in Mr. Commissioner Sanders' Country,PR
+Across the Spanish Main: A Tale of the Sea in the Days of Queen Bess,PR,PZ
+The Lost Princess of Oz,PS,PZ
+The Green Carnation,PR
+In the Mist of the Mountains,PR
+The Unnecessary Man,PS
+On the Tree Top,PZ
+In the Wilds of Florida: A Tale of Warfare and Hunting,PZ
+Watch the Sky,PS
+The Jingle Book,PZ
+Blind Man's Lantern,PS
+Mary Louise Solves a Mystery,PZ
+Cobb's Bill-of-Fare,PS
+The Tale of Jimmy Rabbit
+Sleepy-TimeTales,PZ
+Harry's Ladder to Learning,PZ
+A harum-scarum schoolgirl,PZ
+Tinker's Dam,PS
+Lilith
+The Legend of the First Woman,PS
+The Martyr of the Catacombs
+A Tale of Ancient Rome,PS,BV
+By Proxy,PS
+Operation Haystack,PS
+Final Weapon,PS
+The Children of Odin: The Book of Northern Myths,PZ,BL
+Adaptation,PS
+The Eyes of the Woods: A Story of the Ancient Wilderness,PZ
+The Rivals: A Comedy,PR
+Jack O' Judgment,PR
+The Opal Serpent,PR
+A Prisoner of Morro; Or, In the Hands of the Enemy,PS
+Sara Crewe; Or, What Happened at Miss Minchin's,PS,PZ
+Up the River; or, Yachting on the Mississippi,PZ
+The National Nursery Book
+With 120 illustrations,PZ
+Millennium,PS
+The Forest Exiles: The Perils of a Peruvian Family in the Wilds of the Amazon,PR
+Diamond Dyke
+The Lone Farm on the Veldt - Story of South African Adventure,PR
+Hildegarde's Holiday: A Story for Girls,PZ
+Margaret Montfort,PS,PZ
+Odysseus, the Hero of Ithaca
+Adapted from the Third Book of the Primary Schools of Athens, Greece,PZ
+The Story of Wool,PZ,SF
+Samuel Richardson's Introduction to Pamela,PR
+The Great Potlatch Riots,PS
+The Stars, My Brothers,PS
+The Wreck of the Titan
+or, Futility,PS
+The Monster,PS
+It's like this, cat,PZ
+The Green Rust,PR
+The Man Who Knew,PR
+Finnish Legends for English Children,PH,PZ
+Comedies of Courtship,PR
+An Old Man's Love,PR
+The Nicest Girl in the School: A Story of School Life,PZ
+The House of Souls,PR
+A Son of the Immortals,PR
+The Biography of a Grizzly,PZ
+The Night of the Long Knives,PS
+The Story of Silk,PZ,TS
+Davy and The Goblin
+What Followed Reading 'Alice's Adventures in Wonderland',PZ
+The Happy Unfortunate,PS
+War and the Weird,D501,PR
+Space Platform,PS
+The Penal Cluster,PS
+The Planet Strappers,PS
+Nobody's Boy
+Sans Famille,PQ,PZ
+Baboo Jabberjee, B.A.,PR
+A Patriotic Schoolgirl,PZ
+The Candy Country,PZ
+What The Left Hand Was Doing,PS
+The Uncalled
+A Novel,PS
+Cum Grano Salis,PS
+Pharaoh's Broker
+Being the Very Remarkable Experiences in Another World of Isidor Werner,PR
+The Adventures of Danny Meadow Mouse,PZ
+Memoirs Of Fanny Hill
+A New and Genuine Edition from the Original Text (London, 1749),PR
+The Scarlet Letter,PS
+The Herapath Property,PR
+The Innocents: A Story for Lovers,PS
+The Airlords of Han,PS
+Looking Backward: 2000-1887,PS
+An Undivided Union,PZ
+The Young Castellan: A Tale of the English Civil War,PR
+The Sleeping Beauty,PZ
+The Kangaroo Marines,PR
+Princess Polly At Play,PZ
+Bo-Peep Story Books,PZ
+Blackbeard: Buccaneer,PZ,PS
+The Job: An American Novel,PS
+Peck's Bad Boy and His Pa
+1883,PZ,PS
+New Treasure Seekers; Or, The Bastable Children in Search of a Fortune,PZ
+The Crown of Success,PZ
+The Adventures of Danny Meadow Mouse,PZ
+Songs of a Sourdough,PR
+The Sundering Flood,PR
+The Defiant Agents,PS
+The Water-Babies: A Fairy Tale for a Land-Baby,PZ
+Impact,PS
+Rinkitink in Oz,PZ
+Shakespeare, Ben Jonson, Beaumont and Fletcher,PR
+The Art or Crafte of Rhetoryke,PN
+Barbarians,PS
+A World Called Crimson,PS
+The Kingdom Round the Corner: A Novel,PS
+The Judas Valley,PS
+Vagabondia
+1884,PS
+Desert Conquest; or, Precious Waters,PS
+Ambush: A Terran Empire vignette,PS
+Radio Boys Loyalty; Or, Bill Brown Listens In,PZ
+Picture and Text
+1893,PS
+The Dragon's Secret,PZ
+This Crowded Earth,PS
+'Drag' Harlan,PS
+The Fire People,PS
+Emily Brontë,PR
+The Keepers of the King's Peace,PR
+The Story of Leather,PZ
+Patty's Friends,PZ
+The Chamber of Life,PS
+The Search,PS
+A World of Girls: The Story of a School,PZ
+The House with the Green Shutters,PR
+Miss Mapp,PR
+English as She is Wrote
+Showing Curious Ways in which the English Language may be made to Convey Ideas or obscure them.,PN
+Europa's Fairy Book,PZ
+Puck of Pook's Hill,PR,PZ
+Grey Town
+An Australian Story,PR
+Aunt Jo's Scrap-Bag,PZ
+The Gold Girl,PS
+A Coin of Edward VII: A Detective Story,PR
+The Memory of Mars,PS
+Hebrew Heroes: A Tale Founded on Jewish History,BS,PR,BM
+Happy Days,PR
+Revolutionist's Handbook and Pocket Companion,PR
+Hail to the Chief,PS
+Five Little Peppers at School,PZ
+The Proverbs of Scotland,PN
+Child-Land
+Picture-Pages for the Little Ones,PZ
+The Machine That Saved The World,PS
+The Secret House,PR
+Citadel,PS
+The Nursery Rhyme Book,PN
+Next Door, Next World,PS
+How to Cook Husbands,PS
+The Mistress of Shenstone,PR
+The Clansman: An Historical Romance of the Ku Klux Klan,PS
+The Witch of Salem; or, Credulity Run Mad,PS
+The Star Hyacinths,PS
+The Merry-Go-Round,ML,PN
+Ravensdene Court,PR
+Lisbeth Longfrock,PZ
+A Humorous History of England,PR,NC
+Fil and Filippa: Story of Child Life in the Philippines,PZ,G
+The Strange Case of Mortimer Fenley,PR
+Vera; Or, The Nihilists,PR
+The Iron Pirate: A Plain Tale of Strange Happenings on the Sea,PR
+The Fighting Edge,PS
+The Windy Hill,PS,PZ
+Anna the Adventuress,PR
+The Road to Oz,PZ
+The Rose-Garden Husband,PS
+The Submarine Hunters: A Story of the Naval Patrol Work in the Great War,PZ
+Wilmshurst of the Frontier Force,PZ
+Terribly Intimate Portraits,PR
+Peter and Wendy,PZ,PR
+Privy Seal: His Last Venture,PR
+Studies in love and in terror,PR
+Victorian Songs: Lyrics of the Affections and Nature,PR
+Free Air,PS
+The Picture of Dorian Gray,PR
+A Question of Courage,PS
+It Could Be Anything,PS
+Modern British Poetry,PR
+Get Out of Our Skies!,PS
+The Blue Germ,PR
+Vice Versa; or, A Lesson to Fathers,PR
+The Temple of Nature; or, the Origin of Society
+A Poem, with Philosophical Notes,PR
+Howard Pyle's Book of Pirates
+Fiction, Fact & Fancy Concerning the Buccaneers & Marooners of the Spanish Main,PS
+Omega, the Man,PS
+The Rat Racket,PS
+The Jameson Satellite,PS
+Zehru of Xollar,PS
+Visions and Revisions
+A Book of Literary Devotions,PN
+The Gallery,PS
+Wanted—7 Fearless Engineers!,PS
+A Place in the Sun,PS
+The Old Tobacco Shop
+A True Account of What Befell a Little Boy in Search of Adventure,PZ
+B. C. 30,000,PS
+Peter Pan in Kensington Gardens,PR,PZ
+Peter Pan in Kensington Gardens,PZ,PR
+Hellhounds of the Cosmos,PS
+My Shipmate—Columbus,PS
+The Hero,PR
+G. K. Chesterton, A Critical Study,PR
+The Risk Profession,PS
+'All's Well!',PR
+Lyrics from the Song-Books of the Elizabethan Age,PR
+The Cavern of the Shining Ones,PS
+Historic Boys: Their Endeavours, Their Achievements, and Their Times,PZ,CT
+A Little Country Girl,PZ
+Seven and Nine years Among the Camanches and Apaches: An Autobiography,PS
+Captain Jim,PZ
+The Wonder,PR
+Negro Folk Rhymes
+Wise and Otherwise: With a Study,PS
+The Explorer,PR
+The Raid on the Termites,PS
+The Young Adventurer; or, Tom's Trip Across the Plains,PS,PZ
+The Last American
+A Fragment from The Journal of Khan-li, Prince of Dimph-Yoo-Chur and Admiral in the Persian Navy,PS
+Shapes that Haunt the Dusk,PS
+Medal of Honor,PS
+The Fifth Queen Crowned,PR
+Desert Dust,PS
+Starman's Quest,PS
+The Orchard of Tears,PR
+The Last Evolution,PS
+Unthinkable,PS
+The Watchers of the Plains: A Tale of the Western Prairies,PR
+Bones in London,PR
+The Seven Secrets,PR
+Aunt Jo's Scrap-Bag VI
+An Old-Fashioned Thanksgiving, Etc.,PZ
+Hilaire Belloc, the Man and His Work,PR
+Eight Keys to Eden,PS
+Anthony Lyveden,PR
+Nobody's Girl
+(En Famille),PQ,PZ
+A Fine Fix,PS
+Tolstoy on Shakespeare: A Critical Essay on Shakespeare,PR
+Hamlet, Prince of Denmark,PR
+Dramatic Reader for Lower Grades,PZ
+The Battaile of Agincourt,PR
+Once on a Time,PR
+Treasure Island,PZ,PR
+The Wind in the Willows,PZ,PR
+The Olive Fairy Book,PZ
+The Seven Seas,PR
+Wild Animals at Home,QL,PS
+The Magic World,PZ
+The Strange Adventures of Mr. Middleton,PS
+The Love of Frank Nineteen,PS
+David and the Phoenix,PZ
+Mugby Junction,PR
+The Chestermarke Instinct,PR
+The Blue Bird for Children
+The Wonderful Adventures of Tyltyl and Mytyl in Search of Happiness,PZ
+The New Tenant,PR
+Dwellers in Arcady: The Story of an Abandoned Farm,PS
+Alice in Blunderland: An Iridescent Dream,PS
+The Red Triangle
+Being Some Further Chronicles of Martin Hewitt, Investigator,PR
+Malcolm Sage, Detective,PR
+The Double Four,PR
+The Great Sioux Trail: A Story of Mountain and Plain,PZ,PS
+The Great Gray Plague,PS
+The Big Bow Mystery,PR
+Moods,PS
+Empire,PS
+Anderson Crow, Detective,PS
+The Gay Rebellion,PS
+Venus in Boston: A Romance of City Life,PS
+The Lady of the Lake,PR
+The Tale of Jolly Robin,PZ
+The New Hudson Shakespeare: Julius Cæsar,PR
+Hushed Up! A Mystery of London,PR
+Deathworld,PS
+The Astronomy of Milton's 'Paradise Lost',PR
+A Modern Cinderella,PS,PZ
+The Weakling,PS
+Forbidden Fruit
+Luscious and exciting story and More forbidden fruit or
+Master Percy's progress in and beyond the domestic circle,PR
+The Power of Mesmerism
+A Highly Erotic Narrative of Voluptuous Facts and Fancies,PR
+Laura Middleton; Her Brother and her Lover,PR
+A Bookful of Girls,PS
+Twinkle and Chubbins
+Their Astonishing Adventures in Nature-Fairyland,PZ
+Devil Crystals of Arret,PS
+Hymen,PS
+Red Men and White,PS
+The Only True Mother Goose Melodies
+Without Addition or Abridgement,PZ
+The Crystal Crypt,PS
+Robin Hood,PZ
+The God in the Box,PS
+Harding's luck,PZ
+The Madcap of the School,PZ
+The Defenders,PS
+Oswald Bastable and Others,PZ,PR
+The Electronic Mind Reader: A Rick Brant Science-Adventure Story,PZ
+The Sargasso of Space,PS
+Smugglers' Reef: A Rick Brant Science-Adventure Story,PZ
+The Leader of the Lower School: A Tale of School Life,PZ
+The Copper-Clad World,PS
+Alice's Adventures in Wonderland
+Illustrated by Arthur Rackham. With a Proem by Austin Dobson,PR,PZ
+All That Matters,PS
+The Manor House School,PZ
+In the Orbit of Saturn,PS
+A Tangled Tale,PZ,PR,QA
+The Heads of Apex,PS
+Raiders Invisible,PS
+The World Beyond,PS
+The Einstein See-Saw,PS
+Poisoned Air,PS
+A Bride of the Plains,PR
+The Terror from the Depths,PS
+With the Night Mail: A Story of 2000 A.D.
+(Together with extracts from the comtemporary magazine in which it appeared),PR
+Equation of Doom,PS
+The Pygmy Planet,PS
+The Great Dome on Mercury,PS
+The Hammer of Thor,PS
+Monday or Tuesday,PR
+The Prince of Parthia
+A Tragedy,PS
+The Contrast,PS
+The Indian Princess
+La Belle Sauvage,PS
+The Book of Khalid,PS
+Salvage in Space,PS
+Priestess of the Flame,PS
+The Bluff of the Hawk,PS
+Pirates of the Gorm,PS
+The Death-Traps of FX-31,PS
+The Affair of the Brains,PS
+Australia Revenged,PR
+Vulcan's Workshop,PS
+When the Sleepers Woke,PS
+The Great Drought,PS
+Mountain Interval,PS
+Vampires of Space,PS
+Disowned,PS
+Raiders of the Universes,PS
+The Solar Magnet,PS
+The Gods of Mars,PS
+The Country Beyond: A Romance of the Wilderness,PS
+Wanderer of Infinity,PS
+The End of Time,PS
+The Mind Master,PS
+The Man the Martians Made,PS
+Nature,PS
+The Martian Cabal,PS
+Pariah Planet,PS
+Invasion,PS
+Lords of the Stratosphere,PS
+The Story of Don Quixote,PZ,PQ
+The Velvet Glove,PS
+Under Arctic Ice,PS
+We're Friends, Now,PS
+Whispering Smith,PS
+Watchbird,PS
+The Space Rover,PS
+The Finding of Haldgren,PS
+Philo Gubb, Correspondence-School Detective,PS
+Zero Data,PS
+The Gorgeous Girl,PS
+The Planetoid of Peril,PS
+A Yankee Flier Over Berlin,PZ,PS
+The Life and Amours of the Beautiful, Gay and Dashing Kate Percival
+The Belle of the Delaware,PS
+The Rambles of a Rat,PZ
+Clarissa: Preface, Hints of Prefaces, and Postscript,PR
+Two Thousand Miles Below,PS
+Slaves of Mercury,PS
+Sjambak,PS
+My Father's Dragon,PZ
+Gone Fishing,PS
+The True-Born Englishman
+A Satire,PR
+The Fifth Queen: And How She Came to Court,PR
+A Critic in Pall Mall: Being Extracts from Reviews and Miscellanies,PR
+The Red Hell of Jupiter,PS
+Six Centuries of English Poetry: Tennyson to Chaucer,PR
+Prologue to an Analogue,PS
+The Skull,PS
+The Man Who Played to Lose,PS
+That Mother-in-Law of Mine,PS
+Tom and Maggie Tulliver,PZ
+Some Imagist Poets: An Anthology,PR
+The Passing of Ku Sui,PS
+Psichopath,PS
+Hawk Carse,PS
+Hanging by a Thread,PS
+Modus Vivendi,PS
+The Helpful Hand of God,PS
+The Pathless Trail,PS
+The Earthly Paradise: A Poem (Part II),PR
+Daddy's Girl,PZ
+Ultima Thule,PS
+Fifty Per Cent Prophet,PS
+Freedom,PS
+Status Quo,PS
+A Christmas Carol
+The original manuscript,PR
+The Flying Stingaree: A Rick Brant Science-Adventure Story,PZ
+The Fifth-Dimension Tube,PS
+English as she is spoke; or, a jest in sober earnest,PN
+The Lost Kafoozalum,PR
+Calumet 'K',PS
+Occasion for Disaster,PS
+Novice,PS
+Lion Loose,PS
+The Foreign Hand Tie,PS
+The Royal Book of Oz
+In which the Scarecrow goes to search for his family tree and discovers that he is the Long Lost Emperor of the Silver Island,PZ
+Little Meg's Children,PZ
+The Asses of Balaam,PS
+A Guide to Men: Being Encore Reflections of a Bachelor Girl,PS
+Border, Breed Nor Birth,PS
+Mystery at Geneva: An Improbable Tale of Singular Happenings,PR
+The Tale of Old Dog Spot,PZ
+The Trouble with Telstar,PS
+The Brass Bottle,PR
+Combat,PS
+The Hound of Heaven,PR
+Anything You Can Do!,PS
+Exit Betty,PS
+Ham Sandwich,PS
+The Right Time,PS
+The Song of Hiawatha: An Epic Poem,PS
+The Dueling Machine,PS
+The Moving Finger,PR
+The Hate Disease,PS
+A World by the Tale,PS
+The Barbarians,PS
+Nor Iron Bars a Cage....,PS
+The Eyes Have It,PS
+Seven Keys to Baldpate,PS
+The Tin Woodman of Oz
+A Faithful Story of the Astonishing Adventure Undertaken
+by the Tin Woodman, assisted by Woot the Wanderer, the
+Scarecrow of Oz, and Polychrome, the Rainbow's Daughter,PZ
+The Come Back,PS
+Thin Edge,PS
+Two Little Women,PZ
+The Boarded-Up House,PZ
+The People of the Crater,PS
+An Apology for the Life of Mrs. Shamela Andrews,PR
+A Knyght Ther Was,PS
+The Ethical Engineer,PS
+Miss Cayley's Adventures,PR
+Industrial Revolution,PS
+An Introduction to Shakespeare,PR
+Ivory, Apes and Peacocks,PS
+The Cartels Jungle,PS
+Bear Trap,PS
+Facing Death; Or, The Hero of the Vaughan Pit: A Tale of the Coal Mines,PZ
+The So-called Human Race,PS
+Where the World is Quiet,PS
+A World Apart,PS
+Pot-Boilers,PR
+Rastignac the Devil,PS
+Quality Street: A Comedy,PR
+Let 'Em Breathe Space!,PS
+Orientations,PR
+The Invaders,PS
+The Man Who Staked the Stars,PS
+The Shunned House,PS
+Cynthia's Chauffeur,PR
+The Life of Nancy,PS
+The Wailing Octopus: A Rick Brant Science-Adventure Story,PZ
+The Sensitive Man,PS
+Mary Magdalen: A Chronicle,PS
+A Monk of Cruta,PR
+Youth,PS
+The Mighty Dead,PS
+The Scarlet Lake Mystery: A Rick Brant Science-Adventure Story,PZ
+The Venus Trap,PS
+The Amazing Mrs. Mimms,PS
+Pursuit,PS
+The Blue Ghost Mystery: A Rick Brant Science-Adventure Story,PZ
+Cato: A Tragedy, in Five Acts,PR
+The Egyptian Cat Mystery: A Rick Brant Science-Adventure Story,PZ
+The Planet Savers,PS
+The Silent Barrier,PR
+Helpfully Yours,PS
+The Instant of Now,PS
+Conquest Over Time,PS
+The Six Fingers of Time,PS
+Once a Greech,PS
+Life of John Keats,PR
+Collector's Item,PS
+Reflections of a Bachelor Girl,PS
+Noble Redman,PS
+My Lady of the Chimney Corner,PS
+Si Klegg, Book 2
+Thru the Stone River Campaign and in Winter Quarters at Murfreesboro,PS
+Si Klegg, Book 4
+Experiences of Si and Shorty on the Great Tullahoma Campaign,PS
+The Draw,PS
+Student Body,PS
+Strangers and Wayfarers,PS
+The Story of Hiawatha, Adapted from Longfellow,PS
+Big Pill,PS
+The Bartlett Mystery,PR
+The Tunnel Under The World,PS
+The Knights of Arthur,PS
+A Feast of Demons,PS
+Special Delivery,PS
+Forget Me Nearly,PS
+The World That Couldn't Be,PS
+Seed of the Arctic Ice,PS
+Second Variety,PS
+Eureka: A Prose Poem,PS
+The Flaming Mountain: A Rick Brant Science-Adventure Story,PZ
+The Lay of Havelok the Dane,PR
+Happy House,PZ,PS
+Stamped Caution,PS
+The Pirates of Shan: A Rick Brant Science-Adventure Story,PZ
+Atom Drive,PS
+World of the Drone,PS
+Letters from a Cat
+Published by Her Mistress for the Benefit of All Cats and the Amusement of Little Children,PZ
+Instant of Decision,PS
+The Patchwork Girl of Oz,PZ
+The Adventures of Puss in Boots, Jr.,PZ
+The Ego Machine,PS
+Eleven Possible Cases,PS
+To Choke an Ocean,PS
+The Variable Man,PS
+Tangle Hold,PS
+Susanna and Sue,PS
+Do Unto Others,PS
+The Irish Fairy Book,PZ,GR
+The Star Lord,PS
+Assignment's End,PS
+The Brownies: Their Book,PZ
+The Flower Princess,PZ
+The Wind Among the Reeds,PR
+Assassin,PS
+A Wonder Book for Girls & Boys,PZ,BL
+The Big Time,PS
+The Caves of Fear: A Rick Brant Science-Adventure Story,PZ
+The Golden Skull: A Rick Brant Science-Adventure Story,PZ
+Insidekick,PS
+The History and Records of the Elephant Club,PN
+Adventures of Bindle,PR
+A Yankee Flier in Italy,PZ
+The Destroying Angel,PS
+The World with a Thousand Moons,PS
+The Book,PS
+Sam, This is You,PS
+Methods of Authors,PN
+Dave Dawson at Casablanca,PZ
+Brink of Madness,PS
+Voyage To Eternity,PS
+Sinister Paradise,PS
+Black Man's Burden,PS
+Brood of the Dark Moon
+(A Sequel to "Dark Moon"),PS
+Human Error,PS
+The Nursery Rhymes of England,PN
+A Yankee Flier with the R.A.F.,PZ
+Category Phoenix,PS
+The Doctor, his Wife, and the Clock,PS
+Dave Dawson at Dunkirk,PZ
+The Thing in the Attic,PS
+Warrior of the Dawn,PS
+A Supplication for the Beggars,PR
+The Wouldbegoods,PZ
+Isle of the Undead,PS
+The Legion of Lazarus,PS
+The Wild Swans at Coole,PR
+The Brain,PS
+The Golden Age,PR
+Pledged to the Dead,PS
+The Adventures of a Cat, and a Fine Cat Too!,PZ
+Hildegarde's Harvest,PZ
+Mr. Spaceship,PS
+A Fourth Form Friendship: A School Story,PZ
+Armageddon—2419 A.D.,PS
+Dave Dawson on Guadalcanal,PZ
+"And That's How It Was, Officer",PS
+The Lost Warship,PS
+Twelve Times Zero,PS
+The Head Girl at the Gables,PZ
+The Ambassador,PS
+Accidental Flight,PS
+The Three Mulla-mulgars,PZ
+The Middle Years,PS
+Adolescents Only,PS
+Spillthrough,PS
+Black Amazon of Mars,PS
+The Test Colony,PS
+The Colonists,PS
+Planet of the Gods,PS
+Deadly City,PS
+Triplanetary,PS
+The Heart of a Woman,PR
+Jacob's Ladder,PR
+The Unlearned,PS
+The Revival of Irish Literature
+Addresses by Sir Charles Gavan Duffy, K.C.M.G, Dr. George Sigerson, and Dr. Douglas Hyde,PR
+Mate in Two Moves,PS
+Red Nails,PS
+Rewards and Fairies,PR
+Asteroid of Fear,PS
+Three Thousand Dollars,PS
+The Impossible Voyage Home,PS
+World Beyond Pluto,PS
+Daughter of the Night,PS
+Think Yourself to Death,PS
+Backlash,PS
+Piper in the Woods,PS
+A Woman's Place,PS
+Check and Checkmate,PS
+The Door into Infinity,PS
+The Tree of Life,PS
+In the Cards,PS
+Ideas of Good and Evil,PR
+The Handbook of Conundrums,PN
+The Huddlers,PS
+Mask of Death,PS
+Thy Name Is Woman,PS
+A Question of Marriage,PR
+The Young Colonists: A Story of the Zulu and Boer Wars,PZ
+Quest of the Golden Ape,PS
+The Black Arrow: A Tale of the Two Roses,PR
+The Youngest Girl in the School,PZ
+The Marvelous Exploits of Paul Bunyan
+As Told in the Camps of the White Pine Lumbermen for Generations During Which Time the Loggers Have Pioneered the Way Through the North Woods from Maine to California; Collected from Various Sources and Embellished for Publication,PS
+The Ten-foot Chain; or, Can Love Survive the Shackles? A Unique Symposium,PS
+Man and Maid,PR
+The Garden of Eden,PS
+My First Book:
+the experiences of Walter Besant, James Payn, W. Clark Russell, Grant Allen, Hall Caine, George R. Sims, Rudyard Kipling, A. Conan Doyle, M.E. Braddon, F.W. Robinson, H. Rider Haggard, R.M. Ballantyne, I. Zangwill, Morley Roberts, David Christie Murray, Marie Corelli, Jerome K. Jerome, John Strange Winter, Bret Harte, "Q.", Robert Buchanan, Robert Louis Stevenson, with an introduction by Jerome K. Jerome.,PN
+Young's Night Thoughts
+With Life, Critical Dissertation and Explanatory Notes,PR
+The Book of This and That,PR
+The Perfume of Eros: A Fifth Avenue Incident,PS
+Bindle: Some Chapters in the Life of Joseph Bindle,PR
+The Riddle of the Spinning Wheel,PS
+Spies of the Kaiser: Plotting the Downfall of England,PR
+Lost Man's Lane: A Second Episode in the Life of Amelia Butterworth,PS
+Through the Postern Gate: A Romance in Seven Days,PR
+The Spoils of Poynton,PS
+Worrying Won't Win,PS
+Reveries over Childhood and Youth,PR
+Patricia Brent, Spinster,PR
+The Fortunes of Philippa: A School Story,PZ
+Bosom Friends: A Seaside Story,PZ
+Bill Nye's Cordwood,PS
+Mr. Munchausen 
+Being a True Account of Some of the Recent Adventures beyond the Styx of the Late Hieronymus Carl Friedrich, Sometime Baron Munchausen of Bodenwerder,PS
+A Traitor's Wooing,PR
+The Social Gangster,PS
+The Forge in the Forest
+Being the Narrative of the Acadian Ranger, Jean de Mer, Seigneur de Briart; and How He Crossed the Black Abbé; and of His Adventures in a Strange Fellowship,PS
+The Guns of Europe,PS,PZ
+The Furnace,PR
+Valeria, the Martyr of the Catacombs: A Tale of Early Christian Life in Rome,PS
+The Trembling of the Veil,PR
+The Missioner,PR
+Bill the Minder,PZ
+Last Words,PS
+Rhyme? And Reason?,PR
+The Inventions of the Idiot,PS
+Earth Alert!,PS
+The Secret of the Ninth Planet,PS
+The Man Who Couldn't Sleep,PS
+The Year When Stardust Fell,PZ,PS
+The King of the Golden River; or, the Black Brothers: A Legend of Stiria.,PZ
+Oscar Wilde, Art and Morality: A Defence of "The Picture of Dorian Gray",PR
+X Y Z: A Detective Story,PS
+Pamela Censured,PR
+Making Money,PS
+The Adventures of Elizabeth in Rügen,PR
+The School by the Sea,PZ
+The Jolliest Term on Record: A Story of School Life,PZ
+The Wonderful Visit,PR
+Not Quite Eighteen,PZ
+Miscellaneous Aphorisms; The Soul of Man,PR,HX
+The Window at the White Cat,PS
+The Trail of Conflict,PS
+The Great Mogul,PR
+A Book-Lover's Holidays in the Open,PS
+Irene Iddesleigh,PR
+Shadowings,PS
+The Enchanted Castle,PZ
+A Mysterious Disappearance,PR
+Literature in the Making, by Some of Its Makers,PN
+The Princess and the Goblin,PZ
+Hans Brinker; Or, The Silver Skates,PZ
+Ghost Beyond the Gate,PZ
+The Clock Strikes Thirteen,PZ
+The Love Letters of Mary Wollstonecraft to Gilbert Imlay,PR
+Just William,PZ
+The Enchanted Barn,PS
+The Voodoo Gold Trail,PS
+Red Hunters and the Animal People,PZ
+A Little Book of Christmas,PS
+Rescue Dog of the High Pass,PZ
+The Blue Jar Story Book,PZ
+Draw Swords! In the Horse Artillery,PZ
+The Hole in the Wall,PR
+Danger at the Drawbridge,PZ
+Clue of the Silken Ladder,PZ
+Behind the Green Door,PZ
+The Little Girl Who Was Taught by Experience,PZ
+Some Experiences of an Irish R.M.,PR
+The Secret Pact,PZ
+The Wishing Well,PZ
+Max Carrados,PR
+The Sick-a-Bed Lady
+And Also Hickory Dock, The Very Tired Girl, The Happy-Day, Something That Happened in October, The Amateur Lover, Heart of The City, The Pink Sash, Woman's Only Business,PS
+Guilt of the Brass Thieves,PZ
+Moonshine & Clover,PZ
+East of Suez: A Play in Seven Scenes,PR
+Silver Pitchers: and Independence, a Centennial Love Story,PS
+Among the Meadow People,PZ
+The Golden Web,PR
+Boon, The Mind of the Race, The Wild Asses of the Devil, and The Last Trump;
+Being a First Selection from the Literary Remains of George Boon, Appropriate to the Times,PR
+Among the Forest People,PZ
+Whispering Walls,PZ
+Among the Pond People,PZ
+Among the Night People,PZ
+Mr. Punch's Railway Book,PN
+The Negro in Literature and Art in the United States,E151,PS
+In the Mountains,PR
+His Unknown Wife,PR
+Saboteurs on the River,PZ
+Swamp Island,PZ
+The Invisible Censor,PS
+The Road to Understanding,PS
+Lord Tony's Wife: An Adventure of the Scarlet Pimpernel,PR
+Far Off Things,PR
+Gullible's Travels, Etc.,PS
+The Secret Battle,PR
+The Crooked Stick; Or, Pollie's Probation,PR
+Ben Pepper,PZ
+A Round Dozen,PZ
+Dream Days,PR
+The Fire Bird,PS
+Sense of Obligation,PS
+That Affair at Elizabeth,PS
+The Genial Idiot: His Views and Reviews,PS
+The Last Stroke: A Detective Story,PS
+The Spanish Tragedy,PR
+The Dreamers: A Club,PS
+The Amethyst Box,PS
+The Mad Planet,PS
+The Green Forest Fairy Book,PZ
+Swamp Cat,PZ
+Miss Maitland, Private Secretary,PS
+Anna of the Five Towns,PR
+The Three Impostors; or, The Transmutations,PR
+The Haunted Room: A Tale,PR
+Sanders of the River,PR
+The Great Return,PR
+Three Philosophical Poets: Lucretius, Dante, and Goethe,PN
+The Terror: A Mystery,PR
+The Prophet of the Great Smoky Mountains,PS
+The Secret Glory,PR
+Mississippi Outlaws and the Detectives
+Don Pedro and the Detectives; Poisoner and the Detectives,PS,HV
+Alice in Wonderland
+A Dramatization of Lewis Carroll's "Alice's Adventures in Wonderland" and "Through the Looking Glass",PZ,PS
+The Late Tenant,PR
+The Spanish Cavalier: A Story of Seville,PR
+The Wound Dresser
+A Series of Letters Written from the Hospitals in Washington during the War of the Rebellion,PS,E456
+Seeing Things at Night,PS
+Non-combatants and Others,PR
+The Black Star: A Detective Story,PS
+The Sea Lady,PR
+For the School Colours,PZ
+Browning and the Dramatic Monologue,PR
+The Story of Lewis Carroll
+Told for Young People by the Real Alice in Wonderland,PR
+The Jungle Book,PR
+My Treasure,PZ
+The Blue Rose Fairy Book,PR,PZ
+Oscar Wilde, a Critical Study,PR
+At Boarding School with the Tucker Twins,PZ
+Life of Robert Burns,PR
+Literary Byways,PN
+A Fortunate Term,PZ
+Turns about Town,PS
+On Guard: Mark Mallory's Celebration,PZ
+Curious Myths of the Middle Ages,PN,GR
+Men, Women and Guns,PR
+The Letters of Ambrose Bierce, With a Memoir by George Sterling,PS
+A History of Literary Criticism in the Renaissance
+With special reference to the influence of Italy in the formation and development of modern classicism,PN
+The Slayer of Souls,PS
+The Tobacco Tiller: A Tale of the Kentucky Tobacco Fields,PS
+The Water-Babies,PZ
+The Secret of Lonesome Cove,PS
+The Turn of the Tide: The Story of How Margaret Solved Her Problem,PS
+The Pictorial Press: Its Origin and Progress,PN,NC
+The Disturbing Charm,PR
+The Red Year: A Story of the Indian Mutiny,PR
+The Happy Hypocrite: A Fairy Tale for Tired Men,PR
+The Dispatch-Riders: The Adventures of Two British Motor-cyclists in the Great War,PZ
+Eight Harvard Poets,PS,PN
+The Roycroft Dictionary, Concocted by Ali Baba and the Bunch on Rainy Days.,PS
+The Princess and Curdie,PZ
+Inkle and Yarico: An opera, in three acts,PR,ML
+A Key to Lord Tennyson's 'In Memoriam',PR
+Women Novelists of Queen Victoria's Reign: A Book of Appreciations,PR
+Verse and Worse,PR
+A Bayard From Bengal
+Being some account of the Magnificent and Spanking Career of Chunder Bindabun Bhosh,...,PR
+Yekl: A Tale of the New York Ghetto,PS
+Cynthia Wakeham's Money,PS
+Sun and Saddle Leather,PS
+Humorous Readings and Recitations, in Prose and Verse,PN
+A Book About the Theater,PN
+The Real Man,PS
+A Child of the Jago,PR
+The Recruiting Officer,PR
+Carolyn of the Corners,PS
+Cedric, the Forester,PZ
+The Zankiwank and The Bletherwitch: An Original Fantastic Fairy Extravaganza,PZ
+Ireland in the Days of Dean Swift (Irish Tracts, 1720 to 1734),PR
+The Girls of St. Cyprian's: A Tale of School Life,PZ
+Mr. Punch at the Seaside,PN
+Woodcraft; Or, How a Patrol Leader Made Good,PZ
+In a Glass Darkly, v. 1/3,PR
+In a Glass Darkly, v. 2/3,PR
+In a Glass Darkly, v. 3/3,PR
+The Return of the Soldier,PR
+The Swedish Fairy Book,PZ
+The Ranchman,PS
+The City of Numbered Days,PS
+Susan Clegg and Her Love Affairs,PS
+A Little Princess: Being the whole story of Sara Crewe now told for the first time,PZ
+The Crime Doctor,PR
+The Old-Fashioned Fairy Book,PZ
+The Second Jungle Book,PR
+The Life and Death of Doctor Faustus Made into a Farce,PR
+Views and Reviews,PR
+Pride and Prejudice, a play founded on Jane Austen's novel,PR
+Comet's Burial,PS
+Some Imagist Poets, 1916: An Annual Anthology,PR
+Taking Chances,PS
+The Tangled Skein,PR
+Gammer Gurton's Needle,PR
+The Scottish Fairy Book,GR,PZ
+Cupid in Africa,PR
+The Fairies and the Christmas Child,PZ
+The Cricket on the Hearth: A Fairy Tale of Home,PR
+The Nameless Island: A Story of some Modern Robinson Crusoes,PZ
+Sentiment, Inc.,PS
+Of All Things,PS
+Three Hours after Marriage,PR
+Dawn of the Morning,PS
+Atlantic Classics,PS
+The Story of Magellan and The Discovery of the Philippines,PZ
+Chronicles of Martin Hewitt,PR
+The Wireless Officer,PZ
+A Book of Irish Verse
+Selected from modern writers, with an introduction and notes by W. B. Yeats,PR
+Leaves in the Wind,PR
+Mr. Punch in the Highlands,PN
+The Girl Crusoes: A Story of the South Seas,PZ
+The Adventures of Chatterer the Red Squirrel,PZ
+Plays: Lady Frederick, The Explorer, A Man of Honour,PR
+Cæsar's Wife: A Comedy in Three Acts,PR
+Dot and Tot of Merryland,PZ
+May Flowers,PZ
+The King of Pirates
+Being an Account of the Famous Enterprises of Captain Avery, the Mock King of Madagascar,PR
+The Diamond Fairy Book,PZ
+The Heatherford Fortune
+a sequel to the Magic Cameo,PS
+Reynard the Fox,PR
+The Coo-ee Reciter: Humorous, Pathetic, Dramatic, Dialect, Recitations & Readings,PR,PS
+The Norwegian Fairy Book,PZ
+Mr. Punch on the Warpath: Humours of the Army, the Navy and the Reserve Forces,PN
+A Master of Deception,PR
+Amusement Only,PR
+Hopalong Cassidy,PS
+Atlantic Classics, Second Series,PS
+Fairies I Have Met,PZ
+Elsie's Widowhood
+A Sequel to Elsie's Children,PZ
+In Pastures New,PS
+The Croxley Master: A Great Tale Of The Prize Ring,PR
+The Crux: A Novel,PS
+The Big Book of Nursery Rhymes,PZ
+Eight Cousins; Or, The Aunt-Hill,PZ
+When a Cobbler Ruled the King,PZ,PS
+Mr. Punch's Cockney Humour,PN
+The Monk and the Hangman's Daughter,PS
+A Terrible Tomboy,PZ
+The Affair at the Semiramis Hotel,PR
+The Black Moth: A Romance of the XVIIIth Century,PR
+Carry On! A Story of the Fight for Bagdad,PZ
+A Prairie Courtship,PR
+A Vindication of Natural Diet.,TX,PR
+Lad: A Dog,PZ
+The Rogues and Vagabonds of Shakespeare's Youth
+Awdeley's 'Fraternitye of vacabondes' and Harman's 'Caveat',DA,PR
+How to Write a Novel: A Practical Guide to the Art of Fiction,PN
+Out of a Labyrinth,PS
+The Chase of the Golden Plate,PS
+Mr. Marx's Secret,PR
+The Dorrance Domain,PZ
+Unicorns,PS
+The Making of a Saint,PR
+Sky Island
+Being the Further Exciting Adventures of Trot and Cap'n Bill After Their Visit to the Sea Fairies,PZ
+The Mardi Gras Mystery,PS
+The Conquest: The Story of a Negro Pioneer,PS
+The Portland Sketch Book,PS
+Dictionary of English Proverbs and Proverbial Phrases
+With a Copious Index of Principal Words,PN
+Mortal Coils,PR
+Submarine U93,PR,PZ
+The Airship "Golden Hind",PZ
+With Beatty off Jutland: A Romance of the Great Sea Fight,PZ
+A Captain of Industry: Being the Story of a Civilized Man,PS
+West Of The Sun,PS
+The Radio Detectives,PZ
+Princess Mary's Gift Book
+All profits on sale given to the Queen's "Work for Women" Fund which is acting in Conjunction with The National Relief Fund,PN
+An Alphabet of History,PS
+A Commonplace Book of Thoughts, Memories, and Fancies.
+2nd ed.,PR
+The Idiot at Home,PS
+Mother West Wind's Animal Friends,PZ
+Mr. Punch's Life in London,PN
+Nathaniel Hawthorne,PS
+The Girl Who Had Nothing,PR
+To Your Dog and to My Dog,PN
+The Story of Peter Pan, Retold from the fairy play by Sir James Barrie,PZ
+Brownies and Bogles,PZ
+Beau Brocade: A Romance,PR
+His Majesty's Well-Beloved
+An Episode in the Life of Mr. Thomas Betteron as told by His Friend John Honeywood,PR
+Fighting with French: A Tale of the New Army,PZ
+Thalaba the Destroyer,PR
+The Conduct of Life,PS
+Victorian Literature: Sixty Years of Books and Bookmen,PR
+Glinda of Oz
+In which are Related the Exciting Experiences of Princess Ozma of Oz, and Dorothy, in their Hazardous Journey...,PZ
+Jewel Mysteries, from a Dealer's Note Book,PR
+The Girl Next Door,PZ
+The Slipper Point Mystery,PZ
+'Farewell, Nikola',PR
+Ashton-Kirk, Secret Agent,PS
+Prairie Gold,PS
+The Missing Formula
+Madge Sterling Series, #1,PZ
+The Lone Ranger Rides,PZ,PS
+The Secret of the Sundial
+Madge Sterling Series, #3,PZ
+Hieroglyphics,PN
+Folly as It Flies; Hit at by Fanny Fern,PS
+The Sex Life of the Gods,PS
+Mr. Punch Afloat: The Humours of Boating and Sailing,PN
+King Alfred's Old English Version of St. Augustine's Soliloquies
+Turned into Modern English,PR
+The Datchet Diamonds,PR
+Confessions of a Young Lady: Her Doings and Misdoings,PR
+The Air Pirate,PR
+The Blue Raider: A Tale of Adventure in the Southern Seas,PZ
+Wandering Ghosts,PS
+Dickens and His Illustrators
+Cruikshank, Seymour, Buss, "Phiz," Cattermole, Leech, Doyle, Stanfield, Maclise, Tenniel, Frank Stone, Landseer, Palmer, Topham, Marcus Stone, and Luke Fildes
+2nd. Ed.,PR
+Daddy Long-Legs: A Comedy in Four Acts,PS
+In the Saddle,PZ
+The Place of Dragons: A Mystery,PR
+The King of Diamonds: A Tale of Mystery and Adventure,PR
+Ginger-Snaps,PS
+The Root of All Evil,PR
+The Following of the Star: A Romance,PR
+Who Goes There!,PS
+Dan Carter and the Cub Honor,PZ
+The Battle of Life. A Love Story,PR
+The Old Man of the Mountain,PZ
+Ossian in Germany
+Bibliography, General Survey, Ossian's Influence upon Klopstock and the Bards,PR
+Ruth Hall: A Domestic Tale of the Present Time,PS
+Instigations
+Together with An Essay on the Chinese Written Character,PN
+The Rival Submarines,PZ
+The Affair at the Inn,PS
+The Pillar of Light,PR
+The Wreck of the Red Bird: A Story of the Carolina Coast,PZ
+The Dreamer of Dreams,PR
+The Butterfly Kiss,PS
+The Martian,PS
+Spacewrecked on Venus,PS
+An Eye for an Eye,PR
+A Rose of Yesterday,PS
+The Revolt of the Star Men,PS
+The Moon Destroyers,PS
+The Onslaught from Rigel,PS
+The Final Figure,PS
+The Chapter Ends,PS
+The Metal Moon,PS
+The King's Threshold; and On Baile's Strand,PR
+Rose in Bloom
+A Sequel to 'Eight Cousins',PZ
+The Bomb-Makers
+Being Some Curious Records Concerning the Craft and Cunning of Theodore Drost, an Enemy Alien in London, Together with Certain Revelations Regarding His Daughter Ella,PR
+Personae,PS
+The Great Airship: A Tale of Adventure.,PZ
+Sant of the Secret Service: Some Revelations of Spies and Spying,PR
+The Life and Beauties of Fanny Fern,PS
+The Incredible Honeymoon,PR
+The Heart of Princess Osra,PR
+Frankenstein; Or, The Modern Prometheus,PR
+The Lady in the Car,PR
+The Gay Triangle: The Romance of the First Air Adventurers,PR
+The Bond of Black,PR
+The Emerald City of Oz,PZ
+Quips and Quiddities: A Quintessence of Quirks, Quaint, Quizzical, and Quotable,PN
+Dave Dawson with the R.A.F.,PZ
+Dave Dawson on the Russian Front,PZ
+Dave Dawson at Truk,PZ
+Meg of Mystery Mountain,PZ
+The Hyborian Age,PS
+Queen of the Black Coast,PS
+Shadows in the Moonlight,PS
+Shadows in Zamboula,PS
+The Devil in Iron,PS
+A Witch Shall Be Born,PS
+Jewels of Gwahlur,PS
+The Hour of the Dragon,PS
+Dave Dawson with the Commandos,PZ
+Beyond the Black River,PS
+The People of the Black Circle,PS
+Frankenstein; Or, The Modern Prometheus,PR
+Mr. Punch's Book of Love: Being the Humours of Courtship and Matrimony,PN
+Salomé: A Tragedy in One Act,PR
+Bizarre,PS
+The Riddle of the Mysterious Light,PS
+Mildred Keith,PZ
+Frank Forester: A Story of the Dardanelles,PZ
+In the Hands of the Cave-Dwellers,PZ
+Chaucer for Children: A Golden Key,PZ,PR
+Dodo: A Detail of the Day. Volumes 1 and 2,PR
+Captured at Tripoli: A Tale of Adventure,PZ
+Sir Gawain and the Lady of Lys,PN
+The Mystery of the Downs,PR
+The Boy Aviators with the Air Raiders: A Story of the Great World War,PZ
+Mildred at Roselands
+A Sequel to Mildred Keith,PZ
+The Principles of Language-Study,P
+Nancy Dale, Army Nurse,PZ
+Oliver Twist, Vol. 1 (of 3),PR
+Oliver Twist, Vol. 2 (of 3),PR
+Oliver Twist, Vol. 3 (of 3),PR
+Aurora Floyd, Vol. 1 (of 3)
+Fifth Edition,PR
+The Rocket: The Story of the Stephensons, Father and Son,PZ
+Billie Bradley and the School Mystery; Or, The Girl From Oklahoma,PZ
+My Uncle Florimond,PZ
