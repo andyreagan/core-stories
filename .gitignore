@@ -2,3 +2,6 @@ pyvenv/
 pyvenv
 pyenv/
 pyenv
+
+.ipynb_checkpoints
+__pycache__
