@@ -48,7 +48,7 @@ def get_maintext_lines_gutenberg(raw_text):
     end3="END OF PROJECT GUTENBERG"
     for j,line in enumerate(lines):
         if (start1 in line) or (start2 in line):
-            # and "***" in line and start_book[i] == 0 and j<.25*len(lines): 
+            # and "***" in line and start_book[i] == 0 and j<.25*len(lines):
             start_book_i = j
         end_in_line = end1 in line or end2 in line or end3 in line.upper()
         if end_in_line and (end_book_i == (len(lines)-1)):
@@ -170,7 +170,7 @@ class Book_raw_data(object):
     Initialize with an instrance of the database like this:
     b = Book.objects.all()[0]
     b_data = Book_raw_data(b)
-    
+
     Store all of the word lists, etc, in one place.'''
 
     def load_all_combined(self):
@@ -228,13 +228,13 @@ class Book_raw_data(object):
             self.make_salad_text()
         else:
             print("method",method,"not implemented")
-    
+
     def load_all_chapters(self):
         """Load data from text files in a folder.
-        
+
         Will load just the .txt files"""
         folder = join("/Users/andyreagan/projects/2014/09-books/",self.this_Book.expanded_folder_path)
-        
+
         # self.files = listdir(join("data/Kindle-combined-txt",str(isbn)))
         # no reason to get too complicated here
         self.txtfiles = [x for x in listdir(folder) if ".txt" in x]
@@ -279,17 +279,17 @@ class Book_raw_data(object):
         # print(bins)
         # newvec = [binn(bins,v) for v in t]
         # print(newvec)
-        
+
         # normalize starting point to 0
         tmpb = [binn(bins,v) for v in t]
         # return tmpb
         return [x-tmpb[0] for x in tmpb]
-        
+
     def chop(self,my_senti_dict,min_size=1000,stop_val=0.0): #,save=False,outfile=""):
         """Take long piece of text and generate the sentiment time series.
 
         use save parameter to write timeseries to a file."""
-        
+
         # print("splitting the book into chunks of minimum size {}".format(min_size))
         # lots o redundancy
         # self.all_words = " ".join(self.rawtext_by_chapter)
@@ -331,7 +331,7 @@ class Book_raw_data(object):
             self.timeseries.append(dot(my_senti_dict.scorelist,stoppedVec)/sum(stoppedVec))
             self.all_fvecs = csr_matrix(self.all_fvecs)
         return self.timeseries
-    
+
     def chopper_sliding(self,my_senti_dict,min_size=10000,num_points=100,stop_val=0.0,use_cache=False,randomize=False,random_method="markov"):
         """Take long piece of text and generate the sentiment time series.
         We will now slide the window along, rather than make uniform pieces.
@@ -387,7 +387,7 @@ class Book_raw_data(object):
             # print("there are "+str(len(self.all_word_list))+" words in the book")
             # print("step size "+str(step))
             self.centers = [i*step+(min_size)/2 for i in range(num_points)]
-            
+
             def build_matrix(num_points,word_list,step,min_size,my_senti_dict):
                 '''Build the matrix of overlapping word vectors.'''
                 # disregard the existing matrix, it might not be the right size
@@ -397,7 +397,7 @@ class Book_raw_data(object):
                 i = num_points-1
                 all_fvecs[i,:] = my_senti_dict.wordVecify(dictify(word_list[(i*step):]))
                 return all_fvecs
-            
+
             self.all_fvecs = build_matrix(num_points,word_list,step,min_size,my_senti_dict).tocsr()
             # since the cache file didn't exist...
             # if use_cache and (not isfile(cache_file)):
@@ -409,18 +409,18 @@ class Book_raw_data(object):
                 else:
                     f.write(pickle.dumps(self.all_fvecs,pickle.HIGHEST_PROTOCOL))
                 f.close()
-                
+
         # all_fvecs_stopped = stopper_mat(self.all_fvecs,my_senti_dict.scorelist,my_senti_dict.wordlist,stopVal=stop_val)
         # initialize self.timeseries, only thing we're really after
         self.timeseries = [0 for i in range(num_points)]
-        
+
         # # randomize it!!
         # # print(self.all_word_list[:10])
         # if randomize:
         #     use_cache = False
         #     random.shuffle(self.all_word_list)
         #     # print(self.all_word_list[:10])
-        # if randomize: 
+        # if randomize:
        #     self.all_word_list = self.random_word_list
 
         # could probably vectorize this...
@@ -442,21 +442,21 @@ class Book_raw_data(object):
         self.timeseries = None
         self.centers = None
         self.this_Book = dbref
-        
+
         # if self.Book.expanded_folder_path:
         #     self.load_all_chapters()
         # elif self.Book.txt_file_path:
         #     self.load_all_combined()
-            
+
         # print(str(self))
-        
+
         # will need to handle the metadata more generally...
         # f = open(join("data/Kindle-combined-txt",str(isbn),"meta.json"),"r")
         # self.metadata = loads(f.read())
         # f.close()
         # # print("this is the metadata:")
         # # print(self.metadata)
-        
+
     def __str__(self):
         if len(self.this_Book.title) > 0:
             return "Book_raw_data "+self.this_Book.title
@@ -474,7 +474,7 @@ class Book_raw_data(object):
         pickle.dump(self,open(self.this_Book.pickle_object,"wb"),pickle.HIGHEST_PROTOCOL)
 
 def save_book_raw_data(book_raw_data_obj):
-    
+
     if use_compression:
         f = open(join("/Users/andyreagan/projects/2014/09-books/data/cache",str(book_raw_data_obj.this_Book.pk)+".p.lz4"),"wb")
         f.write(lz4.compress(pickle.dumps(book_raw_data_obj,pickle.HIGHEST_PROTOCOL)))
@@ -483,7 +483,7 @@ def save_book_raw_data(book_raw_data_obj):
         f = open(join("/Users/andyreagan/projects/2014/09-books/data/cache",str(book_raw_data_obj.this_Book.pk)+".p"),"wb")
         f.write(pickle.dumps(book_raw_data_obj,pickle.HIGHEST_PROTOCOL))
         f.close()
-        
+
 def cache_check(b):
     return False
     if use_compression:
@@ -551,6 +551,3 @@ def get_data(q,version,filters,use_cache=True):
     if use_cache:
         pickle.dump(big_matrix,open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/timeseries-matrix-cache-{}.p".format(version),"wb"),pickle.HIGHEST_PROTOCOL)
     return big_matrix
-
-
-
