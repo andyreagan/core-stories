@@ -5,3 +5,7 @@ pyenv
 
 .ipynb_checkpoints
 __pycache__
+data/
+media/
+NOTES.markdown
+database.zip
