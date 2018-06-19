@@ -1,5 +1,7 @@
 # core-stories
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/andyreagan/core-stories/master)
+
 ## here lie all the notebooks for the analysis of emotional arcs within the Project Gutenberg corpus, see [The emotional arcs of stories are dominated by six basic shapes](https://arxiv.org/abs/1606.07772)
 
 
