@@ -1,0 +1,12 @@
+matplotlib
+spacy
+django
+labMTsimple
+kitchentable
+tqdm
+numpy
+sklearn
+scipy
+rdflib
+hashlib
+lz4
