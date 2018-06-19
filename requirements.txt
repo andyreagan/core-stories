@@ -1,8 +1,9 @@
 matplotlib
 spacy
 django
-labMTsimple
-kitchentable
+# labMTsimple
+-e git+ssh://git@github.com/andyreagan/labMT-simple.git#egg=labMTsimple
+# kitchentable
 tqdm
 numpy
 sklearn
