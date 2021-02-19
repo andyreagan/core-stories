@@ -1,6 +1,6 @@
 all: experiment control
 experiment:
-	pyvenv/bin/python src/hierarchical_clusting/hierarchical-clusting-004.py 40 false
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 false
 	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 false
 	pyvenv/bin/python src/SOM/SOM-002.py 40 false
 control:
