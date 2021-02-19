@@ -1,0 +1,36 @@
+all: experiment control
+experiment:
+	pyvenv/bin/python src/hierarchical_clusting/hierarchical-clusting-004.py 40 false
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 false
+	pyvenv/bin/python src/SOM/SOM-002.py 40 false
+control:
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-1"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-1"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-1"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-2"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-2"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-2"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-3"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-3"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-3"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-4"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-4"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-4"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-5"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-5"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-5"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-6"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-6"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-6"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-7"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-7"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-7"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-8"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-8"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-8"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-9"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-9"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-9"
+	pyvenv/bin/python src/PCA_SVD/PCA-SVD-006.py 40 true "-10"
+	pyvenv/bin/python src/hierarchical_clustering/hierarchical-clusting-004.py 40 true "-10"
+	pyvenv/bin/python src/SOM/SOM-002.py 40 true "-10"
