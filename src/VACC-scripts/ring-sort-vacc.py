@@ -114,10 +114,13 @@ if __name__ == "__main__":
         try:
             allDistancesCentered = pickle.load(open("data/gutenberg/pairwise-distance-mean0-matrix-cache.p","rb"))
         except:
+            print("pickle failed, looking for csv")
             if isfile("data/gutenberg/pairwise-distance-mean0-matrix-cache.csv"):
                 # this saves it as a csv, for transport
                 # np.savetxt("data/gutenberg/pairwise-distance-mean0-matrix-cache.csv",allDistancesCentered,delimiter=",",fmt="%.18e")
-                allDistancesCentered = np.genfromtxt("data/gutenberg/pairwise-distance-mean0-matrix-cache.csv")
+                allDistancesCentered = np.genfromtxt("data/gutenberg/pairwise-distance-mean0-matrix-cache.csv",delimiter=",")
+                print("csv loaded")
+                print(allDistancesCentered.shape)
             else:
                 raise("pickle failed, csv missing: rerun the notebook to generate the distance matrix csv")
     else:

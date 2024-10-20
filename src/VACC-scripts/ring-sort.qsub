@@ -1,0 +1,9 @@
+#PBS -l walltime=30:00:00
+# Name of job.
+#PBS -N sortGutenberg
+# Join STDERR TO STDOUT.  (omit this if you want separate STDOUT AND STDERR)
+#PBS -j oe
+
+cd /users/a/r/areagan/work/2014/09-books
+. pyvenv/bin/activate
+python ring-sort-vacc.py optimize ${ITER} vacc-${I}

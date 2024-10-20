@@ -1,0 +1,3 @@
+number	title	author	language
+10001	Apocolocyntosis	Lucius Seneca	English
+10002	The House on the Borderland	William Hope Hodgson	English
