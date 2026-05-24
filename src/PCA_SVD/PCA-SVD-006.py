@@ -3,43 +3,40 @@ from os.path import isfile, join, isdir
 from json import loads
 from re import findall,UNICODE
 import sys
+import os
 from sys import argv
-sys.path.append("/Users/andyreagan/tools/python")
+
+# --- path fixes: add src/ so kitchentable and bookclass_standalone are importable ---
+_this_dir = os.path.dirname(os.path.abspath(__file__))
+_src_dir = os.path.dirname(_this_dir)
+if _src_dir not in sys.path:
+    sys.path.insert(0, _src_dir)
+
 from kitchentable.dogtoys import *
-from labMTsimple.labMTsimple.speedy import LabMT
-my_LabMT = LabMT()
-from labMTsimple.labMTsimple.storyLab import *
+try:
+    from labMTsimple.labMTsimple.speedy import LabMT
+    my_LabMT = LabMT()
+    from labMTsimple.labMTsimple.storyLab import *
+except Exception:
+    my_LabMT = None
+
 import numpy as np
 import pickle
 
-import os
-sys.path.append('/Users/andyreagan/projects/2014/09-books/database')
-os.environ.setdefault('DJANGO_SETTINGS_MODULE','gutenbergdb.settings')
-import django
-django.setup()
-
-from library.models import *
-from bookclass import *
+# --- use standalone bookclass (no Django, no spacy) ---
+from bookclass_standalone import Book, get_books, get_version_str, get_data
 
 from tqdm import tqdm
 
 
 # In[2]:
 
-# all our essentials
+# all our essentials -- use non-LaTeX backend for headless/portable rendering
+import matplotlib
+matplotlib.use("Agg")
 from matplotlib import rc,rcParams
-rc('font', family='sans-serif') 
-rc('font', serif='Helvetica Neue')
-rc('text', usetex='false')
 
-rc('font', family='serif')
-rc('font', family='cmr10')
-rc('text', usetex='true')
-# this should accomplish the same thing
-rcParams['text.usetex'] = True
-rcParams['text.latex.preamble'] = r'\usepackage{hyperref}'
-rcParams['text.latex.unicode'] = True
-
+# Note: usetex=True requires a working LaTeX installation; disabled here
 rcParams.update({'font.size': 12})
 import matplotlib.pyplot as plt
 
@@ -67,9 +64,9 @@ if len(argv)==4:
     version_str+=argv[3]
 print(version_str)
 
-this_dir = join("../media/figures/SVD",version_str)
-if not isdir(this_dir):
-    mkdir(this_dir)
+_repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+this_dir = join(_repo_root, "output", "figures", "SVD", version_str)
+os.makedirs(this_dir, exist_ok=True)
 
 f = open(join(this_dir,"emotional-arcs.nbooks.tex"),"w")
 f.write("\\newcommand{{\\nbooks}}{{{0:,}}}".format(len(q)))
@@ -213,11 +210,11 @@ for i in range(12):
         
 fig.text((1.-xoffset)/2.+xoffset,yoffset/2.,"Percentage of book",verticalalignment='center', horizontalalignment='center',fontsize=15) #,horizontalalign="center")    
 # plt.subplot(4,3,2)
-# fig.text(0,(1.-yoffset)/2.+yoffset,r"Mode space $h_{\textnormal{avg}}$",verticalalignment='center', horizontalalignment='center',fontsize=15,rotation=90) #,horizontalalign="center"
+# fig.text(0,(1.-yoffset)/2.+yoffset,r"Mode space $h_{\mathrm{avg}}$",verticalalignment='center', horizontalalignment='center',fontsize=15,rotation=90) #,horizontalalign="center"
 # fig.text(1.05,(1.-yoffset)/2.+yoffset,r"Within-book normalized mode coefficients",verticalalignment='center', horizontalalignment='center',fontsize=15,rotation=-90) #,horizontalalign="center"
 # fig.text(0.02,(1.-yoffset)/2.+yoffset,r"""Mode
 # space
-# $h_{\textnormal{avg}}$""",verticalalignment='center', horizontalalignment="right",fontsize=15,rotation=0) #,horizontalalign="center"
+# $h_{\mathrm{avg}}$""",verticalalignment='center', horizontalalignment="right",fontsize=15,rotation=0) #,horizontalalign="center"
 fig.text(0.02,(1.-yoffset)/2.+yoffset,r"""Right
 singular
 vectors
@@ -290,7 +287,7 @@ for k in range(1,13):
     if m != 0:
         ax.set_yticklabels([])
     else:
-        ax.set_ylabel(r"Mode space $h_{\textnormal{avg}}$",fontsize=14)
+        ax.set_ylabel(r"Mode space $h_{\mathrm{avg}}$",fontsize=14)
     if n != (n_y-1):
         # print("no xlabel")
         ax.set_xticklabels([])
@@ -762,16 +759,16 @@ def plot_svs(svstart,v=True,fix_ylim=0.0,xspacing=.01,keys=["top_pos_norm","top_
             # new_ticks[new_ticks.index(0.0)] = "Happs"
             new_ticks[new_ticks.index(0.0)] = r"""Mode-
 space
-$h_{\textnormal{avg}}$"""
+$h_{\mathrm{avg}}$"""
             
             # ax1.set_yticklabels(new_ticks)
             # ax2.set_yticklabels(new_ticks)
             ax1.set_ylabel(r"""Mode-
 space
-$h_{\textnormal{avg}}$""",rotation=0)
+$h_{\mathrm{avg}}$""",rotation=0)
             ax2.set_ylabel(r"""Mode-
 space
-$h_{\textnormal{avg}}$""",rotation=0)
+$h_{\mathrm{avg}}$""",rotation=0)
             
             
     # mysavefig('SV{0}.svg'.format('4-6'))
@@ -1000,16 +997,16 @@ def plot_svs_links(svstart,v=True,fix_ylim=0.0,xspacing=.01,keys=["top_pos_norm"
             # new_ticks[new_ticks.index(0.0)] = "Happs"
             new_ticks[new_ticks.index(0.0)] = r"""Mode-
 space
-$h_{\textnormal{avg}}$"""
+$h_{\mathrm{avg}}$"""
             
             # ax1.set_yticklabels(new_ticks)
             # ax2.set_yticklabels(new_ticks)
             ax1.set_ylabel(r"""Mode-
 space
-$h_{\textnormal{avg}}$""",rotation=0)
+$h_{\mathrm{avg}}$""",rotation=0)
             ax2.set_ylabel(r"""Mode-
 space
-$h_{\textnormal{avg}}$""",rotation=0)
+$h_{\mathrm{avg}}$""",rotation=0)
             
             
     # mysavefig('SV{0}.svg'.format('4-6'))

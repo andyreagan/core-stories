@@ -3,38 +3,38 @@ from os.path import isfile, join, isdir
 from json import loads
 from re import findall,UNICODE
 import sys
+import os
 from sys import argv
-sys.path.append("/Users/andyreagan/tools/python")
+
+# --- path fixes: add src/ so kitchentable and bookclass_standalone are importable ---
+_this_dir = os.path.dirname(os.path.abspath(__file__))
+_src_dir = os.path.dirname(_this_dir)
+if _src_dir not in sys.path:
+    sys.path.insert(0, _src_dir)
+
 from kitchentable.dogtoys import *
-from labMTsimple.labMTsimple.speedy import LabMT
-my_LabMT = LabMT()
-from labMTsimple.labMTsimple.storyLab import *
+try:
+    from labMTsimple.labMTsimple.speedy import LabMT
+    my_LabMT = LabMT()
+    from labMTsimple.labMTsimple.storyLab import *
+except Exception:
+    my_LabMT = None
+
 import numpy as np
 import pickle
 
-import os
-sys.path.append('/Users/andyreagan/projects/2014/09-books/database')
-os.environ.setdefault('DJANGO_SETTINGS_MODULE','gutenbergdb.settings')
-import django
-django.setup()
-
-from library.models import *
-from bookclass import *
+# --- use standalone bookclass (no Django, no spacy) ---
+from bookclass_standalone import Book, get_books, get_version_str, get_data
 
 from tqdm import tqdm,trange
 
 
 # In[2]:
 
-# all our essentials
+# all our essentials -- use non-LaTeX backend for headless/portable rendering
+import matplotlib
+matplotlib.use("Agg")
 from matplotlib import rc,rcParams
-# rc('font', family='sans-serif') 
-# rc('font', serif='Helvetica Neue')
-# rc('text', usetex='false') 
-
-# rc('font', family='serif')
-# rc('font', family='cmr10')
-# rc('text', usetex='true') 
 
 rcParams.update({'font.size': 12})
 import matplotlib.pyplot as plt
@@ -62,10 +62,10 @@ version_str = get_version_str(filters)
 if len(argv)==4:
     version_str+=argv[3]
 
-this_dir = join("/Users/andyreagan/projects/2014/09-books/media/figures/clustering",version_str)
+_repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+this_dir = join(_repo_root, "output", "figures", "clustering", version_str)
+os.makedirs(this_dir, exist_ok=True)
 print(version_str)
-if not isdir(this_dir):
-    mkdir(this_dir)
 big_matrix = get_data(q,version_str,filters,use_cache=True)
 big_matrix_mean0 = big_matrix-np.tile(big_matrix.mean(axis=1),(200,1)).transpose()
 big_matrix_start0 = big_matrix-np.tile(big_matrix[:,0],(200,1)).transpose()
@@ -103,9 +103,10 @@ if True:
 
 # In[6]:
 
-pickle.dump(allDistances,open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-matrix-cache-{}.p".format(version_str),"wb"),pickle.HIGHEST_PROTOCOL)
-pickle.dump(allDistancesCentered,open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-mean0-matrix-cache-{}.p".format(version_str),"wb"),pickle.HIGHEST_PROTOCOL)
-pickle.dump(allDistancesStart,open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-start0-matrix-cache-{}.p".format(version_str),"wb"),pickle.HIGHEST_PROTOCOL)
+_gutenberg_data_dir = join(_repo_root, "data", "gutenberg")
+pickle.dump(allDistances,open(join(_gutenberg_data_dir,"pairwise-distance-matrix-cache-{}.p".format(version_str)),"wb"),pickle.HIGHEST_PROTOCOL)
+pickle.dump(allDistancesCentered,open(join(_gutenberg_data_dir,"pairwise-distance-mean0-matrix-cache-{}.p".format(version_str)),"wb"),pickle.HIGHEST_PROTOCOL)
+pickle.dump(allDistancesStart,open(join(_gutenberg_data_dir,"pairwise-distance-start0-matrix-cache-{}.p".format(version_str)),"wb"),pickle.HIGHEST_PROTOCOL)
 
 
 # In[7]:
@@ -244,8 +245,13 @@ sil_x = np.linspace(fit[-1,2]-10,10,100)
 print(sil_x)
 sil_vals = np.zeros(len(sil_x))
 for i in trange(len(sil_x)):
-    # print(j)
-    sil_vals[i] = metrics.silhouette_score(allDistancesCentered, get_cluster_indices3(fit,sil_x[i]), metric='euclidean')  
+    labels = get_cluster_indices3(fit,sil_x[i])
+    n_labels = len(np.unique(labels))
+    n_samples = allDistancesCentered.shape[0]
+    if n_labels < 2 or n_labels >= n_samples:
+        sil_vals[i] = np.nan
+    else:
+        sil_vals[i] = metrics.silhouette_score(allDistancesCentered, labels, metric='euclidean')
 # y = [metrics.silhouette_score(allDistancesCentered, get_cluster_indices3(fit,i), metric='euclidean') for i in x]
 
 def get_cluster_indices2(model,threshold=70000):

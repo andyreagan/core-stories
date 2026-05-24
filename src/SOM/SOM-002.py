@@ -3,38 +3,41 @@ from os.path import isfile, join, isdir
 from json import loads
 from re import findall,UNICODE
 import sys
+import os
 from sys import argv
-sys.path.append("/Users/andyreagan/tools/python")
+
+# --- path fixes: add src/ so kitchentable and bookclass_standalone are importable ---
+_this_dir = os.path.dirname(os.path.abspath(__file__))
+_src_dir = os.path.dirname(_this_dir)
+if _src_dir not in sys.path:
+    sys.path.insert(0, _src_dir)
+
 from kitchentable.dogtoys import *
-from labMTsimple.labMTsimple.speedy import LabMT
-my_LabMT = LabMT()
-from labMTsimple.labMTsimple.storyLab import *
+# labMTsimple is on PyPI; the nested-package import below is needed for 2.x installs
+try:
+    from labMTsimple.labMTsimple.speedy import LabMT
+    my_LabMT = LabMT()
+    from labMTsimple.labMTsimple.storyLab import *
+except Exception:
+    # labMTsimple is not strictly needed for the SOM computation;
+    # get_data() loads the pre-built matrix so LabMT is never called at runtime.
+    my_LabMT = None
+
 import numpy as np
 import pickle
 
-import os
-sys.path.append('/Users/andyreagan/projects/2014/09-books/database')
-os.environ.setdefault('DJANGO_SETTINGS_MODULE','gutenbergdb.settings')
-import django
-django.setup()
-
-from library.models import *
-from bookclass import *
+# --- use standalone bookclass (no Django, no spacy) ---
+from bookclass_standalone import Book, get_books, get_version_str, get_data
 
 from tqdm import tqdm
 
 
 # In[2]:
 
-# all our essentials
+# all our essentials -- use non-LaTeX backend for headless/portable rendering
+import matplotlib
+matplotlib.use("Agg")
 from matplotlib import rc,rcParams
-# rc('font', family='sans-serif') 
-# rc('font', serif='Helvetica Neue')
-# rc('text', usetex='false') 
-
-rc('font', family='serif')
-rc('font', family='cmr10')
-rc('text', usetex='false') 
 
 rcParams.update({'font.size': 12})
 import matplotlib.pyplot as plt
@@ -51,9 +54,9 @@ version_str = get_version_str(filters)
 if len(argv)==4:
     version_str+=argv[3]
 
-this_dir = join("/Users/andyreagan/projects/2014/09-books/media/figures/SOM",version_str)
-if not isdir(this_dir):
-    mkdir(this_dir)
+_repo_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+this_dir = join(_repo_root, "output", "figures", "SOM", version_str)
+os.makedirs(this_dir, exist_ok=True)
 big_matrix = get_data(q,version_str,filters,use_cache=True)
 big_matrix_mean0 = big_matrix-np.tile(big_matrix.mean(axis=1),(200,1)).transpose()
 big_matrix_start0 = big_matrix-np.tile(big_matrix[:,0],(200,1)).transpose()
@@ -444,10 +447,32 @@ def plot_clusters(clusters,data,cluster_centers,cluster_id,v=True,fix_ylim=True,
 # allDistancesCentered = pickle.load(open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-mean0-matrix-cache.p","rb"))
 # allDistancesStart = pickle.load(open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-start0-matrix-cache.p","rb"))
 
-if isfile("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-matrix-cache-{}.p".format(version_str)):
-    allDistances = pickle.load(open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-matrix-cache-{}.p".format(version_str),"rb"))
-    allDistancesCentered = pickle.load(open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-mean0-matrix-cache-{}.p".format(version_str),"rb"))
-    allDistancesStart = pickle.load(open("/Users/andyreagan/projects/2014/09-books/data/gutenberg/pairwise-distance-start0-matrix-cache-{}.p".format(version_str),"rb"))
+_gutenberg_data_dir = join(_repo_root, "data", "gutenberg")
+_dist_cache = join(_gutenberg_data_dir, "pairwise-distance-matrix-cache-{}.p".format(version_str))
+_dist_mean0_cache = join(_gutenberg_data_dir, "pairwise-distance-mean0-matrix-cache-{}.p".format(version_str))
+_dist_start0_cache = join(_gutenberg_data_dir, "pairwise-distance-start0-matrix-cache-{}.p".format(version_str))
+if isfile(_dist_cache):
+    allDistances = pickle.load(open(_dist_cache,"rb"))
+    allDistancesCentered = pickle.load(open(_dist_mean0_cache,"rb"))
+    allDistancesStart = pickle.load(open(_dist_start0_cache,"rb"))
+else:
+    # Compute pairwise distances on the fly (city-block on centered matrix)
+    def _cityblock_matrix(mat):
+        n = mat.shape[0]
+        D = np.zeros((n, n))
+        for i in range(n):
+            for j in range(i, n):
+                d = np.sum(np.abs(mat[i] - mat[j]))
+                D[i, j] = d
+                D[j, i] = d
+        return D
+    print("Computing pairwise distance matrices (this may take a few minutes)...")
+    allDistances = _cityblock_matrix(big_matrix)
+    allDistancesCentered = _cityblock_matrix(big_matrix_mean0)
+    allDistancesStart = _cityblock_matrix(big_matrix_start0)
+    pickle.dump(allDistances, open(_dist_cache, "wb"), pickle.HIGHEST_PROTOCOL)
+    pickle.dump(allDistancesCentered, open(_dist_mean0_cache, "wb"), pickle.HIGHEST_PROTOCOL)
+    pickle.dump(allDistancesStart, open(_dist_start0_cache, "wb"), pickle.HIGHEST_PROTOCOL)
 print("allDistances.shape:",allDistances.shape)
 
 def cityBlock(a,b):

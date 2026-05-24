@@ -2,10 +2,21 @@ pyvenv/
 pyvenv
 pyenv/
 pyenv
+.venv/
 
 .ipynb_checkpoints
-__pycache__
+__pycache__/
+*.pyc
+
+# Raw + derived data — see README "Reproducing from raw data"
 data/
+
 media/
 NOTES.markdown
 database.zip
+
+# Generated figures + tables
+output/figures/
+
+# pdfcrop scratch files
+tmp-pdfcrop-*
