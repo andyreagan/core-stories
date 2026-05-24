@@ -145,4 +145,4 @@ Downloads 5 books from gutenberg.org, runs them through `build_csvs.py` + `build
 
 - The original code targeted Python 2 + Django + spacy. This version is Python ≥3.11, no Django, no spacy — the per-book word counts are already pre-computed in the CSVs, so re-tokenization isn't needed.
 - `pdftile.pl` (used by SOM at the end to combine PDFs) is missing; the `subprocess.call` line fails silently and the individual PDFs are otherwise complete.
-- Original paper / contact: [@andyreagan](https://twitter.com/andyreagan).
+- Questions, bugs, or suggestions: please [open an issue](https://github.com/andyreagan/core-stories/issues) on this repo.
