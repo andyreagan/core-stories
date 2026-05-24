@@ -13,12 +13,8 @@ dependencies = [
     "matplotlib",
     "scikit-learn",
     "tqdm",
-    "django>=4.2",
     "labMTsimple>=2.8",
-    "lz4",
     "jinja2",
-    "nltk>=3.9.4",
-    "spacy>=3.8.14",
 ]
 
 [tool.hatch.build.targets.wheel]
