@@ -13,7 +13,7 @@ dependencies = [
     "matplotlib",
     "scikit-learn",
     "tqdm",
-    "django>=4.2",
+    "django>=5.2.14",
     "labMTsimple>=2.8",
     "lz4",
     "jinja2",
