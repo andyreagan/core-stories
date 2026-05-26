@@ -1,6 +1,6 @@
-"""Build a timeseries matrix pickle from gutenberg-007 pre-computed word-count CSVs.
+"""Build a timeseries matrix pickle from per-book-labmt-counts pre-computed word-count CSVs.
 
-The gutenberg-007/{id}.csv.gz files are (10222 x 200) integer matrices:
+The per-book-labmt-counts/{id}.csv.gz files are (10222 x 200) integer matrices:
   - rows: labMT words in labMT1.txt order
   - columns: 200 sliding-window positions across the book
 
@@ -28,7 +28,7 @@ METADATA_CSV = os.environ.get(
     "CORE_STORIES_METADATA_CSV",
     os.path.join(REPO_ROOT, "data", "library_book.csv.gz"),
 )
-CSV_DIR = os.environ.get("CORE_STORIES_CSV_DIR", os.path.join(REPO_ROOT, "data", "gutenberg-007"))
+CSV_DIR = os.environ.get("CORE_STORIES_CSV_DIR", os.path.join(REPO_ROOT, "data", "per-book-labmt-counts"))
 OUT_DIR = os.environ.get("CORE_STORIES_OUT_DIR", os.path.join(REPO_ROOT, "data", "gutenberg"))
 os.makedirs(OUT_DIR, exist_ok=True)
 

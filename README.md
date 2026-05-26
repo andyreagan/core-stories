@@ -19,10 +19,10 @@ Outputs land in `output/figures/{SOM,clustering,SVD}/<version>/`. The only boots
 
 The book-metadata table is bundled as `data/library_book.csv.gz` (51,250 rows, ~3 MB gzipped). Everything else needed to run is one input:
 
-### `data/gutenberg-007/` (per-book labMT word-count matrices)
+### `data/per-book-labmt-counts/` (per-book labMT word-count matrices)
 
 For each Gutenberg book id you want included, the pipeline reads a file at
-`data/gutenberg-007/{gutenberg_id}.csv.gz` with this exact format:
+`data/per-book-labmt-counts/{gutenberg_id}.csv.gz` with this exact format:
 
 - gzipped CSV
 - shape **`(10222, 200)`** of integers
@@ -39,7 +39,7 @@ For each Gutenberg book id you want included, the pipeline reads a file at
 2. Convert raw text → labMT count matrices:
 
    ```bash
-   uv run python src/build_csvs.py --input-dir /path/to/gutenberg/txt --output-dir data/gutenberg-007
+   uv run python src/build_csvs.py --input-dir /path/to/gutenberg/txt --output-dir data/per-book-labmt-counts
    ```
 
    The script strips Project Gutenberg headers/footers via `*** START/END OF ... PROJECT GUTENBERG EBOOK ***` markers, tokenizes with `[A-Za-z][A-Za-z']*` (see "Tokenizer choice" below for the rationale), slides a 10000-token window 200 times, and lowercase-matches against `labMT1.txt` to produce the integer matrix described above. See the docstring in `src/build_csvs.py` for full algorithm details.
@@ -97,7 +97,7 @@ So if you want the **eigen-shapes**, this pipeline is fine. If you want to repro
 ## How `src/build_matrix.py` uses it
 
 1. Reads `data/library_book.csv.gz` and applies the filter (default: `P-20K-100K-40dl-200pt` = locc `P` prefix, 20K–100K words, ≥40 downloads, English, 200 windows).
-2. For each match, reads the `(10222, 200)` matrix from `data/gutenberg-007/{id}.csv.gz`.
+2. For each match, reads the `(10222, 200)` matrix from `data/per-book-labmt-counts/{id}.csv.gz`.
 3. Applies the labMT stopper: `mask = |score - 5| >= 1.0` (drops neutral words; 3731 of 10222 retained at default threshold).
 4. Per column, computes `valence = scores[mask] @ counts[mask, :] / counts[mask, :].sum(axis=0)`.
 5. Stacks into an `(N, 200)` matrix and pickles to `data/gutenberg/timeseries-matrix-cache-<version>.p` plus a parallel `books-<version>.p` metadata list.

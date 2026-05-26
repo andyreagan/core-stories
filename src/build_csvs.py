@@ -49,7 +49,7 @@ Usage:
     uv run python src/build_csvs.py --input /path/to/123.txt --book-id 123
 
     # Bulk-build from a directory of Gutenberg .txt(.gz) files named {id}.txt(.gz)
-    uv run python src/build_csvs.py --input-dir /path/to/gutenberg/txt --output-dir data/gutenberg-007
+    uv run python src/build_csvs.py --input-dir /path/to/gutenberg/txt --output-dir data/per-book-labmt-counts
 """
 
 import argparse
@@ -183,8 +183,8 @@ def main():
     p.add_argument("--book-id", help="Gutenberg id (required with --input)")
     p.add_argument(
         "--output-dir",
-        default=os.path.join(REPO_ROOT, "data", "gutenberg-007"),
-        help="Where to write {id}.csv.gz files (default: data/gutenberg-007)",
+        default=os.path.join(REPO_ROOT, "data", "per-book-labmt-counts"),
+        help="Where to write {id}.csv.gz files (default: data/per-book-labmt-counts)",
     )
     args = p.parse_args()
 
