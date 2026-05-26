@@ -16,7 +16,7 @@ Usage:
     uv run python data/build_matrix.py
 """
 
-import sqlite3
+import csv
 import os
 import gzip
 import pickle
@@ -24,9 +24,9 @@ import numpy as np
 
 # Paths (env-overridable for smoke tests / alternate-corpus runs)
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB_PATH = os.environ.get(
-    "CORE_STORIES_DB_PATH",
-    os.path.normpath(os.path.join(REPO_ROOT, "..", "core-stories-code", "database", "db.sqlite3")),
+METADATA_CSV = os.environ.get(
+    "CORE_STORIES_METADATA_CSV",
+    os.path.join(REPO_ROOT, "data", "library_book.csv.gz"),
 )
 CSV_DIR = os.environ.get("CORE_STORIES_CSV_DIR", os.path.join(REPO_ROOT, "data", "gutenberg-007"))
 OUT_DIR = os.environ.get("CORE_STORIES_OUT_DIR", os.path.join(REPO_ROOT, "data", "gutenberg"))
@@ -85,25 +85,33 @@ mask = np.abs(scores - CENTER) >= STOP_VAL
 scores_masked = scores[mask]
 print(f"After stopper mask: {mask.sum()} words retained")
 
-# Query books from SQLite (without Django)
-conn = sqlite3.connect(DB_PATH)
-cur = conn.cursor()
-cur.execute(
-    """
-    SELECT id, gutenberg_id, title, downloads, length, numUniqWords, locc_string, exclude
-    FROM library_book
-    WHERE exclude=0
-      AND length > ?
-      AND length <= ?
-      AND downloads >= ?
-      AND lang_code_id=0
-      AND locc_with_P=1
-    ORDER BY id
-    """,
-    (FILTERS["length"][0], FILTERS["length"][1], FILTERS["min_dl"]),
-)
-rows = cur.fetchall()
-conn.close()
+# Load books from bundled CSV and apply the canonical filter in-process.
+# CSV columns: id, gutenberg_id, title, language, length, ignorewords, wiki,
+# exclude, excludeReason, numUniqWords, scaling_exponent, scaling_exponent_top100,
+# downloads, from_gutenberg, hash, lang_code_id, locc_string, locc_with_P
+def _i(v): return int(v) if v not in ("", None) else 0
+
+rows = []
+with gzip.open(METADATA_CSV, "rt", newline="") as f:
+    for r in csv.DictReader(f):
+        if (
+            _i(r["exclude"]) == 0
+            and FILTERS["length"][0] < _i(r["length"]) <= FILTERS["length"][1]
+            and _i(r["downloads"]) >= FILTERS["min_dl"]
+            and _i(r["lang_code_id"]) == 0
+            and _i(r["locc_with_P"]) == 1
+        ):
+            rows.append((
+                _i(r["id"]),
+                _i(r["gutenberg_id"]),
+                r["title"],
+                _i(r["downloads"]),
+                _i(r["length"]),
+                _i(r["numUniqWords"]),
+                r["locc_string"] or "",
+                _i(r["exclude"]),
+            ))
+rows.sort(key=lambda x: x[0])
 
 print(f"Books matching filter: {len(rows)}")
 

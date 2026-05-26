@@ -2,6 +2,8 @@
 
 Notebooks and analysis scripts for "[The emotional arcs of stories are dominated by six basic shapes](https://arxiv.org/abs/1606.07772)" — clustering of Project Gutenberg book sentiment timeseries.
 
+> **Which repo is this?** This is the *artifact* repo: the reproducible pipeline that produces the paper's figures. The companion repo `andyreagan/core-stories-private` is the original 2015–2016 research scratch repo (paper LaTeX sources, exploratory notebooks, dev diary). It's private because it includes work on copyrighted texts; nothing in it is needed to run this pipeline. **Start here.**
+
 ## Quickstart
 
 ```bash
@@ -11,21 +13,13 @@ uv run python src/build_matrix.py                                  # per-book ma
 make                                                               # runs SOM, hierarchical clustering, PCA/SVD
 ```
 
-Outputs land in `output/figures/{SOM,clustering,SVD}/<version>/`. The bootstrap inputs — Gutenberg `.txt` files and the book-metadata SQLite — are described below.
+Outputs land in `output/figures/{SOM,clustering,SVD}/<version>/`. The only bootstrap input you need is a directory of Project Gutenberg `.txt` files — see below.
 
 ## Reproducing from raw data
 
-The pipeline is **not runnable from a fresh clone** — it needs two external inputs that are gitignored:
+The book-metadata table is bundled as `data/library_book.csv.gz` (51,250 rows, ~3 MB gzipped). Everything else needed to run is one input:
 
-### 1. `core-stories-code/database/db.sqlite3` (book metadata)
-
-Sibling repo: `https://github.com/andyreagan/core-stories-code`. Clone it next to this repo so the path `../core-stories-code/database/db.sqlite3` resolves. Used to look up the canonical book set (length / downloads / language / locc filters).
-
-Required schema: a `library_book` table with at least these columns —
-`id`, `gutenberg_id`, `title`, `downloads`, `length`, `numUniqWords`,
-`locc_string`, `exclude`, `lang_code_id`, `locc_with_P`.
-
-### 2. `data/gutenberg-007/` (per-book labMT word-count matrices)
+### `data/gutenberg-007/` (per-book labMT word-count matrices)
 
 For each Gutenberg book id you want included, the pipeline reads a file at
 `data/gutenberg-007/{gutenberg_id}.csv.gz` with this exact format:
@@ -40,7 +34,7 @@ For each Gutenberg book id you want included, the pipeline reads a file at
 
 1. Download the books from Project Gutenberg ([gutenberg.org](https://www.gutenberg.org/) or any of its [mirrors](https://www.gutenberg.org/MIRRORS.ALL)). The pipeline expects plain-text UTF-8 (with ISO-8859-1 fallback). Name each file `{gutenberg_id}.txt` or `{gutenberg_id}.txt.gz` so the script can recover the book id from the filename.
 
-   The canonical filter requires ≥40 downloads, 20K–100K words, English, locc `P` (literature) — about 1385 books in the snapshot used for the published paper. The exact set is recoverable from `core-stories-code/database/db.sqlite3` (see step 1 above).
+   The canonical filter requires ≥40 downloads, 20K–100K words, English, locc `P` (literature) — about 1385 books in the snapshot used for the published paper. The exact id list lives in `data/library_book.csv.gz`; `build_matrix.py` applies the filter at load time.
 
 2. Convert raw text → labMT count matrices:
 
@@ -102,7 +96,7 @@ So if you want the **eigen-shapes**, this pipeline is fine. If you want to repro
 
 ## How `src/build_matrix.py` uses it
 
-1. Queries the SQLite for books matching the filter (default: `P-20K-100K-40dl-200pt` = locc `P` prefix, 20K–100K words, ≥40 downloads, English, 200 windows).
+1. Reads `data/library_book.csv.gz` and applies the filter (default: `P-20K-100K-40dl-200pt` = locc `P` prefix, 20K–100K words, ≥40 downloads, English, 200 windows).
 2. For each match, reads the `(10222, 200)` matrix from `data/gutenberg-007/{id}.csv.gz`.
 3. Applies the labMT stopper: `mask = |score - 5| >= 1.0` (drops neutral words; 3731 of 10222 retained at default threshold).
 4. Per column, computes `valence = scores[mask] @ counts[mask, :] / counts[mask, :].sum(axis=0)`.

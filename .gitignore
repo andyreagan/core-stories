@@ -9,7 +9,9 @@ __pycache__/
 *.pyc
 
 # Raw + derived data — see README "Reproducing from raw data"
-data/
+data/*
+# ...except the bundled book-metadata table (small, static, required to run the pipeline)
+!data/library_book.csv.gz
 
 media/
 NOTES.markdown

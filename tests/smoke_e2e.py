@@ -1,7 +1,7 @@
 """End-to-end smoke test for the core-stories reproducibility chain.
 
 Demonstrates that a fresh user can:
-  1. Query the canonical book filter from SQLite.
+  1. Pick the canonical book filter from the bundled metadata CSV.
   2. Download those books from Project Gutenberg.
   3. Run src/build_csvs.py to convert raw .txt → labMT count matrices.
   4. Run src/build_matrix.py to collapse the per-book matrices into the
@@ -16,10 +16,11 @@ Run:
     uv run python tests/smoke_e2e.py
 """
 
+import csv
+import gzip
 import os
 import pickle
 import shutil
-import sqlite3
 import subprocess
 import sys
 import tempfile
@@ -29,7 +30,7 @@ from pathlib import Path
 N_BOOKS = 5
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = (REPO_ROOT / ".." / "core-stories-code" / "database" / "db.sqlite3").resolve()
+METADATA_CSV = REPO_ROOT / "data" / "library_book.csv.gz"
 
 
 def fail(msg):
@@ -39,33 +40,23 @@ def fail(msg):
 
 def query_sample_books(n):
     """Pick the n highest-downloaded books from the canonical filter."""
-    if not DB_PATH.is_file():
-        fail(
-            f"SQLite DB not found at {DB_PATH}. Clone "
-            f"https://github.com/andyreagan/core-stories-code next to this repo "
-            f"and try again."
-        )
-    conn = sqlite3.connect(str(DB_PATH))
-    cur = conn.cursor()
-    cur.execute(
-        """
-        SELECT gutenberg_id, title, downloads
-        FROM library_book
-        WHERE exclude=0
-          AND length > 20000 AND length <= 100000
-          AND downloads >= 40
-          AND lang_code_id=0
-          AND locc_with_P=1
-        ORDER BY downloads DESC
-        LIMIT ?
-        """,
-        (n,),
-    )
-    rows = cur.fetchall()
-    conn.close()
+    if not METADATA_CSV.is_file():
+        fail(f"Metadata CSV not found at {METADATA_CSV}")
+    rows = []
+    with gzip.open(METADATA_CSV, "rt", newline="") as f:
+        for r in csv.DictReader(f):
+            if (
+                int(r["exclude"] or 0) == 0
+                and 20000 < int(r["length"] or 0) <= 100000
+                and int(r["downloads"] or 0) >= 40
+                and int(r["lang_code_id"] or 0) == 0
+                and int(r["locc_with_P"] or 0) == 1
+            ):
+                rows.append((int(r["gutenberg_id"]), r["title"], int(r["downloads"])))
+    rows.sort(key=lambda x: -x[2])
     if len(rows) < n:
-        fail(f"Only got {len(rows)} books from SQLite; expected {n}")
-    return rows
+        fail(f"Only got {len(rows)} books from CSV; expected {n}")
+    return rows[:n]
 
 
 def download_book(gid, dest):
@@ -81,7 +72,7 @@ def download_book(gid, dest):
 
 def main():
     print(f"[setup] repo root: {REPO_ROOT}")
-    print(f"[setup] SQLite:    {DB_PATH}")
+    print(f"[setup] metadata:  {METADATA_CSV}")
 
     tmp = Path(tempfile.mkdtemp(prefix="cs-smoke-"))
     txt_dir = tmp / "gut-raw"
